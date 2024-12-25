@@ -18,9 +18,9 @@ Dictionnaire de données
 ### SQL
 Les requêtes SQL sont regroupées par type : 
 
-Création de tables
+Création de tables - CREATE
 
-Insertion de données dans les tables
+Insertion de données dans les tables - INSERT INTO
 
 Extraction de données - SELECT
 
