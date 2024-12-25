@@ -16,7 +16,7 @@ Dictionnaire de données
 ## 2. Ecriture des requêtes SQL et PL/SQL
 
 ### SQL
-Les requêtes SQL sont regroupées par type.
+Les requêtes SQL sont regroupées par type : 
 
 Création de table
 
