@@ -1,6 +1,7 @@
 # Insertion de données dans les tables - INSERT INTO
 
 INSERT INTO Customers VALUES
+
    (5, 'John Doe', 'jdoe@email.com', '123 Main St'),
    
    (6, 'Jane Smith', 'jsmith@email.com', '456 Elm St'),
