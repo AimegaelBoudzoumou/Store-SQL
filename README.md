@@ -7,7 +7,7 @@ A travers ce document, je présente les réponses que j'ai pu apporter aux béso
 Ce document comprend deux parties : Modélisation et Ecriture des requêtes (SQL et PL/SQL).
 
 ## 1. Modélisation : 
-MCD : modèle Conceptuel de Données
+MCD : Modèle Conceptuel de Données
 
 MLD : Modèle Logique de Données
 
