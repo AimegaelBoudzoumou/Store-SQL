@@ -16,7 +16,7 @@ Dictionnaire de données
 ## 2. Ecriture des requêtes SQL et PL/SQL
 
 ### SQL
-Les requêtes SQL sont regroupées par type : 
+_Les requêtes SQL sont regroupées par type :_
 
 Création de tables - CREATE
 
@@ -36,14 +36,9 @@ Besoin métier 2
 
 Besoin métier 3
 
-Besoin métier 4
+_Les requêtes PL/SQL se se trouvent dans le répertoire __2_Requêtes/PL-SQL___
 
 ### Reporting
 
-Besoin métier 1
-
-Besoin métier 2
-
-Besoin métier 3
-
+J'ai jugé pertinent d'afficher dans un répertoire unique, les requêtes SQL relatives au reporting.
 Besoin métier 4
