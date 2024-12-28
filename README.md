@@ -30,15 +30,8 @@ Suppression de données - DELETE
 
 ### PL/SQL
 
-Besoin métier 1
-
-Besoin métier 2
-
-Besoin métier 3
-
 _Les requêtes PL/SQL se se trouvent dans le répertoire __2_Requêtes/PL-SQL___
 
 ### Reporting
 
-J'ai jugé pertinent d'afficher dans un répertoire unique, les requêtes SQL relatives au reporting.
-Besoin métier 4
+_J'ai jugé pertinent d'afficher dans un répertoire unique, les requêtes SQL relatives au reporting._
