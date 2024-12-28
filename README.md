@@ -30,7 +30,7 @@ Suppression de données - DELETE
 
 ### PL/SQL
 
-Les requêtes PL/SQL se se trouvent dans le répertoire __2_Requêtes/PL-SQL__
+Les requêtes PL/SQL se trouvent dans le répertoire __2_Requêtes/PL-SQL__
 
 ### Reporting
 
