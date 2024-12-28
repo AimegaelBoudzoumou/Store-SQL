@@ -15,6 +15,8 @@ Dictionnaire de données
 
 ## 2. Ecriture des requêtes SQL et PL/SQL
 
+__Note__ : les requêtes SQL et PL/SQL ont été excutées dans un environnement __Oracle Live SQL__.
+
 ### SQL
 Les requêtes SQL sont regroupées par type :
 
