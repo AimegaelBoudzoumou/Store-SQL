@@ -22,7 +22,10 @@ __Note__ : les requêtes SQL et PL/SQL ont été excutées dans un environnement
 Les requêtes PL/SQL se trouvent dans le répertoire __2_Requêtes/PL-SQL__
 
 ### SQL
-Les requêtes SQL sont regroupées par type :
+
+Les requêtes se trouvent dans le répertoire __2_Requêtes/SQL__
+
+Ces requêtes SQL sont regroupées par type :
 
 Création de tables - CREATE
 
@@ -33,8 +36,6 @@ Extraction de données - SELECT
 Mise à jour de données - UPDATE
 
 Suppression de données - DELETE
-
-Ces requêtes se trouvent dans le répertoire __2_Requêtes/SQL__
 
 ### Reporting
 
