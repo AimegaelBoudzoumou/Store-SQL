@@ -34,5 +34,5 @@ Les requêtes PL/SQL se trouvent dans le répertoire __2_Requêtes/PL-SQL__
 
 ### Reporting
 
-J'ai jugé pertinent d'afficher dans un répertoire unique, les requêtes SQL relatives au reporting._
+J'ai jugé pertinent d'afficher dans un répertoire unique, les requêtes SQL relatives au reporting.
 Ces requêtes se trouvent dans le répertoire __2_Requêtes/Reporting__
