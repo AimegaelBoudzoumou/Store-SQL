@@ -28,6 +28,8 @@ Mise à jour de données - UPDATE
 
 Suppression de données - DELETE
 
+Ces requêtes se trouvent dans le répertoire __2_Requêtes/SQL__
+
 ### PL/SQL
 
 Les requêtes PL/SQL se trouvent dans le répertoire __2_Requêtes/PL-SQL__
@@ -35,4 +37,5 @@ Les requêtes PL/SQL se trouvent dans le répertoire __2_Requêtes/PL-SQL__
 ### Reporting
 
 J'ai jugé pertinent d'afficher dans un répertoire unique, les requêtes SQL relatives au reporting.
+
 Ces requêtes se trouvent dans le répertoire __2_Requêtes/Reporting__
