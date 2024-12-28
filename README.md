@@ -16,7 +16,7 @@ Dictionnaire de données
 ## 2. Ecriture des requêtes SQL et PL/SQL
 
 ### SQL
-_Les requêtes SQL sont regroupées par type :_
+Les requêtes SQL sont regroupées par type :
 
 Création de tables - CREATE
 
@@ -30,8 +30,9 @@ Suppression de données - DELETE
 
 ### PL/SQL
 
-_Les requêtes PL/SQL se se trouvent dans le répertoire __2_Requêtes/PL-SQL___
+Les requêtes PL/SQL se se trouvent dans le répertoire __2_Requêtes/PL-SQL__
 
 ### Reporting
 
-_J'ai jugé pertinent d'afficher dans un répertoire unique, les requêtes SQL relatives au reporting._
+J'ai jugé pertinent d'afficher dans un répertoire unique, les requêtes SQL relatives au reporting._
+Ces requêtes se trouvent dans le répertoire __2_Requêtes/Reporting__
