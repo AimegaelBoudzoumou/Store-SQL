@@ -4,7 +4,7 @@ Une de mes expériences professionnelles m'a permi d'assurer le support des prod
 
 A travers ce document, je présente les réponses que j'ai pu apporter aux bésoins métiers rencontrés lors de ladite expérience professionelle.
 
-Ce document comprend deux parties : __Modélisation__ et __Ecriture des requêtes__ (SQL et PL/SQL).
+Ce document comprend deux parties : __Modélisation de données relationnelles__ et __Ecriture des requêtes__ (SQL et PL/SQL).
 
 ## 1. Modélisation : 
 MCD : Modèle Conceptuel de Données
