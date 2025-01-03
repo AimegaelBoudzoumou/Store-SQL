@@ -42,3 +42,8 @@ Suppression de données - DELETE
 J'ai jugé pertinent d'afficher dans un répertoire unique, les requêtes SQL relatives au reporting.
 
 Ces requêtes se trouvent dans le répertoire __2_Requêtes/Reporting__
+Etablir des stats sur chacune de ces périodes : le mois dernier, les 3 trois derniers mois, les 6 derniers mois, les 12 derniers mois
+- nombre de produits crées
+- nombre de produits crées par marque
+- nombre de produits crées par marque et gamme
+- nombre de produits crées par catégorie
