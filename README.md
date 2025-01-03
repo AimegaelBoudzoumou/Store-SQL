@@ -51,8 +51,12 @@ Groupe 1 :
 - nombre de produits crées par catégorie
 
 Note : 
+- exploiter les fonctions : MIN, MAX, SUM, AVG, YEAR, SUBSTRING, CTE, RANK, DENSE_RANK (cf. vidéo ci-dessous vers 28min10
 - possiblilité de les classer par : ordre alphabétique, les plus créés, les moins créés, etc.
 - afficher les résultats avec __over__ pour afficher chaque sous-total (ex. voir cette vidéo, vers 18min48 : https://www.youtube.com/watch?v=QYd-RtK58VQ&list=PLUaB-1hjhk8FE_XZ87vPPSfHqb6OcM0cF&index=20)
 
 ![image](https://github.com/user-attachments/assets/aa1df12f-4763-49f1-95a1-ef7c1371e1cc)
+
+DENSE_RANK : 
+![image](https://github.com/user-attachments/assets/f8626dc9-8eb4-4635-8948-eb84265e6f21)
 
