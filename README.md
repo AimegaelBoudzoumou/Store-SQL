@@ -52,3 +52,8 @@ Groupe 1 :
 
 Note : possiblilité de les classer par : ordre alphabétique, les plus créés, les moins créés, etc
 
+![image](https://github.com/user-attachments/assets/5ac81dca-8cf8-4f61-b728-63d3f96a9634)
+![image](https://github.com/user-attachments/assets/e05a216d-22e2-4b4a-8d39-e65a3b916cab)
+
+
+
