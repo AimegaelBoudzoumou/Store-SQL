@@ -45,9 +45,11 @@ Ces requêtes se trouvent dans le répertoire __2_Requêtes/Reporting__
 
 Exemple de réalisations : 
 
+__Window Functions__
+
 ![image](https://github.com/user-attachments/assets/aa1df12f-4763-49f1-95a1-ef7c1371e1cc)
 
-DENSE_RANK : 
+__DENSE_RANK__
 
 ![image](https://github.com/user-attachments/assets/f8626dc9-8eb4-4635-8948-eb84265e6f21)
 
