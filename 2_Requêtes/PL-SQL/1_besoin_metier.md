@@ -2,4 +2,6 @@
 
 ## Détails du besoin métier
 
-## Requêtes PL/SQL
+## Solution fonctionnelle
+
+## Solution technique / Requêtes PL/SQL
