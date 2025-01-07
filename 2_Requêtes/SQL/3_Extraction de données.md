@@ -1,6 +1,6 @@
 # Extraction de données - SELECT
 
-Pour chaque situation, j'expose le __besoin fonctionnel__, suivi du __code SQL__ y relatif.
+Pour chaque situation, je présente le __besoin fonctionnel__, suivi du __code SQL__ y relatif.
 
 ## 1. Vérifier qu'une référence existe en base de données
 
