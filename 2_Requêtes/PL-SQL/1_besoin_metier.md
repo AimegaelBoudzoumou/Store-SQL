@@ -1,5 +1,5 @@
 ## 1. Titre du besoin métier
 
-## Besoin métier
+## Détails du besoin métier
 
 ## Requêtes PL/SQL
