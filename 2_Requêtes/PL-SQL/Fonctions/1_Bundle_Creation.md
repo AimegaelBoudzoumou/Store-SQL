@@ -42,7 +42,7 @@ END;
 /
 ```
 
-### Pour exécuter la fonction : 
+### Pour exécuter la fonction _create_bundle_: 
 
 ```sql
 -- select package_name.function_name (15000)
