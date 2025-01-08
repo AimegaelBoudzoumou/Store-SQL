@@ -9,9 +9,9 @@ SELECT 7506950
 FROM gproduits;
 ```
 
-## 2. Référénce fabricant vers référence interne
+## 2. Référence fabricant vers référence interne
 
-Pour un besoins divers, je souhaite récupérer la liste de __référence interne__ à partir de références fabricants.
+Pour un besoins divers, je souhaite récupérer la liste de __référence interne__ à partir de __références fabricants__.
 
 ### Requêtes SQL
 ```sql
