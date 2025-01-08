@@ -34,13 +34,19 @@ Texte bref (moins de 4 phrases)
 ## 4. Rechercher les produits d'une marque quelconque
 Soit la marque "Articona". Rechercher les produits de cette marque
 
+Soit jointure, soit requêtes imbriquée : à définir
+
+Soit jointure : Cf. question 6 ci-dessous
+
 ## 5. Afficher le nom d'une marque d'une référence interne
 
 Soit la marque "Articona". Rechercher les produits de cette marque
 
 ## 6. Pour un employé donné, afficher la ou les marques dont il est "acheteur".
 Astuce : pensez à utiliser la table "Gamme" dans notre requête SQL; et à une éventuelle double jointure entre :
+
 Employe et Gamme (sur Employe.matricule = Gamme.matricule)
+
 Gamme et Marque (sur Gamme.nom_marque = Marque.nom_marque)
 
 ## 7. Afficher les produits dont une employé donnée est responsable (chef de produit)
