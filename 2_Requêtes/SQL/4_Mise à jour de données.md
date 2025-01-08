@@ -34,3 +34,5 @@ soit PL/SQL
 soit SQL : utiliser un CTE ou une "Temporary Table"
 
 ## 6. Fermer (mettre la phase à "rouge") les produits d'une gamme donnée
+
+## 6. Fermer (mettre la phase à "rouge") les produits d'une catégorie et d'une marque données
