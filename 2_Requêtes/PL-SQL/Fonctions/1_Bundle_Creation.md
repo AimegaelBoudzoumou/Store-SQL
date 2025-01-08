@@ -23,6 +23,7 @@ CREATE OR REPLACE FUNCTION create_bundle(...liste_des_refs...) return number
 IS
   numero_dernier_bundle_en_bdd bundle.numero%TYPE;
   numero_bundle_en_cours bundle.numero%TYPE;
+  -- Traiter la liste_des_refs
 BEGIN
   -- 1. et 2.
   select numero_dernier_bundle_en_bdd from bundles order by date desc limit 1;
