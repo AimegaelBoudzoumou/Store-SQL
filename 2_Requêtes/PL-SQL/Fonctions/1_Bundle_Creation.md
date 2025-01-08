@@ -1,11 +1,11 @@
 # Bundle - Fonction de création d'un Bundle
 
-### Définition d'un Bundle 
+### 1. Définition d'un Bundle 
 Une Bundle est une association de plusieurs produits. 
 
 Exemple : lorsqu'un produit doit être vendu avec une garantie, on créé un Bunlde associant le _fameux produit_ et la _garantie en question._
 
-### Solution fonctionnelle et Algo PL/SQL
+### 2. Solution fonctionnelle et Algo PL/SQL
 
 Pour créer un bundle, l'utilisateur saisie uniquement les références internes des produits qui constitueront le futur Bundle.
 
@@ -19,7 +19,7 @@ __Algo__
 4. pour chaque références internes, enregistrer dans Bundle_Produits, une ligne qui comprend le _numéro de Bundle_ et la _référence interne_ en cours de traitement
 5. retourner le numéro de Bundle
 
-### Solution technique
+### 3. Solution technique
 
 ```sql
 CREATE OR REPLACE FUNCTION create_bundle(...liste_des_refs...) return number
@@ -45,7 +45,7 @@ END;
 /
 ```
 
-### Pour exécuter la fonction _create_bundle_: 
+### 4. Pour exécuter la fonction _create_bundle_: 
 
 ```sql
 -- select package_name.function_name (15000)
