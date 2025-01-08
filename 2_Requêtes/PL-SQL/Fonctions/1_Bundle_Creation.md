@@ -42,6 +42,13 @@ END;
 /
 ```
 
+### Pour exécuter la fonction : 
+
+```sql
+-- select package_name.function_name (15000)
+-- from dual;
+```
+
 ## Autres besoins métiers à propos de Bundle : 
 - Afficher les produits (références internes et titres) constituant un Bundle donné.
 - Pour plusieurs Bundle : afficher les produits (références internes et titres) constituant ces Bundles.
