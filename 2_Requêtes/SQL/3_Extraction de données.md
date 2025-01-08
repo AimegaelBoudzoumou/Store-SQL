@@ -13,7 +13,7 @@ FROM gproduits;
 
 Pour un besoins divers, je souhaite récupérer la liste de __référence interne__ à partir de références fabricants.
 
-## Requêtes SQL
+### Requêtes SQL
 ```sql
 ```
 
