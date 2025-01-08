@@ -17,3 +17,9 @@ Requêtes SQL
 Texte bref (moins de 4 phrases)
 
 Requêtes SQL
+
+## 4. Modifier le fabricant et la gamme pour plusieurs référence
+
+Texte bref (moins de 4 phrases)
+
+## Requêtes SQL
