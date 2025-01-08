@@ -18,7 +18,7 @@ Texte bref (moins de 4 phrases)
 
 Requêtes SQL
 
-## 4. Modifier le fabricant et la gamme pour plusieurs référence
+## 4. Modifier le fabricant et la gamme pour plusieurs références
 
 Texte bref (moins de 4 phrases)
 
