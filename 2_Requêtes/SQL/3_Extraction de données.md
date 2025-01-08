@@ -9,11 +9,13 @@ SELECT 7506950
 FROM gproduits;
 ```
 
-## 2. Présentation du besoin métier
+## 2. Référénce fabricant vers référence interne
 
-Texte bref (moins de 4 phrases)
+Pour un besoins divers, je souhaite récupérer la liste de __référence interne__ à partir de références fabricants.
 
 ## Requêtes SQL
+```sql
+```
 
 ## 3. Présentation du besoin métier
 
