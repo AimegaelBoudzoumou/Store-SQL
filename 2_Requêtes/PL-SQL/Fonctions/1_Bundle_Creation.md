@@ -26,7 +26,7 @@ IS
   -- Traiter la liste_des_refs
 BEGIN
   -- 1. et 2.
-  select numero_dernier_bundle_en_bdd from bundles order by date desc limit 1;
+  select numero_dernier_bundle_en_bdd from bundles order by date_bundle desc limit 1;
   numero_bundle_en_cours := numero_dernier_bundle_en_bdd + 1;
   -- OU : écrire les deux lignes ci-dessous, sur une seule ligne : 
   -- select (numero_dernier_bundle_en_bdd + 1) into numero_bundle_en_cours from bundles order by date desc limit 1;
