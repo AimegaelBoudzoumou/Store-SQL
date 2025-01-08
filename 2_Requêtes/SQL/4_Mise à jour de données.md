@@ -20,6 +20,11 @@ Requêtes SQL
 
 ## 4. Modifier le fabricant et la gamme pour plusieurs références
 
-Texte bref (moins de 4 phrases)
+Hello Gp,
+
+Merci de mettre les ref sous la marque et logo Philips .
+
+STG
+
 
 ## Requêtes SQL
