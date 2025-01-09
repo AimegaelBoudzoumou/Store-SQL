@@ -5,6 +5,8 @@ Une Bundle est une association de plusieurs produits.
 
 Exemple : lorsqu'un produit doit être vendu avec une garantie, on créé un Bunlde associant le _fameux produit_ et la _garantie en question._
 
+Tous les produits constituant un Bundle doivent être _en ligne_ (Phase drapeau vert), pour que le Bundle soit en ligne. 
+
 ## 2. Solution fonctionnelle - Algorithme
 
 Pour créer un bundle, l'utilisateur saisie (passe en argument à la fonction) uniquement les références internes des produits qui constitueront le futur Bundle.
