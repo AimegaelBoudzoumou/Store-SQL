@@ -9,3 +9,6 @@ INSERT INTO Customers VALUES
    (7, 'Alex Johnson', 'ajohnson@email.com', '789 Oak St'),
    
    (8, 'Mary Brown', 'mbrown@email.com', '987 Boar St');
+
+
+select floor(dbms_random.value(1, 300)) from dual;
