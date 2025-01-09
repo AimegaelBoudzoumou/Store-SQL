@@ -12,3 +12,9 @@ INSERT INTO Customers VALUES
 
 
 select floor(dbms_random.value(1, 300)) from dual;
+
+insert into t values (
+    'pc portble',
+    floor(dbms_random.value(1, 300))
+);
+select * from t order by stock_global;
