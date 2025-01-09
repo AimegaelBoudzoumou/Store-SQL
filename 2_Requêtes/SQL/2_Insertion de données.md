@@ -14,7 +14,7 @@ INSERT INTO Customers VALUES
 select floor(dbms_random.value(1, 300)) from dual;
 
 insert into t values (
-    'pc portble',
+    'pc portable',
     floor(dbms_random.value(1, 300))
 );
 
