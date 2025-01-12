@@ -4,11 +4,6 @@ Le MCD (Modèle Conceptuel de Données) est une représentation graphique des é
 
 Ce tutoriel de IBM contient des informations détaillées sur la modélisation des données.
 
-Une brève explication du MCD suivant se trouve en bas de la page en cours.
-
 Outil utilisé : logiciel AnalyseSI en environnement Windows.
 
 ![mcd_graphique](https://github.com/user-attachments/assets/5ed0bf56-8967-4e9f-9208-dcad4801c6b7)
-
-## Explication des principales entités du MCD ci-dessus : 
-
