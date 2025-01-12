@@ -11,3 +11,25 @@ Les associations ayant la cardinalité max N,N se transforment en tables.
 Lorsqu'une association reliant deux éléments A et B, possède la cardinalité max 1,N (soit 1 pour A et N pour B) :
 
 l'élément A reçoit la clé primaire de l'élément B. Cette clé primaire se transforme en clé étrangère dans A.
+
+## MLD
+
+produits (reference_interne, reference_fabricant, date_creation, date_derniere_commande, visibilite_web, titre, designation, description_produit, quantite_globale, filtre_gamme, filtre_categorie, #type_produit, #nom_categorie, #nom_gamme, #matricule_employe, #nom_phase) 
+
+type_de_produit (type_produit) 
+
+employes (matricule_employe, nom_employe, prenom_employe, full_name_employe) 
+
+bundles (numero, date_creation_bundle, #nom_phase) 
+
+gamme (nom_gamme, date_creation_gamme, #nom_marque) 
+
+phases (nom_phase, signification) 
+
+marques (nom_marque, date_creation_marque) 
+
+categories (nom_categorie, date_creation_categorie) 
+
+acheteurs (matricule_employe, nom_gamme, date) 
+
+bundle_produits (numero, reference_interne) 
