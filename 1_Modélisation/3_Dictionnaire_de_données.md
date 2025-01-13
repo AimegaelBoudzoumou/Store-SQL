@@ -32,7 +32,7 @@ __Champ 2 : reference_fabricant__
 - calcul (règle de calcul) : aucun
 - Règle : valeur générée par le constructeur du produit
 
-__Champ 3 :date_creation__
+__Champ 3 : date_creation__
 
 - code : date_creation
 - signification : date de création d'un produit
