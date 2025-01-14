@@ -44,4 +44,6 @@ soit SQL : utiliser un CTE ou une "Temporary Table"
 
 ## 8. Rendre visible sur le web, plusieurs réfs en même temps
 
+## 9. Rendre "visible sur le web" toutes les réfs internes créées la veille
+
 
