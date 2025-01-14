@@ -2,7 +2,13 @@
 
 ## 1. Présentation du besoin métier
 
-Texte bref (moins de 4 phrases)
+Tester une requête de type update où on met à jour plusieurs champs. Ex :
+
+Update table g_produits
+
+Set idMan = ‘1263’, iRange = ‘27454’
+
+Where id in (val1, val2, val3, val4,…) ;
 
 Requêtes SQL
 
