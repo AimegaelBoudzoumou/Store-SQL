@@ -12,9 +12,9 @@ Where id in (val1, val2, val3, val4,…) ;
 
 Requêtes SQL
 
-## 2. Présentation du besoin métier
+## 2. Mise à jour / Changement de la catégorie pour plusieurs réfs :
 
-Texte bref (moins de 4 phrases)
+Mise à jour / Changement de la catégorie pour plusieurs réfs :
 
 Requêtes SQL
 
