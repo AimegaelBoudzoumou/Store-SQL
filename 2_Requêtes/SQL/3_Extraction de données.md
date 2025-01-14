@@ -17,9 +17,9 @@ Pour un besoins divers, je souhaite récupérer la liste de __référence intern
 ```sql
 ```
 
-## 3. Présentation du besoin métier
+## 3. Rechercher des produits en fonction d'un nom de marque
 
-Texte bref (moins de 4 phrases)
+Rechercher les produits de marques « Génériques » et voir si on peut leur affecter la bonne marque (le bon fabricant)
 
 ## Requêtes SQL
 
