@@ -51,7 +51,9 @@ Gamme et Marque (sur Gamme.nom_marque = Marque.nom_marque)
 
 ## 7. Afficher les produits dont une employé donnée est responsable (chef de produit)
 
-## Sélectionner la catégorie pour une refs de produits donnée
+## 8. Sélectionner la catégorie pour une refs de produits donnée
+
+## 9. Retrouver les réfs internes à partir d’une liste de réf fabricant
 
 
 
