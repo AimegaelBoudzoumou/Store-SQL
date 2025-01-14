@@ -32,7 +32,6 @@ Merci de mettre les ref sous la marque et logo Philips .
 
 STG
 
-
 ## Requêtes SQL
 
 ## 5. Fermer (mettre la phase à "rouge") les produits d'une marque donnée
@@ -41,4 +40,8 @@ soit SQL : utiliser un CTE ou une "Temporary Table"
 
 ## 6. Fermer (mettre la phase à "rouge") les produits d'une gamme donnée
 
-## 6. Fermer (mettre la phase à "rouge") les produits d'une catégorie et d'une marque données
+## 7. Fermer (mettre la phase à "rouge") les produits d'une catégorie et d'une marque données
+
+## 8. Rendre visible sur le web, plusieurs réfs en même temps
+
+
