@@ -61,7 +61,14 @@ Note : voici quelques tables de la BDD : utilisateurs (exemple : acheteurs), pro
 L’affectation d’un employeur en tant qu’acheteur pour une marque-gamme donnée, se fait soit par ajout dans la table être_acheteur (dans le cas où on souhaite garder en mémoire la liste des anciens acheteurs), 
 soit par modification de l’employé dans la table être_acheteur.
 Rappel de la structure d’un enregistrement dans la table être_acheteur : 
-employé – marque – gamme – date 
+employé – marque – gamme – date
+
+12. Ecrire une procédure PL/SQL qui supprime le contenu_marketing pour plusieurs réfs
+Ou simplement du code SQL :
+Update g_produits
+Set description_produits = NULL
+Where ref_inerne IN (…) ;
+
 
 
 
