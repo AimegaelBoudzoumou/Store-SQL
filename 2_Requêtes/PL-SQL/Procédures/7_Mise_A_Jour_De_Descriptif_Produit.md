@@ -22,3 +22,7 @@ Ecrire une procédure PL/SQL qui reçoit des couples de réfs internes.
 Pour chaque couple, le code récupère le contenu marketing de la première réf et le copie sur la deuxième réf.
 Note : il est également possible de transmettre en argument au code PL/SQL un fichier (ex. Excel), avec deux colonnes de réfs internes : la première colonne contient la réf source et la seconde contenant la réf cible.
 
+Autre piste d'idée : 
+Solution fonctionnelle :
+L’acheteur nous fournit un fichier Excel contenant deux colonnes. Une pour la « New réf » et une autre pour la « réf à dupliquer ».
+Ecrire une procédure PL/SQL qui parcourt le fichier Excel, et copie les données (visuels, fiche produit (contenu marketing)) de « New réf » vers « réf à dupliquer ».
