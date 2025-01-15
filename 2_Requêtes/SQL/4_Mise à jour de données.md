@@ -70,6 +70,9 @@ Update g_produits
 Set description_produits = NULL
 Where ref_inerne IN (…) ;
 
+# Intéressant ...
+Il faudrait suprrimer la mention "jusqu’à" sur les désignaitons de plusieurs réfs
+
 
 
 
