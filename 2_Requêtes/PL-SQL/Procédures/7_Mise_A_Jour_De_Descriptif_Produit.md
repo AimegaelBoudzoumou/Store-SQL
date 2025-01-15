@@ -18,3 +18,7 @@ Possibilité 1 : créer une procédure PL/SQL qui reçoit deux réfs en argument
 
 Possibilité 2 : créer une procédure qui reçoit une liste de couple de réfs …
 
+Ecrire une procédure PL/SQL qui reçoit des couples de réfs internes.
+Pour chaque couple, le code récupère le contenu marketing de la première réf et le copie sur la deuxième réf.
+Note : il est également possible de transmettre en argument au code PL/SQL un fichier (ex. Excel), avec deux colonnes de réfs internes : la première colonne contient la réf source et la seconde contenant la réf cible.
+
