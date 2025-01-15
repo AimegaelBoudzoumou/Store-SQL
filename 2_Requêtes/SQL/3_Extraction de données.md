@@ -107,7 +107,7 @@ Ou bien avec PL/SQL :
 Sauvegarder les titres pour plusieurs produits (réfs)
 Piste : script Linux/Unix qui crée un « fichier fic1 », lance un script PL/SQL (recevant en argument le « fichier fic1 » ou tout simplement utilisant en son sein le « fichier fic1 »)
 
-
+12. Rechercher l’acheteur d’une marque et d’une gamme donnée
 
 
 
