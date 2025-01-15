@@ -54,5 +54,15 @@ TMS -> Aller sur chaque réf et cliquer sur
   
 Attends le message vert de confirmation
 
+# 11.
+Situation : un acheteur J.G. décide de quitter l’entreprise. Le directeur des achats S.S.  souhaite transférer les produits jusqu’alors sous la responsabilité de J.G. vers d’autres acheteurs.
+L’affectation des réfs à un acheteur se fait par « marque et gamme » ou simplement par Gamme (car cette dernière contient l’information sur la marque)
+Note : voici quelques tables de la BDD : utilisateurs (exemple : acheteurs), produits, gammes, categories
+L’affectation d’un employeur en tant qu’acheteur pour une marque-gamme donnée, se fait soit par ajout dans la table être_acheteur (dans le cas où on souhaite garder en mémoire la liste des anciens acheteurs), 
+soit par modification de l’employé dans la table être_acheteur.
+Rappel de la structure d’un enregistrement dans la table être_acheteur : 
+employé – marque – gamme – date 
+
+
 
 
