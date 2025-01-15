@@ -1,0 +1,3 @@
+# Intéressant ...
+Il faudrait suprrimer la mention "jusqu’à" sur les désignaitons de plusieurs réfs
+
