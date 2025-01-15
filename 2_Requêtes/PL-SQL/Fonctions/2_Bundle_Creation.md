@@ -60,3 +60,5 @@ END;
 - Retirer un produit d'un Bundle. Attention : vérifier que le nombre de produit restant est supérieur ou égal à deux.
 - Remplacer un produit dans un Bundle. Attention : vérifier que le nombre de produit restant est supérieur ou égal à deux. Vérifier aussi que la nature du produit qu'on remplace est cohérente. Par exemple : remplacer un produit __PC Portable__ par un produit __iPhone__ n'est pas cohérent. Pour cette cohérence, on se base sur la gamme des deux produits (celui qu'on remplacer et le remplaçant).
 - Vérifier la visibilité web de toutes les réfs constituant un Bundle
+- Vérifier que les produits (réfs internes) constituant un Bundle, sont tous visibles sur le web. Cela permet de « rendre visible sur web » le Bundle en lui-même.
+
