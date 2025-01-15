@@ -46,4 +46,13 @@ soit SQL : utiliser un CTE ou une "Temporary Table"
 
 ## 9. Rendre "visible sur le web" toutes les réfs internes créées la veille
 
+# 10. 
+Update ou PL/SQL
+Synchroniser plusieurs réfs internes (attribut « Phase » de chaque réf) : 
+La méthode manuelle : 
+TMS -> Aller sur chaque réf et cliquer sur 
+  
+Attends le message vert de confirmation
+
+
 
