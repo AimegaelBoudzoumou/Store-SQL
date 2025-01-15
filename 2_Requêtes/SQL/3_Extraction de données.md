@@ -77,7 +77,7 @@ INSERT INTO gproduits VALUES (74501285, 0, 'Sac PC 17"');
 SELECT reference_interne
 FROM gproduits
 WHERE visibilite_web = 0
-    AND designation IS NULL;
+AND designation IS NULL;
 ```
 
 
