@@ -170,7 +170,7 @@ __Champ 16 : #nom_phase :__
 - longueur : environ 30 caractères
 - nature : E (pour élémentaire)
 - calcul (règle de calcul) : aucun
-- Règle : par défaut à "vert" (ce qui signifie "en ligne")
+- Règle : par défaut à "gris" ("en attente")
 
 
 
