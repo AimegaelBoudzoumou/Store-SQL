@@ -63,7 +63,7 @@ soit par modification de l’employé dans la table être_acheteur.
 Rappel de la structure d’un enregistrement dans la table être_acheteur : 
 employé – marque – gamme – date
 
-12.
+# 12.
 Ecrire une procédure PL/SQL qui supprime le contenu_marketing pour plusieurs réfs
 Ou simplement du code SQL :
 Update g_produits
