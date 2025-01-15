@@ -109,5 +109,5 @@ Piste : script Linux/Unix qui crée un « fichier fic1 », lance un script PL/SQ
 
 12. Rechercher l’acheteur d’une marque et d’une gamme donnée
 
-
+13. Sélectionner des produits (uniquement les réfs internes) de marque « Apple » et de catégories « iPhone 16 »
 
