@@ -107,7 +107,33 @@ Ou bien avec PL/SQL :
 Sauvegarder les titres pour plusieurs produits (réfs)
 Piste : script Linux/Unix qui crée un « fichier fic1 », lance un script PL/SQL (recevant en argument le « fichier fic1 » ou tout simplement utilisant en son sein le « fichier fic1 »)
 
-12. Rechercher l’acheteur d’une marque et d’une gamme donnée
+## 12. Rechercher l’acheteur d’une marque et d’une gamme donnée
 
-13. Sélectionner des produits (uniquement les réfs internes) de marque « Apple » et de catégories « iPhone 16 »
+## 13. Sélectionner des produits (uniquement les réfs internes) de marque « Apple » et de catégories « iPhone 16 »
+
+# Gamme
+
+# 14. J’ai une liste de réfs et une gamme. Je veux savoir quelles réfs a pour gamme, la gamme en question
+
+Select ref_interne, gamme 
+from g_produits
+where ref_interne IN (7513027, 7513028, 7513029, 7513030, …, 7513039)
+having gamme = ‘…’ ;
+
+# 15. Récupérer la gamme pour plusieurs réfs
+
+J’ai une liste de réf dont la gamme. Je veux savoir quelle est la gamme chaque produit de la liste
+
+Select ref_interne, gamme 
+from g_produits
+where ref_interne IN (7513027, 7513028, 7513029, 7513030, …, 7513039)
+
+# Filtre
+
+# 16. Lister les filtres actifs sur une réf donnée (ou des réfs données) (penser à GROUP BY)
+
+# 17. Supprimer les filtres sur une ou une plusieurs réfs
+
+
+
 
