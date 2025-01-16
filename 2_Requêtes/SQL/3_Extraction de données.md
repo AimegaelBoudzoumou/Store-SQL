@@ -175,6 +175,7 @@ Pour chaque réf, on récupère la désignation. Si le premier mot de la désign
 7023463	Canon PFI-1000 CO - 80 ml - optimisateur de couleurs - original - réservoir d'encre - pour imagePROGRAF PRO-1000
 7023469	Canon PFI-1000 PBK - 80 ml - photo noir - original - réservoir d'encre - pour imagePROGRAF PRO-1000
 
+## 25. Dans une liste de réf, déterminer celles(s) qui n’est pas en ligne
 
 
 
