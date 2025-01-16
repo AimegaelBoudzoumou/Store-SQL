@@ -107,6 +107,8 @@ Ou bien avec PL/SQL :
 Sauvegarder les titres pour plusieurs produits (réfs)
 Piste : script Linux/Unix qui crée un « fichier fic1 », lance un script PL/SQL (recevant en argument le « fichier fic1 » ou tout simplement utilisant en son sein le « fichier fic1 »)
 
+## Récupérer les titres actuellement en place, pour une liste de réf donnée
+
 ## 12. Rechercher l’acheteur d’une marque et d’une gamme donnée
 
 ## 13. Sélectionner des produits (uniquement les réfs internes) de marque « Apple » et de catégories « iPhone 16 »
@@ -134,6 +136,12 @@ where ref_interne IN (7513027, 7513028, 7513029, 7513030, …, 7513039)
 
 # 17. Supprimer les filtres sur une ou une plusieurs réfs
 
+# 18. Mettre en place un fiche (catégorie, gamme) sur un produit
 
+# 19. Afficher les filtres présents sur un produit
+Afficher les gammes filtrées
+Afficher les produits filtrés
+Afficher les fabricants filtrés
+Afficher les catégories filtrées
 
-
+# 20. 
