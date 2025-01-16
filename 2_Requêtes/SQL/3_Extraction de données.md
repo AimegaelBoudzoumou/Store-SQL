@@ -154,4 +154,5 @@ Solution fonctionnelle :
 Sur une liste de refs, sélectionner celle dont le contenu_marketing (description_produit) est à NULL
 Select ref_interne from g_produits where ref_interne IN (XXXXX, …) and description_produit IS NULL ;
 
+## 23. J’ai une liste de réf fabricant dont je veux récupérer les réfs internes correspondantes
 
