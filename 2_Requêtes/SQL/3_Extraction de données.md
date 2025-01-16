@@ -177,5 +177,10 @@ Pour chaque réf, on récupère la désignation. Si le premier mot de la désign
 
 ## 25. Dans une liste de réf, déterminer celles(s) qui n’est pas en ligne
 
+# Bundle
 
+## 26. Pour une liste de Bundle donnée : récupérer les produits constituant chaque Bundle (faire un regroupe by numéro de Bundle)
 
+## 27. Pour une liste de réfs donnée : déterminer cettes faisant partie d'un quelconque
+
+## 28. Quelles sont les réfs Canon qui sont existantes chez nous
