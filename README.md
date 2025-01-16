@@ -43,6 +43,32 @@ J'ai jugé pertinent d'afficher dans un répertoire unique, les requêtes SQL re
 
 Ces requêtes se trouvent dans le répertoire __2_Requêtes/Reporting__
 
+**Brouillon : A supprimer plus tard**
+
+Reporting : 
+
+1/ Requêtes de Reporting mensuel :
+
+- nombre et liste des produits créés sur le dernier mois
+
+- nombre de produits créés par fabricants/marque, par gamme, par catégorie, par type
+
+- Classement des produits qui ont été le plus créés (par fabricant, par gamme, par catégorie, par type) et le moins créés (par fabricant, par gamme, par catégorie, par type)
+
+2/ Requêtes de Reporting trimestiel : 
+
+reproduire les stats ci-dessus, mais cette fois ci sur les 3 derniers mois
+
+3/ Requêtes de Reporting semestriel : 
+
+reproduire les stats ci-dessus, mais cette fois ci sur les 6 derniers mois
+
+4/ Requêtes de Reporting semestriel : 
+
+reproduire les stats ci-dessus, mais cette fois ci sur les 12 derniers mois
+
+- Recherches : comment choisir le bon visuel (barre, histogramme, etc.)
+
 Exemple de réalisations : 
 
 __Window Functions__
@@ -52,9 +78,6 @@ __Window Functions__
 __DENSE_RANK__
 
 ![image](https://github.com/user-attachments/assets/f8626dc9-8eb4-4635-8948-eb84265e6f21)
-
-
-Brouillon : 
 
 Phase : vert (en ligne), gris (à statuer) par défaut, orange (pas de stock), rouge (suspendu)
 
