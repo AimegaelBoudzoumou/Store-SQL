@@ -70,6 +70,20 @@ Update g_produits
 Set description_produits = NULL
 Where ref_inerne IN (…) ;
 
+## 13. Gammes de toutes ces réfs à passer en « iMac (M4) »
+
+7512751
+
+7512752
+
+7512753
+
+7512754
+
+7512755
+
+## 14. Ecrire une requête (ou même une procédure PL/SQl) qui permet de modifier la gamme pour une liste de référence
+
 # Intéressant ...
 Il faudrait suprrimer la mention "jusqu’à" sur les désignaitons de plusieurs réfs
 
