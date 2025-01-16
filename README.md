@@ -67,7 +67,7 @@ reproduire les stats ci-dessus, mais cette fois ci sur les 6 derniers mois
 
 reproduire les stats ci-dessus, mais cette fois ci sur les 12 derniers mois
 
-5/ Requêtes de Reporting semestriel : 
+5/ Requêtes de Reporting pour chaque semaine du dernier mois : 
 
 reproduire les stats ci-dessus, mais cette fois ci par semaine sur le dernier mois. Cela permet par exemple de savoir au quel de quel semaine il y a eu le plus de ventes/création de produits.
 
