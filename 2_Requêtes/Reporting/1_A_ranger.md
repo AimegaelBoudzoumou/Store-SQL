@@ -59,6 +59,11 @@ reproduire les stats ci-dessus, mais cette fois ci par semaine sur le dernier mo
 
 Il pourrait être intéressant de faire un rapport pour les 4 semaines, pour chaque mois dans l'année (le tout ensemble)
 
+Autres indicateurs : 
+- nombre total de produits créés dans le mois
+- moyenne des produits créés par jours, par semaine
+- Total des produits par marque
+
 - Recherches : comment choisir le bon visuel (barre, histogramme, etc.)
 
 
