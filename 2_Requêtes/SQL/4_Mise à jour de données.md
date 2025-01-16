@@ -84,6 +84,15 @@ Where ref_inerne IN (…) ;
 
 ## 14. Ecrire une requête (ou même une procédure PL/SQl) qui permet de modifier la gamme pour une liste de référence
 
+# Modifier Fabricant et Gamme
+
+## 15. Peux-tu reclasser les réfs suivantes en fabricant : Blackview / gamme : Produits Blackview
+30017842
+30040186
+30056307
+30064315
+30064400
+
 # Intéressant ...
 Il faudrait suprrimer la mention "jusqu’à" sur les désignaitons de plusieurs réfs
 
