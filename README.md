@@ -53,3 +53,23 @@ __DENSE_RANK__
 
 ![image](https://github.com/user-attachments/assets/f8626dc9-8eb4-4635-8948-eb84265e6f21)
 
+
+Brouillon : 
+
+Phase : vert (en ligne), gris (à statuer) par défaut, orange (pas de stock), rouge (suspendu)
+
+Les types de produits
+
+L'affectation de produit à un acheteur ou à un chef de produit, se fait par "marque". Modifier le MCD
+
+Typage : 
+
+P : produit physique
+
+W : extension de garantie
+
+L : Licence d'accès à des logiciels
+
+Service (I : interne, E : externe, S : mise en relation entre le client et le prestataire)
+
+C : crédit (ligne comptable)
