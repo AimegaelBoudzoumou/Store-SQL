@@ -18,3 +18,5 @@ Texte bref (moins de 4 phrases)
 
 Requêtes SQL
 
+## 4. Supprimer la description marketing pour tous les "Pixel 9 Pro Fold"
+
