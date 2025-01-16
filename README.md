@@ -71,6 +71,8 @@ reproduire les stats ci-dessus, mais cette fois ci sur les 12 derniers mois
 
 reproduire les stats ci-dessus, mais cette fois ci par semaine sur le dernier mois. Cela permet par exemple de savoir au quel de quel semaine il y a eu le plus de ventes/création de produits.
 
+Il pourrait être intéressant de faire un rapport pour les 4 semaines, pour chaque mois dans l'année (le tout ensemble)
+
 - Recherches : comment choisir le bon visuel (barre, histogramme, etc.)
 
 
