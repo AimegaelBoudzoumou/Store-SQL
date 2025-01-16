@@ -45,47 +45,6 @@ Ces requêtes se trouvent dans le répertoire __2_Requêtes/Reporting__
 
 **Brouillon : A supprimer plus tard**
 
-Reporting : 
-
-1/ Requêtes de Reporting mensuel :
-
-- nombre et liste des produits créés sur le dernier mois
-
-- nombre de produits créés par fabricants/marque, par gamme, par catégorie, par type
-
-- Classement des produits qui ont été le plus créés (par fabricant, par gamme, par catégorie, par type) et le moins créés (par fabricant, par gamme, par catégorie, par type)
-
-2/ Requêtes de Reporting trimestiel : 
-
-reproduire les stats ci-dessus, mais cette fois ci sur les 3 derniers mois
-
-3/ Requêtes de Reporting semestriel : 
-
-reproduire les stats ci-dessus, mais cette fois ci sur les 6 derniers mois
-
-4/ Requêtes de Reporting semestriel : 
-
-reproduire les stats ci-dessus, mais cette fois ci sur les 12 derniers mois
-
-5/ Requêtes de Reporting pour chaque semaine du dernier mois : 
-
-reproduire les stats ci-dessus, mais cette fois ci par semaine sur le dernier mois. Cela permet par exemple de savoir au quel de quel semaine il y a eu le plus de ventes/création de produits.
-
-Il pourrait être intéressant de faire un rapport pour les 4 semaines, pour chaque mois dans l'année (le tout ensemble)
-
-- Recherches : comment choisir le bon visuel (barre, histogramme, etc.)
-
-
-Exemple de réalisations : 
-
-__Window Functions__
-
-![image](https://github.com/user-attachments/assets/aa1df12f-4763-49f1-95a1-ef7c1371e1cc)
-
-__DENSE_RANK__
-
-![image](https://github.com/user-attachments/assets/f8626dc9-8eb4-4635-8948-eb84265e6f21)
-
 Phase : vert (en ligne), gris (à statuer) par défaut, orange (pas de stock), rouge (suspendu)
 
 Les types de produits
