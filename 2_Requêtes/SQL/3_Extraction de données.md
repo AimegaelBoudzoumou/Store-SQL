@@ -156,3 +156,25 @@ Select ref_interne from g_produits where ref_interne IN (XXXXX, …) and descrip
 
 ## 23. J’ai une liste de réf fabricant dont je veux récupérer les réfs internes correspondantes
 
+## 24. Un peu complexe ...
+
+PL/SQL
+Historique : 
+Après un chargement en masse, je me rends qu’il y a des désignations qui n’ont pas été mises à jour. Dans mes nouvelles désignations souhaitées, le premier mot devrait être « Canon ». Mais il y a des réfs dont le premier mot n’est pas « Canon ».
+
+Besoin métier :
+On a une liste de références. On aimerait savoir quelle désignation ne commence pas par « Canon ». 
+
+Solution fonctionnelle : 
+Pour chaque réf, on récupère la désignation. Si le premier mot de la désignation n’est pas Canon, on récupère la réf.
+2978365	Canon CLI-571Y XL - 11 ml - haut rendement - jaune - original - réservoir d'encre - pour PIXMA TS5051, TS5053, TS5055, TS6050, TS6051, TS6052, TS8051, TS8052, TS9050, TS9055
+2978366	Canon PGI-570PGBK XL - 22 ml - haut rendement - noir - original - réservoir d'encre - pour PIXMA MG5751, MG5752, MG5753, MG6851, MG6852, MG6853, MG7750, MG7751, MG7752, MG7753
+2978367	Canon CLI-571M XL - 11 ml - haut rendement - magenta - original - réservoir d'encre - pour PIXMA TS5051, TS5053, TS5055, TS6050, TS6051, TS6052, TS8051, TS8052, TS9050, TS9055
+7023430	Canon PFI-1000 PC - 80 ml - photo cyan - original - réservoir d'encre - pour imagePROGRAF PRO-1000
+7023455	Canon PFI-1000 R - 80 ml - red - original - réservoir d'encre - pour imagePROGRAF PRO-1000
+7023463	Canon PFI-1000 CO - 80 ml - optimisateur de couleurs - original - réservoir d'encre - pour imagePROGRAF PRO-1000
+7023469	Canon PFI-1000 PBK - 80 ml - photo noir - original - réservoir d'encre - pour imagePROGRAF PRO-1000
+
+
+
+
