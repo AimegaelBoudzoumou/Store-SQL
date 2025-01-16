@@ -145,3 +145,6 @@ Afficher les catégories filtrées
 ## 19 Bis. Supprimer certains filtres pour une liste de réfs données - pensez à PL/SQL
 
 ## 20. Récupérer les titres actuellement en place, pour une liste de réf donnée
+
+## 21. Récupérer la marque d’un produit. Penser à la jointure multique (entre produit, gamme, marque)
+
