@@ -184,3 +184,5 @@ Pour chaque réf, on récupère la désignation. Si le premier mot de la désign
 ## 27. Pour une liste de réfs donnée : déterminer cettes faisant partie d'un quelconque
 
 ## 28. Quelles sont les réfs Canon qui sont existantes chez nous
+
+## 29. Rechercher les produits de telle gamme ayant l'expression "jusqu'à" dans leur désignation et corriger le cas échéant
