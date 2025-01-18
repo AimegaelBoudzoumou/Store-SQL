@@ -23,6 +23,7 @@ CREATE TABLE employes (
     PRIMARY KEY(matricule)
 );
 ```
+![Uploading image.png…]()
 
 # Bundles
 Le numéro de Bundle est généré par le SGBD :
