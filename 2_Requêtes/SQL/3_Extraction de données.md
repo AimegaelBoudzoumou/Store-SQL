@@ -192,8 +192,6 @@ Pour chaque réf, on récupère la désignation. Si le premier mot de la désign
 ## 31. Vérifier qu’il n’existe pas de référence_interne en doublon.
 Pensez à ROW_NUM pour supprimer les doublons (Cf. tutorial de Data Cleaning de Data Analyst BootCamp ».
 
-
-
 Select reference_interne from … where row_num > 2 ;
 
 Ensuite
@@ -201,3 +199,5 @@ Ensuite
 Changer les référence_interne en question.
 
 Ce besoin métier n'aurait du sens que si la réference_fabricant était clé primaire de la table "produits". La référence interne étant générée automatiquement, il aurait été important de vérifier régulièrement que la référence n'est pas présente plus d'une fois dans la base de données.
+
+## 32. Afficher les produits dont certains critères sont incorrects. Ex : absence d’images, désignation ayant plus de n mots non français.
