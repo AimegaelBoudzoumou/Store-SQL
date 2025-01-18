@@ -4,6 +4,7 @@ Note : Le titre d’un produit est intégré automatique par le SGBD. Voici la s
 « Fabricant_Marque - Gamme Référence_fabricant »
 
 3 infos :
+
 Fabricant_Marque
 
 Gamme 
