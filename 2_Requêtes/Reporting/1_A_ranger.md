@@ -76,3 +76,37 @@ __Window Functions__
 __DENSE_RANK__
 
 ![image](https://github.com/user-attachments/assets/f8626dc9-8eb4-4635-8948-eb84265e6f21)
+
+### Les 10 produits les plus performants
+- de façon générale
+- par marque/fabricant
+- par gamme
+- catégorie
+- marque/fabricant et catégorie
+- par type
+
+### Le nombre de produits créés
+- de façon générale
+- par marque/fabricant
+- par gamme
+- catégorie
+- marque/fabricant et catégorie
+- type
+
+![image](https://github.com/user-attachments/assets/26f43553-7760-4245-8c91-40ecdffc44e3)
+
+
+
+Aujourd'hui.
+Hier.
+Les 7 derniers jours.
+Les 28 derniers jours (par défaut).
+Les 30 derniers jours.
+Les 90 derniers jours.
+Les 12 derniers mois.
+La dernière année civile.
+Cette année depuis le 1ᵉʳ janvier.
+
+Comparer deux périodes entre elles
+
+
