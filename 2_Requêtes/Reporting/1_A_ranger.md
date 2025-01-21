@@ -81,17 +81,17 @@ __DENSE_RANK__
 - de façon générale
 - par marque/fabricant
 - par gamme
-- catégorie
-- marque/fabricant et catégorie
+- par catégorie
+- par marque/fabricant et catégorie
 - par type
 
 ### Le nombre de produits créés
 - de façon générale
 - par marque/fabricant
 - par gamme
-- catégorie
-- marque/fabricant et catégorie
-- type
+- pa catégorie
+- par marque/fabricant et catégorie
+- par type
 
 ![image](https://github.com/user-attachments/assets/26f43553-7760-4245-8c91-40ecdffc44e3)
 
