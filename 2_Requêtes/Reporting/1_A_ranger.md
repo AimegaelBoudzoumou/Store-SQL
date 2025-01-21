@@ -98,13 +98,21 @@ __DENSE_RANK__
 
 
 Aujourd'hui.
+
 Hier.
+
 Les 7 derniers jours.
+
 Les 28 derniers jours (par défaut).
+
 Les 30 derniers jours.
+
 Les 90 derniers jours.
+
 Les 12 derniers mois.
+
 La dernière année civile.
+
 Cette année depuis le 1ᵉʳ janvier.
 
 Comparer deux périodes entre elles
