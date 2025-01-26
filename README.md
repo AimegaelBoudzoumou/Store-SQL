@@ -51,7 +51,7 @@ On a un numéro de bundle : on aimerait savoir les produits (référence interne
 
 On a une référence interne : on aimerait savoir quelles sont les bundles contenant la référence interne en question.
 
-````sql
+```sql
 
 select numero from bundle_produits
 
