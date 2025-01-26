@@ -8,3 +8,4 @@ Outil utilisé : logiciel AnalyseSI en environnement Windows.
 
 ![image](https://github.com/user-attachments/assets/507a3ffa-4e04-4145-963e-345e045aeab8)
 
+![image](https://github.com/user-attachments/assets/68b36bde-e7e0-48f1-8239-3a451e505845)
