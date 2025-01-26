@@ -45,6 +45,8 @@ Ces requêtes se trouvent dans le répertoire __2_Requêtes/Reporting__
 
 **Brouillon : A supprimer plus tard**
 
+Procedure qui permet d'affecter un produit à un bundle. 
+
 Phase : vert (en ligne), gris (à statuer) par défaut, orange (pas de stock), rouge (suspendu)
 
 Les types de produits
