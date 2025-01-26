@@ -45,7 +45,7 @@ Ces requêtes se trouvent dans le répertoire __2_Requêtes/Reporting__
 
 **Brouillon : A supprimer plus tard**
 
-Procedure qui permet d'affecter un produit à un bundle. 
+Procedure qui permet d'affecter un produit à un bundle. La procédure reçoit deux infos : le numéro de bundle et la réf_interne du produit.
 
 Phase : vert (en ligne), gris (à statuer) par défaut, orange (pas de stock), rouge (suspendu)
 
