@@ -47,6 +47,28 @@ Ces requêtes se trouvent dans le répertoire __2_Requêtes/Reporting__
 
 Procedure qui permet d'affecter un produit à un bundle. La procédure reçoit deux infos : le numéro de bundle et la réf_interne du produit.
 
+On a un numéro de bundle : on aimerait savoir les produits (référence interne) associés à ce bundle. Penser à une jointure entre bundle_produits et produits, sur la ref_fabricant
+
+On a une référence interne : on aimerait savoir quelles sont les bundles contenant la référence interne en question.
+
+````sql
+
+select numero from bundle_produits
+
+where exists (
+
+              select reference_interne
+              
+              from produits p
+              
+              join bundle_produits b
+              
+              on p.reference_fabricant = b.reference_fabricant
+)
+```
+
+Mettre en place une fonction qui vérifie qu'une référence_interne est unique (n'existe pas en doublon) dans la base de données.
+
 Phase : vert (en ligne), gris (à statuer) par défaut, orange (pas de stock), rouge (suspendu)
 
 Les types de produits
