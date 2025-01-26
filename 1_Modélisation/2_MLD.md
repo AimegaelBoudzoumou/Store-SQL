@@ -14,23 +14,20 @@ l'élément A reçoit la clé primaire de l'élément B. Cette clé primaire se 
 
 ## MLD
 
+produits (__reference_fabricant__, reference_interne, date_creation_produit, date_derniere_commande, visibilite_web, titre, designation, description_produit, quantite_globale, filtre_gamme, filtre_categorie, #nom_phase, #nom_type, #nom_categorie, #nom_gamme)
 
-produits (__reference_interne__, reference_fabricant, date_creation, date_derniere_commande, visibilite_web, titre, designation, description_produit, quantite_globale, filtre_gamme, filtre_categorie, #type_produit, #nom_categorie, #nom_gamme, #matricule_employe, #nom_phase) 
+employes (__matricule_employe__, nom_employe, prenom_employe, full_name_employe)
 
-type_de_produit (__type_produit__) 
+gammes (__nom_gamme__, date_creation_gamme, #nom_marque)
 
-employes (__matricule_employe__, nom_employe, prenom_employe, full_name_employe) 
+bundles (__numero__, date_creation_bundle)
 
-bundles (__numero__, date_creation_bundle, #nom_phase) 
+phases (__nom_phase__, signification)
 
-gamme (__nom_gamme__, date_creation_gamme, #nom_marque) 
+marques (__nom_marque__, date_creation_marque, #matricule_employe_etre_acheteur, #matricule_employe_etre_chef_de_produit)
 
-phases (__nom_phase__, signification) 
+categories (__nom_categorie__, date_creation_categorie)
 
-marques (__nom_marque__, date_creation_marque) 
+types_de_produit (__nom_type__) 
 
-categories (__nom_categorie__, date_creation_categorie) 
-
-acheteurs (__matricule_employe__, __nom_gamme__, __date__) 
-
-bundle_produits (__numero__, __reference_interne__) 
+bundle_produits (__reference_fabricant__, __numero__)
