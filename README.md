@@ -66,6 +66,7 @@ where exists (
               on p.reference_fabricant = b.reference_fabricant
 )
 ```
+Notion de filtre : ajouter un attrinbut/champ filtre dansles tables : "marque", "catégories" et "catégories". Ecrire les requêtes associées à la mise en place des filtres. 
 
 Mettre en place une fonction qui vérifie qu'une référence_interne est unique (n'existe pas en doublon) dans la base de données.
 
