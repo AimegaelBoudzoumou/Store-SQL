@@ -66,7 +66,23 @@ where exists (
               on p.reference_fabricant = b.reference_fabricant
 )
 ```
-Notion de filtre : ajouter un attrinbut/champ filtre dansles tables : "marque", "catégories" et "catégories". Ecrire les requêtes associées à la mise en place des filtres. 
+__Notion de filtre :__ 
+
+Ajouter un attribut/champ 'filtre' dans les tables marque, gamme, categorie.
+
+Ajouter un attrinbut/champ filtre dansles tables : "marque", "catégories" et "catégories". Ecrire les requêtes associées à la mise en place des filtres.
+
+La mise en place d'un filtre sur une marque se repercute sur les gammes associés à la marque; et donc sur les produits associés aux gammes en question.
+
+La mise en place d'un filtre sur une gamme se repercute sur les produits faisant partie de cette gamme.
+
+La mise en place d'un filtre sur une catégorie se répercute sur les produits faisant partie de cette catégorie.
+
+Avant de retirer un filtre_gamme sur un produit : vérifier que sa gamme n'est pas filtrée (attribut 'filtre' de la gamme en question).
+
+Avant de retirer un filtre_categorie sur un produit : vérifier que sa catégorie n'est pas filtrée (attribut 'filtre' de la catégorie en question).
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Mettre en place une fonction qui vérifie qu'une référence_interne est unique (n'existe pas en doublon) dans la base de données.
 
