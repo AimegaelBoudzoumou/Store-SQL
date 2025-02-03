@@ -43,6 +43,7 @@ J'ai jugé pertinent d'afficher dans un répertoire unique, les requêtes SQL re
 
 Ces requêtes se trouvent dans le répertoire __2_Requêtes/Reporting__
 
+<!--
 **Brouillon : A supprimer plus tard**
 
 Procedure qui permet d'affecter un produit à un bundle. La procédure reçoit deux infos : le numéro de bundle et la réf_interne du produit.
@@ -108,3 +109,5 @@ L : Licence d'accès à des logiciels
 Service (I : interne, E : externe, S : mise en relation entre le client et le prestataire)
 
 C : crédit (ligne comptable)
+
+-->
