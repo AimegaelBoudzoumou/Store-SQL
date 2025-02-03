@@ -84,6 +84,11 @@ Avant de retirer un filtre_categorie sur un produit : vérifier que sa catégori
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Récupérer le titre de chaque produit et l'intégrer en début de la déscription produit de la réf concernée.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 Mettre en place une fonction qui vérifie qu'une référence_interne est unique (n'existe pas en doublon) dans la base de données.
 
 Phase : vert (en ligne), gris (à statuer) par défaut, orange (pas de stock), rouge (suspendu)
