@@ -209,3 +209,11 @@ FROM g_produits
 WHERE description_produit IS NULL
 AND system_id IS NOT NULL; -- system_id n'a pas été implémentée dans ma conception
 ```
+
+## 34.
+```sql
+SELECT reference_interne, designation
+FROM g_produits
+WHERE system_id IS NOT NULL -- system_id n'a pas été implémentée dans ma conception
+AND categorie = 'PC Portable';
+```
