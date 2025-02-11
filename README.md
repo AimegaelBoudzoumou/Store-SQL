@@ -113,5 +113,9 @@ C : crédit (ligne comptable)
 -->
 
 <!--
-Pour plusieurs réfs : récupérer le "contenu marketing" et l'entourer dans la balise HTML paragraphe.
+Pour plusieurs réfs : récupérer le "contenu marketing" (texte brute) et l'entourer dans la balise HTML de type paragraphe.
+
+Allez plus loin : 
+
+Séparer le "texte brute" en plusieurs parties (taille à définir). Encadrer chaque partie dans une balise HTML de type paragraphe.
 -->
