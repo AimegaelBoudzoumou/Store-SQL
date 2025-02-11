@@ -111,3 +111,7 @@ Service (I : interne, E : externe, S : mise en relation entre le client et le pr
 C : crédit (ligne comptable)
 
 -->
+
+<!--
+Pour plusieurs réfs : récupérer le "contenu marketing" et l'entourer dans la balise HTML paragraphe.
+-->
