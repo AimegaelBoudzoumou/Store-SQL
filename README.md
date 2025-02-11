@@ -119,3 +119,7 @@ Allez plus loin :
 
 Séparer le "texte brute" en plusieurs parties (taille à définir). Encadrer chaque partie dans une balise HTML de type paragraphe.
 -->
+
+<!-- GRANT
+https://www.techbrothersit.com/2018/11/grant-permission-to-individual-fields.html
+-->
