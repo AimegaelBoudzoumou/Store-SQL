@@ -217,3 +217,7 @@ FROM g_produits
 WHERE system_id IS NOT NULL -- system_id n'a pas été implémentée dans ma conception
 AND categorie = 'PC Portable';
 ```
+<!--
+## 35. répérer les réfs (produtis) n'ayant pas de Spécs une semaine après leur visibilité dans TMS (différente de la date de création d'un produit)
+-->
+
