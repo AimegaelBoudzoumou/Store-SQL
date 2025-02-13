@@ -1,6 +1,9 @@
 Reporting
 
-Metre ici le tableaux des KPIs :
+Metre ici le tableaux des KPIs pout :
+
+- analyste descriptive
+- analyse de tendance
 
 Liste des 20 fabricants/marques ayant enregistrés le plus/moins de ventes sur ces périodes 
 
@@ -118,5 +121,3 @@ La dernière année civile.
 Cette année depuis le 1ᵉʳ janvier.
 
 Comparer deux périodes entre elles
-
-
