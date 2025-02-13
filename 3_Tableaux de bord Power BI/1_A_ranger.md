@@ -1,5 +1,7 @@
 Reporting
 
+Metre ici le tableaux des KPIs :
+
 Liste des 20 fabricants/marques ayant enregistrés le plus/moins de ventes sur ces périodes 
 
 Le mois, le trimestre, le semestre, l’année
