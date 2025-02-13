@@ -13,7 +13,7 @@ MLD : Modèle Logique de Données
 
 Dictionnaire de données
 
-## 2. Ecriture des requêtes SQL et PL/SQL
+## 2. Requêtes SQL et PL/SQL
 
 __Note__ : les requêtes SQL et PL/SQL ont été excutées dans un environnement __Oracle Live SQL__.
 
@@ -37,7 +37,7 @@ Mise à jour de données - UPDATE
 
 Suppression de données - DELETE
 
-## 3. Tableaux de bord - Power BI
+## 3. Tableaux de bord Power BI
 
 J'ai jugé pertinent d'afficher dans un répertoire unique, les travaux relatifs au reporting.
 
