@@ -37,11 +37,16 @@ Mise à jour de données - UPDATE
 
 Suppression de données - DELETE
 
-### Reporting
+## 3. Tableaux de bord - Power BI
 
-J'ai jugé pertinent d'afficher dans un répertoire unique, les requêtes SQL relatives au reporting.
+J'ai jugé pertinent d'afficher dans un répertoire unique, les travaux relatifs au reporting.
 
-Ces requêtes se trouvent dans le répertoire __2_Requêtes/Reporting__
+Ce répertoire contient : 
+- le tableaux des KPIs
+- les requêtes SQL permettant de réaliser les KPIs sur les produits du site e-commerce
+- le rapports et tableaux réalisés sous Power BI
+
+Les trois éléments ci-dessus se trouvent dans le répertoire __3_Tableaux de bord - Power BI__
 
 <!--
 **Brouillon : A supprimer plus tard**
