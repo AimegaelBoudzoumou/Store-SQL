@@ -125,6 +125,11 @@ Allez plus loin :
 Séparer le "texte brute" en plusieurs parties (taille à définir). Encadrer chaque partie dans une balise HTML de type paragraphe.
 -->
 
+<!--
+J'ai une liste de Bundle : 
+pour chaque Bundle : je veux savoir la situation (Phase, Visible sur le Web) de chaque constituant le Bundle.
+-->
+
 <!-- GRANT
 https://www.techbrothersit.com/2018/11/grant-permission-to-individual-fields.html
 -->
