@@ -130,6 +130,18 @@ J'ai une liste de Bundle :
 pour chaque Bundle : je veux savoir la situation (Phase, Visible sur le Web) de chaque constituant le Bundle.
 -->
 
+<!-- Process : Gestion des réfs mises en ligne :
+
+Créer un trigger qui écoute le champ phase des produits "qui ne sont pas en ligne". 
+
+Si le produit est mis en ligne (passage à la phase "verte"), alors : la réf est enregistrée dans une table "suivi_ref_mises_en_phase_verte".
+
+Ces réfs nouvellement mise en ligne sont alors visibles dans une "page dans TMS". Un clic sur un produit nous conduit vers la page TMS du produit en question, afin de voir ce qu'il faut améliorer : titre, visuel, CM, désignation, Spécs
+
+Une fois la réf traitée : il faut le signifier dans la "page dans TMS". Ceci afin que le produit soit retirée de la liste.
+
+-->
+
 <!-- GRANT
 https://www.techbrothersit.com/2018/11/grant-permission-to-individual-fields.html
 -->
