@@ -122,7 +122,7 @@ Cette année depuis le 1ᵉʳ janvier.
 
 Comparer deux périodes entre elles
 
-#### Situation des créas en fonction de la période dans le mois : 
+#### Situation des créas en fonction de la période dans le mois (1ère ou 2ième quizaine du mois) : 
 
 ![image](https://github.com/user-attachments/assets/365c797a-4354-4783-90e6-04e876c3627d)
 
