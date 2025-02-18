@@ -126,4 +126,5 @@ Comparer deux périodes entre elles
 
 ![image](https://github.com/user-attachments/assets/09d3c217-99bc-4a51-8fa9-a1ea8130a009)
 
-![image](https://github.com/user-attachments/assets/efbab196-e620-4be4-aeb4-c841182e8a8f)
+![image](https://github.com/user-attachments/assets/b0e2e087-61e2-4898-ab75-f31b8d2301bc)
+
