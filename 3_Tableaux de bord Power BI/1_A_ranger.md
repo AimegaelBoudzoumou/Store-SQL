@@ -124,6 +124,6 @@ Comparer deux périodes entre elles
 
 #### Situation des créas en fonction de la période dans le mois (1ère ou 2ième quizaine du mois) : 
 
-![image](https://github.com/user-attachments/assets/365c797a-4354-4783-90e6-04e876c3627d)
+![image](https://github.com/user-attachments/assets/09d3c217-99bc-4a51-8fa9-a1ea8130a009)
 
-![image](https://github.com/user-attachments/assets/e4c6137e-ff9f-4c08-9c1d-9609352bfc75)
+![image](https://github.com/user-attachments/assets/efbab196-e620-4be4-aeb4-c841182e8a8f)
