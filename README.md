@@ -1,10 +1,10 @@
 # Store-SQL
 
-Une de mes expériences professionnelles m'a permi d'assurer le support des produits vendus sur un site e-commerce.
+Ce projet concerne le support des produits vendus sur un site e-commerce.
 
-A travers ce document, je présente les réponses que j'ai pu apporter aux bésoins métiers rencontrés lors de ladite expérience professionelle.
+A travers ce document, je présente les réponses techniques susceptibles répondre aux bésoins métiers.
 
-Ce document comprend deux parties : __Modélisation de données relationnelles__ et __Ecriture des requêtes__ (SQL et PL/SQL).
+Ce document comprend trois parties : <!--__Modélisation de données relationnelles__ et __Ecriture des requêtes__ (SQL et PL/SQL).-->
 
 ## 1. Modélisation : 
 MCD : Modèle Conceptuel de Données
@@ -13,7 +13,7 @@ MLD : Modèle Logique de Données
 
 Dictionnaire de données
 
-## 2. Requêtes SQL et PL/SQL
+## 2. Requêtes
 
 __Note__ : les requêtes SQL et PL/SQL ont été excutées dans un environnement __Oracle Live SQL__.
 
