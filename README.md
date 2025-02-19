@@ -2,9 +2,9 @@
 
 Ce projet concerne le support des produits vendus sur un site e-commerce.
 
-A travers ce document, je présente les réponses techniques susceptibles répondre aux bésoins métiers.
+A travers ce document, je présente les réponses informatiques susceptibles de répondre aux bésoins métiers émanant des acheteurs, chefs de produits, commerciaux.
 
-Ce document comprend trois parties : <!--__Modélisation de données relationnelles__ et __Ecriture des requêtes__ (SQL et PL/SQL).-->
+Ce document comprend trois parties : Modélisation, requêtes  SQL, Tableaux de bord Power BI.<!--__Modélisation de données relationnelles__ et __Ecriture des requêtes__ (SQL et PL/SQL).-->
 
 ## 1. Modélisation : 
 MCD : Modèle Conceptuel de Données
@@ -39,12 +39,10 @@ Suppression de données - DELETE
 
 ## 3. Tableaux de bord Power BI
 
-J'ai jugé pertinent d'afficher dans un répertoire unique, les travaux relatifs au reporting.
-
 Ce répertoire contient : 
 - le tableaux des KPIs
 - les requêtes SQL permettant de réaliser les KPIs sur les produits du site e-commerce
-- le rapports et tableaux réalisés sous Power BI
+- les rapports et tableaux de bord réalisés sous Power BI
 
 Les trois éléments ci-dessus se trouvent dans le répertoire __3_Tableaux de bord - Power BI__
 
