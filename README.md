@@ -13,13 +13,15 @@ MLD : Modèle Logique de Données
 
 Dictionnaire de données
 
+Ces trois éléments se trouvent dans le répertoire __1_Modélisation__
+
 ## 2. Requêtes
 
 __Note__ : les requêtes SQL et PL/SQL ont été excutées dans un environnement __Oracle Live SQL__.
 
 ### PL/SQL
 
-Les requêtes PL/SQL se trouvent dans le répertoire __2_Requêtes/PL-SQL__
+Trigger, Fonctions, Procédures
 
 ### SQL
 
@@ -37,6 +39,8 @@ Mise à jour de données - UPDATE
 
 Suppression de données - DELETE
 
+Les requêtes SQL et PL/SQL se trouvent dans le répertoire __2_Requêtes__
+
 ## 3. Tableaux de bord Power BI
 
 Ce répertoire contient : 
@@ -44,7 +48,7 @@ Ce répertoire contient :
 - les requêtes SQL permettant de réaliser les KPIs sur les produits du site e-commerce
 - les rapports et tableaux de bord réalisés sous Power BI
 
-Les trois éléments ci-dessus se trouvent dans le répertoire __3_Tableaux de bord - Power BI__
+Les trois éléments ci-dessus se trouvent dans le répertoire __3_Tableaux de bord Power BI__
 
 <!--
 **Brouillon : A supprimer plus tard**
