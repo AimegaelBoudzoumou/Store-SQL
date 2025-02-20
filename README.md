@@ -144,6 +144,24 @@ Une fois la réf traitée : il faut le signifier dans la "page dans TMS". Ceci a
 
 -->
 
+<!-- Besoin métier 
+Parcourir une liste de réf
+Pour chaque désignaion, retirer un mot donnée
+-->
+
+<!--
+Pour plusieurs réfs, je souhaite qu'on intègre :
+ 
+1/2
+Spécification(s) Principale(s) Cnet
+Spécification(s) Etendue(s) Cnet
+Image(s) Cnet
+
+2/2 Pour les mêmes réfs : 
+Est-il possible d'intégrer à la place du "titre", les données C|Net suivante ?
+Spécification(s) Principale(s) Cnet -> Description du produit :
+-->
+
 <!-- GRANT
 https://www.techbrothersit.com/2018/11/grant-permission-to-individual-fields.html
 -->
