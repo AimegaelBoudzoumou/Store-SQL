@@ -1,4 +1,8 @@
-On a une liste de produits. Dans la désignation de chaque produit, on souhaite remplacer la virgule (,)par un tiret (-).
+Depuis un certains moment, la nomenclature des désignations impose d'utiliser des tirets (-) à la place des virgules (,).
+
+On a une liste de produits dont on souhaiterait améliorer les désignations. 
+
+Dans la désignation de chaque produit, on souhaite remplacer la virgule (,) par un tiret (-).
 
 ### SQL
 ```sql
