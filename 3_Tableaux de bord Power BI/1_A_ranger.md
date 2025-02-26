@@ -128,3 +128,8 @@ Comparer deux périodes entre elles
 
 ![image](https://github.com/user-attachments/assets/b0e2e087-61e2-4898-ab75-f31b8d2301bc)
 
+<!--
+#### Important : rapport sur les redescente automatique de contenu C|Net (Descritption, Visuel, Spécs) quand ce contenu est pourtant dispo.
+Par marque, catégorie, gamme, etc. (à définir) : comparer les données (pop-up C|Net) côté C|Net et celles côté TMS. Si les données C|Net sont présentes et différentes de celles côté TMS, cela signifie que la redescente ne se fait pas automatiquement. Alors il faut récuperer les réfs (ref_interne, fabricant, catégorie, gamme, etc) concernées et investiguer. l'investigation débute par une regroupement des produits selon les critères : marque, catégorie, gamme
+-->
+
