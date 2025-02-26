@@ -108,6 +108,16 @@ Utiliser PL/SQL sinon
 # Intéressant ...
 Il faudrait suprrimer la mention "jusqu’à" sur les désignaitons de plusieurs réfs
 
+<!--
+## 17. Mettre du contenu dans une balise HTML <p>...</p>
+
+Pour toutes les réf qui ont les données "Description Existante" identiques à "Description CNET"; et dont le contenu textuel n'est pas entouré de la balise HTML <p>...</p> : 
+
+écrire un code SQL qui : 
+- soit récupérer le contenu, l'entourer dans la balise <p>...</p>, puis le charger
+- soit écrire : <p> de texte et </p> en fin de texte
+Je penche pour la première option.
+-->
 
 
 
