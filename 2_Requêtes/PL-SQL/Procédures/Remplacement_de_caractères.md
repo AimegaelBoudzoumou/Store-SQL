@@ -6,6 +6,8 @@ SELECT REPLACE('Hello tout le monde', 'Hello', 'Bonjour');
 INTO...
 ```
 
+<!--
+### Python
 The same thing with Python ! Just for joke
 
 ```python
@@ -17,3 +19,4 @@ print(txt)
 
 print(txt2)
 ```
+-->
