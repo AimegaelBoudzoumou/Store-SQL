@@ -2,7 +2,8 @@ On a une liste de produits. Dans la désignation de chaque produit, on souhaite 
 
 ### SQL
 ```sql
-SELECT REPLACE('Hello tout le monde', 'Hello', 'Bonjour');
+
+SELECT REPLACE(designation, ',', ' -');
 INTO...
 ```
 
