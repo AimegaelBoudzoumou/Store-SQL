@@ -12,6 +12,14 @@ set designation = replace(designation, ',', ' -')
 ```
 
 <!--
+```sql
+UPDATE demo
+SET hint = REPLACE(hint, ',', ' -')
+WHERE id=53;
+```
+-->
+
+<!--
 ### Python
 The same thing with Python/Pandas : 
 
