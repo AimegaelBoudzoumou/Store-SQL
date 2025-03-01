@@ -14,20 +14,22 @@ l'élément A reçoit la clé primaire de l'élément B. Cette clé primaire se 
 
 ## MLD
 
-produits (__reference_fabricant__, reference_interne, date_creation_produit, date_derniere_commande, visibilite_web, titre, designation, description_produit, quantite_globale, filtre_gamme, filtre_categorie, #nom_phase, #nom_type, #nom_categorie, #nom_gamme)
-
-employes (__matricule_employe__, nom_employe, prenom_employe, full_name_employe)
-
-gammes (__nom_gamme__, date_creation_gamme, #nom_marque)
-
-bundles (__numero__, date_creation_bundle)
-
-phases (__nom_phase__, signification)
+Note : Le principes de "clé étrangère" m'impose de défnir un ordre de création des tables.
 
 marques (__nom_marque__, date_creation_marque, #matricule_employe_etre_acheteur, #matricule_employe_etre_chef_de_produit)
 
+gammes (__nom_gamme__, date_creation_gamme, #nom_marque)
+
 categories (__nom_categorie__, date_creation_categorie)
 
+phases (__nom_phase__, signification)
+
 types_de_produit (__nom_type__) 
+
+employes (__matricule_employe__, nom_employe, prenom_employe, full_name_employe)
+
+produits (__reference_fabricant__, reference_interne, date_creation_produit, date_derniere_commande, visibilite_web, titre, designation, description_produit, quantite_globale, filtre_gamme, filtre_categorie, #nom_phase, #nom_type, #nom_categorie, #nom_gamme)
+
+bundles (__numero__, date_creation_bundle)
 
 bundle_produits (__reference_fabricant__, __numero__)
