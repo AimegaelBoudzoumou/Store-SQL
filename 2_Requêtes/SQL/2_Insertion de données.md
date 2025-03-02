@@ -1,3 +1,7 @@
-# Produits
+# Insertion d'un jeu de données
 
--- ## 1. Suite à l’arrivée de nouveau produits Apple, il faut créer une nouvelle gamme Apple (Mac Mini (M4))
+Ce jeu de données sera utilisés dans la suite de ce document (pour l'extraction, la mise à jour et la suppression des données)
+
+```sql
+
+```
