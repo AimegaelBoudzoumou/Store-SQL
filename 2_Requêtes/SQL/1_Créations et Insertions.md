@@ -14,7 +14,7 @@ CREATE TABLE marques (
     PRIMARY KEY (nom_marque)                                  -- L'idéal aurait été de faire en sorte que la clé primaire soit un INT et non un VARCHAR
 );
 
-INSERT INTO marques (nom_marque, date_creation_marque) VALUES ('Apple', TO_CHAR(SYSDATE));
+--INSERT INTO marques (nom_marque, date_creation_marque) VALUES ('Apple', TO_CHAR(SYSDATE));
 
 -------------------------------------------------------------- gammes (nom_gamme, date_creation_gamme, #nom_marque) ----------------------------------------------
 
@@ -28,7 +28,7 @@ CREATE TABLE gammes (
 );
 ALTER TABLE gammes ADD CONSTRAINT FK_gammes_nom_marque FOREIGN KEY (nom_marque) REFERENCES marques (nom_marque);
 
-INSERT INTO gammes ('iphone 16e', TO_CHAR(SYSDATE), 'Apple');
+--INSERT INTO gammes ('iphone 16e', TO_CHAR(SYSDATE), 'Apple');
 
 -------------------------------------------------------------- categories (nom_categorie, date_creation_categorie) -----------------------------------------------
 
@@ -41,7 +41,7 @@ CREATE TABLE categories (
     PRIMARY KEY (nom_categorie)
 );
 
-INSERT INTO categories ('téléphone portable', TO_CHAR(SYSDATE));
+--INSERT INTO categories ('téléphone portable', TO_CHAR(SYSDATE));
 
 ---------------------------------------------------------------- phases (nom_phase, signification) --------------------------------------------------------------
 DROP TABLE phases CASCADE CONSTRAINTS;
@@ -52,7 +52,7 @@ CREATE TABLE phases (
     PRIMARY KEY (nom_phase)
 );
 
-INSERT INTO phases (nom_phase, signification) VALUES ('A statuer', NULL);
+--INSERT INTO phases (nom_phase, signification) VALUES ('A statuer', NULL);
 
 ---------------------------------------------------------------- types_de_produit (nom_type) --------------------------------------------------------------
 DROP TABLE types_de_produit CASCADE CONSTRAINTS;
