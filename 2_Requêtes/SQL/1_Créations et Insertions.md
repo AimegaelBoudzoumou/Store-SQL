@@ -1,6 +1,4 @@
-# Création de tables (CREATE) et Insertion d'une occurrence (INSERT INTO)
-
-CREATE TABLE AND INSERT INTO
+# Création de tables et Insertion d'une occurrence
 
 ------------------------------------------------------------   marques (nom_marque, date_creation_marque, #matricule_employe_etre_acheteur, #matricule_employe_etre_chef_de_produit) ------
 
