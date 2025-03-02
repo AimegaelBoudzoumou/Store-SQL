@@ -6,4 +6,6 @@ Ce [tutoriel](https://www.ibm.com/fr-fr/topics/data-modeling) de IBM contient de
 
 Outil utilisé : logiciel AnalyseSI en environnement Windows.
 
+Note importante : dans l'idéal, la clé primaire de certaines tables (marques, gamme, catégories, phases, type_de_produits) devrait être de type numérique (Integer) et non chaîne de caractères (Varchar).
+
 ![image](https://github.com/user-attachments/assets/68b36bde-e7e0-48f1-8239-3a451e505845)
