@@ -70,9 +70,9 @@ __Champ 6 : titre__
 - longueur : environ 50 caractères
 - nature : E (pour élémentaire)
 - calcul (règle de calcul) : aucun
-- Règle : valeur générée par le système (SGBD), selon le format : "Nom du constructeur/Fabricant/Marque - Nom Gamme Référence_Fabricant". Le nom de la marque est déterminée grâce au nom de la gamme
+- Règle : valeur générée par le système (SGBD), selon le format : "Nom du constructeur/Fabricant/Marque - Nom Gamme Référence_Fabricant".
 
-![image](https://github.com/user-attachments/assets/d8b81ff6-a3e1-4171-886c-254298ec2f73)
+<!-- ![image](https://github.com/user-attachments/assets/d8b81ff6-a3e1-4171-886c-254298ec2f73) -->
 
 __Champ 7 : designation__
 
