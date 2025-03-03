@@ -131,8 +131,8 @@ ALTER TABLE produits ADD CONSTRAINTS FK_produits_code_types_de_produit FOREIGN K
 ALTER TABLE produits ADD CONSTRAINTS FK_produits_code_categorie FOREIGN KEY (code_categorie) REFERENCES categories (code_categorie);
 ALTER TABLE produits ADD CONSTRAINTS FK_produits_code_gamme FOREIGN KEY (code_gamme) REFERENCES gammes (code_gamme);
 
-INSERT INTO produits (reference_interne, reference_fabricant, date_creation_produit, visibilite_web, quantite_globale, filtre_gamme, filtre_categorie, code_phase, code_types_de_produit, code_categorie, code_gamme) 
-    VALUES (floor(dbms_random.value(7000000, 7999999)), 'GBHGH-HU', TO_CHAR(SYSDATE), 'non', floor(dbms_random.value(0, 500)), '0', '0', 43, 80, 70, 89);
+INSERT INTO produits (reference_interne, reference_fabricant, date_creation_produit, visibilite_web, titre, quantite_globale, filtre_gamme, filtre_categorie, code_phase, code_types_de_produit, code_categorie, code_gamme) 
+    VALUES (floor(dbms_random.value(7000000, 7999999)), 'GBHGH-HU', TO_CHAR(SYSDATE), 'non', floor(dbms_random.value(0, 500)), (code_gamme || -- reference_fabricant ) , '0', '0', 43, 80, 70, 89);
 SELECT * FROM produits;
 -- Ecrire une procédure PL/SQL pour mettre à jour le 'titre' d'un produit
 ---------------------------------------------------------------- bundles (numero, date_creation_bundle) ---------------------------------------------------------
