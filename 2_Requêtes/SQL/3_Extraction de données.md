@@ -6,7 +6,7 @@
 
 ```sql
 SELECT 7506950
-FROM gproduits;
+FROM produits;
 ```
 
 ## 2. Référence fabricant vers référence interne
@@ -65,14 +65,14 @@ CREATE TABLE gproduits (
     designation varchar2(50)
 );
 
-INSERT INTO gproduits VALUES (74554245, 0, NULL);
-INSERT INTO gproduits VALUES (72151245, 0, NULL);
-INSERT INTO gproduits VALUES (74551254, 0, 'Clé USB');
-INSERT INTO gproduits VALUES (70124558, 0, 'Clavier filaire');
-INSERT INTO gproduits VALUES (74124545, 0, NULL);
-INSERT INTO gproduits VALUES (74002159, 0, NULL);
-INSERT INTO gproduits VALUES (75989459, 1, 'Etui téléphone');
-INSERT INTO gproduits VALUES (74501285, 0, 'Sac PC 17"');
+INSERT INTO produits VALUES (74554245, 0, NULL);
+INSERT INTO produits VALUES (72151245, 0, NULL);
+INSERT INTO produits VALUES (74551254, 0, 'Clé USB');
+INSERT INTO produits VALUES (70124558, 0, 'Clavier filaire');
+INSERT INTO produits VALUES (74124545, 0, NULL);
+INSERT INTO produits VALUES (74002159, 0, NULL);
+INSERT INTO produits VALUES (75989459, 1, 'Etui téléphone');
+INSERT INTO produits VALUES (74501285, 0, 'Sac PC 17"');
 
 SELECT reference_interne
 FROM gproduits
