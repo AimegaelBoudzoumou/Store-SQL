@@ -113,7 +113,7 @@ CREATE TABLE produits (
     date_creation_produit DATE NOT NULL, -- Très important, par exemple pour savoir le nombre de produits créés à une période données
     date_derniere_commande DATE NULL, 
     visibilite_web VARCHAR2(3) NOT NULL, -- par défaut à : non
-    --titre VARCHAR2(255) -- titre sera de la forme « Fabricant_Marque - Gamme Référence_fabricant »),
+    titre VARCHAR2(255) -- titre sera de la forme « Fabricant_Marque - Gamme Référence_fabricant »), et sera intégré après la création du produit et ce, via une procédure PL/SQL
     designation VARCHAR2(255) NULL, 
     description_produit VARCHAR2(255) NULL, 
     quantite_globale INT NOT NULL, -- sera de la forme -- floor(dbms_random.value(0, 500)) -- Le choix de l'intervalle 0 à 500 est aléatoire
