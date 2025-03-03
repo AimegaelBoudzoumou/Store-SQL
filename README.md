@@ -165,3 +165,11 @@ Spécification(s) Principale(s) Cnet -> Description du produit :
 <!-- GRANT
 https://www.techbrothersit.com/2018/11/grant-permission-to-individual-fields.html
 -->
+
+<!--
+Grâce au web scraping : rechercher les pages web contenant le texte "Description produit non disponible pour le moment et nous en sommes désolés.".
+
+En utilisant SQL : Remplacer le texte "Description produit non disponible pour le moment et nous en sommes désolés." par le titre du produit.
+
+Il sera question de renseigner manuellement chaque URL, ce qui peut être chronophage. Refléchir à comment automatiser
+-->
