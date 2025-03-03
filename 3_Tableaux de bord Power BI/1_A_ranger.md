@@ -1,6 +1,6 @@
 Reporting
 
-Metre ici le tableaux des KPIs pout :
+Metre ici le tableaux des KPIs pour :
 
 - analyste descriptive
 - analyse de tendance
