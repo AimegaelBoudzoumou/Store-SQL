@@ -226,3 +226,5 @@ On a une liste de produits n'ayant pas de visuel (sur le site e-commerce). Nous 
 
 Ecrire un scipt SQL qui, pour chaque réf : recherche le chef de produit et l'acheteur. Et regroupe les résultats par chef de produit.
 
+## 36. Qui (Chef de produit, achéteur) gère telle marque ?
+
