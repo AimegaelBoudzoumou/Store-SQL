@@ -228,3 +228,18 @@ Ecrire un scipt SQL qui, pour chaque réf : recherche le chef de produit et l'ac
 
 ## 36. Qui (Chef de produit, achéteur) gère telle marque ?
 
+## 37.
+Un produit contient l’erreur de clavier : R.-U. au lieu de Français. Rechercher dans la base s’il existe des produits ayant la même erreur.
+
+```sql
+Select référence_interne, designation
+From produits
+Where gamme = 'Workstation Z' and categorie = 'Station de travail fixe' and designation LIKE '%R.-U. %'
+-- OU
+Select reference_interne, designation
+From produits
+Where exists (
+Select * from produits where gamme = 'Workstation Z' and categorie = 'Station de travail fixe' and designation LIKE '%R.-U. %'
+)
+```
+
