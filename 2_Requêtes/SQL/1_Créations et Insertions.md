@@ -1,4 +1,4 @@
-# Création de tables et Insertion d'une occurrence
+# Création de tables et Insertion d'au moins une occurrence
 
 ```sql
 
