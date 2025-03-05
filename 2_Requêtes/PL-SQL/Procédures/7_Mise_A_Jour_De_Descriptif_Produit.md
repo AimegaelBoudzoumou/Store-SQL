@@ -14,6 +14,9 @@ New réf :                             Réf à dupliquer :
 
 7509868                             7342725   
 
+
+Attention : s'assurer que le fabricant, la gamme et la catégorie de chaque couple correspondent.
+
 Possibilité 1 : créer une procédure PL/SQL qui reçoit deux réfs en arguments. Le code recopie la description (contenu HTML/CSS) du la deuxième dans la première
 
 Possibilité 2 : créer une procédure qui reçoit une liste de couple de réfs …
