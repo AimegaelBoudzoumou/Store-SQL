@@ -34,6 +34,8 @@ Texte bref (moins de 4 phrases)
 ## 4. Rechercher les produits d'une marque quelconque
 Soit la marque "Articona". Rechercher les produits de cette marque
 
+## 4-Bis. Pour une liste de "références internes" données, je souhaite récupérer la marque
+
 Soit jointure, soit requêtes imbriquée : à définir
 
 Soit jointure : Cf. question 6 ci-dessous
