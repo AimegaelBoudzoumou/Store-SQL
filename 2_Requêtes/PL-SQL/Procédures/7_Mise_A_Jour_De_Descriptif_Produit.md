@@ -17,6 +17,8 @@ New réf :                             Réf à dupliquer :
 
 Attention : s'assurer que le fabricant, la gamme et la catégorie de chaque couple correspondent.
 
+Exemple : 7511896 et 7486963 doivent avoir le même fabricant, la même gamme et la même catégorie avant de charger les données de 7486963 sur 7511896.
+
 Possibilité 1 : créer une procédure PL/SQL qui reçoit deux réfs en arguments. Le code recopie la description (contenu HTML/CSS) du la deuxième dans la première
 
 Possibilité 2 : créer une procédure qui reçoit une liste de couple de réfs …
