@@ -50,6 +50,8 @@ Ce répertoire contient :
 
 Les trois éléments ci-dessus se trouvent dans le répertoire __3_Tableaux de bord Power BI__
 
+## 4. Python : Web scraping
+
 <!--
 **Brouillon : A supprimer plus tard**
 
