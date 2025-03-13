@@ -4,7 +4,7 @@ Ce projet concerne le support des produits vendus sur un site e-commerce.
 
 A travers ce document, je présente les réponses informatiques susceptibles de répondre aux bésoins métiers émanant des acheteurs, chefs de produits, commerciaux.
 
-Ce document comprend quatre parties : Modélisation, Requêtes SQL, Tableaux de bord Power BI, Web scraping avec Pyton.<!--__Modélisation de données relationnelles__ et __Ecriture des requêtes__ (SQL et PL/SQL).-->
+Ce document comprend quatre activités : Modélisation, Requêtes SQL, Tableaux de bord Power BI, Web scraping avec Pyton.<!--__Modélisation de données relationnelles__ et __Ecriture des requêtes__ (SQL et PL/SQL).-->
 
 ## 1. Modélisation : 
 MCD : Modèle Conceptuel de Données
@@ -25,9 +25,7 @@ Trigger, Fonctions, Procédures
 
 ### SQL
 
-Les requêtes se trouvent dans le répertoire __2_Requêtes/SQL__
-
-Ces requêtes SQL sont regroupées par type :
+Les requêtes SQL sont regroupées par type :
 
 Création de tables - CREATE
 
@@ -51,6 +49,12 @@ Ce répertoire contient :
 Les trois éléments ci-dessus se trouvent dans le répertoire __3_Tableaux de bord Power BI__
 
 ## 4. Python : Web scraping
+
+Cette activité a consisté à extraite des informations d'une page e-commerce.
+
+La technique de Web scraping à été utilisée avec le language Python et ses bibliothèques Requests, BeautifulSoup, Pandas.
+
+Le éléments de cette activité se trouvent dans le répertoire __4_Python Web scraping__
 
 <!--
 **Brouillon : A supprimer plus tard**
