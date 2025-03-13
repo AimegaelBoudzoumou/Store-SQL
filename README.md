@@ -4,7 +4,7 @@ Ce projet concerne le support des produits vendus sur un site e-commerce.
 
 A travers ce document, je présente les réponses informatiques susceptibles de répondre aux bésoins métiers émanant des acheteurs, chefs de produits, commerciaux.
 
-Ce document comprend trois parties : Modélisation, requêtes  SQL, Tableaux de bord Power BI.<!--__Modélisation de données relationnelles__ et __Ecriture des requêtes__ (SQL et PL/SQL).-->
+Ce document comprend quatre parties : Modélisation, Requêtes SQL, Tableaux de bord Power BI, Web scraping avec Pyton.<!--__Modélisation de données relationnelles__ et __Ecriture des requêtes__ (SQL et PL/SQL).-->
 
 ## 1. Modélisation : 
 MCD : Modèle Conceptuel de Données
