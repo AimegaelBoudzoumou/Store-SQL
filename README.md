@@ -48,13 +48,13 @@ Ce répertoire contient :
 
 Les trois éléments ci-dessus se trouvent dans le répertoire __3_Tableaux de bord Power BI__
 
-## 4. Python : Web scraping
+## 4. Python : Web Scraping
 
 Cette activité a consisté à extraite des informations d'une page e-commerce.
 
 La technique de Web scraping à été utilisée avec le language Python et ses bibliothèques Requests, BeautifulSoup, Pandas.
 
-Le éléments de cette activité se trouvent dans le répertoire __4_Python Web scraping__
+Le éléments de cette activité se trouvent dans le répertoire __4_Python Web Scraping__
 
 <!--
 **Brouillon : A supprimer plus tard**
