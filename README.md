@@ -2,22 +2,22 @@
 
 Ce projet concerne la gestion des produits vendus sur un site e-commerce. A travers ce document, je présente les réponses informatiques susceptibles de répondre aux bésoins métiers émanant des acheteurs, chefs de produits, commerciaux.
 
-## Contenu :
+Contenu :
 
-## Modélisation : 
+__Modélisation :__ 
 MCD : Modèle Conceptuel de Données. MLD : Modèle Logique de Données. Dictionnaire de données. 
 
-## Requêtes
+__Requêtes__
 SQL : création de tables, insertion de données dans les tables, extraction de données, mise à jour de données, suppression de données.
 
 PL/SQL : Trigger, Fonctions, Procédures. 
 
-## Tableaux de bord Power BI
+__Tableaux de bord Power BI__
 Le tableaux des KPIs. Les requêtes SQL permettant de réaliser les KPIs sur les produits du site e-commerce. 
 
 Les rapports et tableaux de bord réalisés sous Power BI.
 
-## Python : Web Scraping
+__Python : Web Scraping__
 Projet d'extration des certaines informations (titres, désignation, description produit, référénces internes, références fabricants) de plusieurs pages web. 
 
 Python, Requests, BeautifulSoup, Pandas.
