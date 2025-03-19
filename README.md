@@ -1,60 +1,20 @@
 # Store-SQL
 
-Ce projet concerne le support des produits vendus sur un site e-commerce.
+Ce projet concerne le support des produits vendus sur un site e-commerce. A travers ce document, je présente les réponses informatiques susceptibles de répondre aux bésoins métiers émanant des acheteurs, chefs de produits, commerciaux.
 
-A travers ce document, je présente les réponses informatiques susceptibles de répondre aux bésoins métiers émanant des acheteurs, chefs de produits, commerciaux.
-
-Ce document comprend quatre activités : Modélisation, Requêtes SQL, Tableaux de bord Power BI, Web scraping avec Pyton.<!--__Modélisation de données relationnelles__ et __Ecriture des requêtes__ (SQL et PL/SQL).-->
+Ce document comprend quatre parties :
 
 ## 1. Modélisation : 
-MCD : Modèle Conceptuel de Données
-
-MLD : Modèle Logique de Données
-
-Dictionnaire de données
-
-Ces trois éléments se trouvent dans le répertoire __1_Modélisation__
+MCD : Modèle Conceptuel de Données. MLD : Modèle Logique de Données. Dictionnaire de données. 
 
 ## 2. Requêtes
-
-__Note__ : les requêtes SQL et PL/SQL ont été excutées dans un environnement __Oracle Live SQL__.
-
-### PL/SQL
-
-Trigger, Fonctions, Procédures
-
-### SQL
-
-Les requêtes SQL sont regroupées par type :
-
-Création de tables - CREATE
-
-Insertion de données dans les tables - INSERT INTO
-
-Extraction de données - SELECT
-
-Mise à jour de données - UPDATE
-
-Suppression de données - DELETE
-
-Les requêtes SQL et PL/SQL se trouvent dans le répertoire __2_Requêtes__
+PL/SQL : Trigger, Fonctions, Procédures. SQL : création de tables, insertion de données dans les tables, extraction de données, mise à jour de données, suppression de données.
 
 ## 3. Tableaux de bord Power BI
-
-Ce répertoire contient : 
-- le tableaux des KPIs
-- les requêtes SQL permettant de réaliser les KPIs sur les produits du site e-commerce
-- les rapports et tableaux de bord réalisés sous Power BI
-
-Les trois éléments ci-dessus se trouvent dans le répertoire __3_Tableaux de bord Power BI__
+Le tableaux des KPIs. Les requêtes SQL permettant de réaliser les KPIs sur les produits du site e-commerce. Les rapports et tableaux de bord réalisés sous Power BI.
 
 ## 4. Python : Web Scraping
-
-Cette activité a consisté à extraite des informations d'une page e-commerce.
-
-La technique de Web scraping à été utilisée avec le language Python et ses bibliothèques Requests, BeautifulSoup, Pandas.
-
-Le éléments de cette activité se trouvent dans le répertoire __4_Python Web Scraping__
+Projet d'extration des certaines informations (titres, désignation, description produit, référénces internes, références fabricants) de plusieurs pages web. Python, Requests, BeautifulSoup, Pandas.
 
 <!--
 **Brouillon : A supprimer plus tard**
