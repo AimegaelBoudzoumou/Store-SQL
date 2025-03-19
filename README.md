@@ -4,20 +4,24 @@ Ce projet concerne la gestion des produits vendus sur un site e-commerce. A trav
 
 Contenu :
 
-__Modélisation :__ 
+__Modélisation :__
+
 MCD : Modèle Conceptuel de Données. MLD : Modèle Logique de Données. Dictionnaire de données. 
 
 __Requêtes__
+
 SQL : création de tables, insertion de données dans les tables, extraction de données, mise à jour de données, suppression de données.
 
 PL/SQL : Trigger, Fonctions, Procédures. 
 
 __Tableaux de bord Power BI__
+
 Le tableaux des KPIs. Les requêtes SQL permettant de réaliser les KPIs sur les produits du site e-commerce. 
 
 Les rapports et tableaux de bord réalisés sous Power BI.
 
 __Python : Web Scraping__
+
 Projet d'extration des certaines informations (titres, désignation, description produit, référénces internes, références fabricants) de plusieurs pages web. 
 
 Python, Requests, BeautifulSoup, Pandas.
