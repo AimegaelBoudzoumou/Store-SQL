@@ -8,7 +8,9 @@ Contenu:
 MCD : Modèle Conceptuel de Données. MLD : Modèle Logique de Données. Dictionnaire de données. 
 
 ## Requêtes
-PL/SQL : Trigger, Fonctions, Procédures. SQL : création de tables, insertion de données dans les tables, extraction de données, mise à jour de données, suppression de données.
+PL/SQL : Trigger, Fonctions, Procédures. 
+
+SQL : création de tables, insertion de données dans les tables, extraction de données, mise à jour de données, suppression de données.
 
 ## Tableaux de bord Power BI
 Le tableaux des KPIs. Les requêtes SQL permettant de réaliser les KPIs sur les produits du site e-commerce. Les rapports et tableaux de bord réalisés sous Power BI.
