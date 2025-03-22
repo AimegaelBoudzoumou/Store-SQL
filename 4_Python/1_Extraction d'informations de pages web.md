@@ -5,8 +5,7 @@ Certaines pages produits ne sont plus consultées depuis un certaines temps.
 
 Parmi ces pages l'équipe web souhaite savoir lesquels conserver dans le site internet.
 
-Pour ce faire, l'équipe web transmet à chaque chefs de produits, un fichier Excel/CSV contenant des informations (dont les liens URLs) sur les produits concernés; 
-afin que chacun se prononce sur les produits à conserver dans le site internet.
+Pour ce faire, l'équipe web transmet à chaque chefs de produits, un fichier Excel/CSV contenant des informations (dont les liens URLs) sur les produits concernés. Ceci, afin que chacun se prononce sur les produits à conserver dans le site internet.
 
 ## Mon objectif
 Avoir un fichier Excel/CSV contenant certains éléments (titres, désignation, description produit).
