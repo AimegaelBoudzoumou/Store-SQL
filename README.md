@@ -22,7 +22,7 @@ Les rapports et tableaux de bord réalisés sous Power BI.
 
 __Python__
 
-Extration et traitement d'information de plusieurs pages web.
+Extraction d'informations de plusieurs pages web.
 
 
 
