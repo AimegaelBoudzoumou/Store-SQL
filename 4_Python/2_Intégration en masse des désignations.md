@@ -1,4 +1,4 @@
-# Charger en des désignations venant de notre provider de contenu
+# Charger en masse des désignations venant de notre provider de contenu
 
 ## Contexte
 
@@ -7,6 +7,8 @@
 ## Les étapes appliquées
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<!--
 
 Etape 1 :
 Un chef de produit me communique un lien web contenant les produits concernés :
@@ -51,3 +53,6 @@ Google Translate API for Python - Step-by-Step guide - YouTube
 
 Etape 5 :
 Faire une intégration en masse de plusieurs désignations
+
+
+-->
