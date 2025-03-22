@@ -2,7 +2,7 @@
 
 ## Contexte
 
-<--
+<!--
 Dans le cadre de la mise en conformité du site e-commerce avec les normes d’accessibilité (WCAG 2.2 niveau AA / RGAA), l'équipe web doit procéder à un tri des pages existantes.
 -->
 
