@@ -11,17 +11,17 @@ Pour ce faire, l'équipe web transmet à chaque chefs de produits, un fichier Ex
 Avoir un fichier Excel/CSV contenant certains éléments (titres, désignation, description produit).
 Ensuite : parcourir ce fichier visuellement et décider des éléments à améliorer.
 
-## Les étapes
-- Collecter les fichiers
-- Nettoyer les fichiers
+## Les étapes appliquées sur chaque fichier Excel/CSV
+- Collecter le fichier
+- Nettoyer le fichier
 - Faire du web scraping et construire un nouveau fichier contenant les éléments pertinents : titre, désignation, description produit, URL
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## 1. Collecter les fichiers
-Je reçois les fichiers Excel/CSV dans ma boîte email
+## 1. Collecter le fichier
+Je reçois le fichier Excel/CSV dans ma boîte email
 
-## 2. Nettoyer les fichiers 
-Le but du nettoyage est de supprimer les lignes et colonnes non pertinentes, afin de n'avoir qu'une seule colonne d'URL dans le fichier Excel/CSV.
+## 2. Nettoyer le fichier 
+Le but du nettoyage est de supprimer les lignes et colonnes non pertinentes, afin de n'avoir qu'une seule colonne (contenant l'URL) dans le fichier Excel/CSV.
 
 ## 3. Faire du web scraping
 Pour chaque URL dans le fichier Excel/CSV, extraire les informations (titre, désignation, description produit) de la page web concernée.
