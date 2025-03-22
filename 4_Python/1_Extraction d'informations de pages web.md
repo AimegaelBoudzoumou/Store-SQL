@@ -18,11 +18,19 @@ Ensuite : parcourir ce fichier visuellement et décider des éléments à améli
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 1. Collecter le fichier
-Je reçois le fichier Excel/CSV dans ma boîte email
+Je reçois le fichier Excel/CSV dans ma boîte email.
+
+_Aperçu d'un fichier collecté :_
 
 ## 2. Nettoyer le fichier 
 Le but du nettoyage est de supprimer les lignes et colonnes non pertinentes, afin de n'avoir qu'une seule colonne (contenant l'URL) dans le fichier Excel/CSV.
 
+_Aperçu d'un fichier après nettoyage :_
+
 ## 3. Faire du web scraping
 Pour chaque URL dans le fichier Excel/CSV, extraire les informations (titre, désignation, description produit) de la page web concernée.
-Construuire un nouveau fichier Excel/CSV et l'exporter.
+Construire un nouveau fichier Excel/CSV et l'exporter.
+
+_Aperçu d'un fichier obtenu après le web scraping :_
+
+C'est le fichier ci-dessus que je parcours visuellement pour savoir quelles informations (titre, désignation, description produit) à améliorer sur chaque produit.
