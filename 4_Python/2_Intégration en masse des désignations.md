@@ -1,11 +1,20 @@
-Activité : charger les désignations venant de C|Net
+# Charger en des désignations venant de notre provider de contenu
+
+## Contexte
+
+## Mon objectif
+
+## Les étapes appliquées
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Etape 1 :
-Sara me communique un lien web contenant les produits concernés :
-iStorage diskAshur 2
+Un chef de produit me communique un lien web contenant les produits concernés :
+[iStorage diskAshur 2](https://www.inmac-wstore.com/recherche/istorage-diskashur-2.htm?txtrecherche=istorage-diskashur-2)
+
 Faire du web scraping pour extraire : les réfs internes et réfs fabricants de la page ci-dessus ; et les stocker dans un fichier fichier_A
 
-Etape 2 : récupérer les désignations sur C|Net
+Etape 2 : récupérer les désignations chez notre provider de contenu
 
 2.1.
 Aller sur le site de C|Net et faire : 
