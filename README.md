@@ -20,11 +20,12 @@ Le tableaux des KPIs. Les requêtes SQL permettant de réaliser les KPIs sur les
 
 Les rapports et tableaux de bord réalisés sous Power BI.
 
-__Python : Web Scraping__
+__Python__
 
-Projet d'extration des certaines informations (titres, désignation, description produit, référénces internes, références fabricants) de plusieurs pages web. 
+Extration et traitement d'information de plusieurs pages web.
 
-Python, Requests, BeautifulSoup, Pandas.
+
+
 
 <!--
 **Brouillon : A supprimer plus tard**
