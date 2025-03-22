@@ -8,11 +8,11 @@ Dans le cadre de la mise en conformité du site e-commerce avec les normes d’a
 
 Certaines pages produits étant obsolètes, ou n'ayant pas été consultées depuis un certains temps, l'équipe web doit procéder à un tri des pages web, pour savoir lesquels conserver dans le site e-commerce.
 
-Pour ce faire, l'équipe web transmet à chaque chef de produits, un fichier Excel/CSV contenant des informations (dont les liens URLs) sur les produits concernés par le tri. Ceci, afin que chacun se prononce sur les produits à conserver dans le site internet.
+Pour ce faire, l'équipe web transmet à chaque chef de produits, un fichier Excel/CSV contenant des informations (dont les liens URLs) sur les produits concernés par le tri. Ceci, afin que chacun se prononce sur les produits à conserver dans le site internet. Le chef de produits s'étant prononcé, retourne le fichier au web.
 
 ## Mon objectif
-Avoir un fichier Excel/CSV contenant certains éléments (titres, désignation, description produit).
-Ensuite : parcourir ce fichier visuellement et décider des éléments à améliorer.
+Sur la base du retour de chaque chef de produits, je souhaite avoir un fichier Excel/CSV contenant certains éléments (titres, désignation, description produit).
+Ensuite : je parcours ce fichier visuellement et je décide des éléments à améliorer.
 
 ## Les étapes appliquées sur chaque fichier Excel/CSV
 - Collecter le fichier
