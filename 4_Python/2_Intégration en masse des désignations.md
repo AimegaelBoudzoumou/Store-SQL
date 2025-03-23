@@ -73,7 +73,7 @@ _Aperçu du fichier CSV iStorage_integration_designations_en_masse_date_du_jour*
 
 ```
 
-* : les aperçus de fichiers sont disponibles sur demande. Merci de votre compréhension.
+_*_ les aperçus de fichiers sont disponibles sur demande. Merci de votre compréhension.
 
 <!--
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
