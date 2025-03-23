@@ -1,4 +1,4 @@
-# Charger en masse des désignations venant de notre provider de contenu
+# Extraction d'informations et jointure de fichiers
 Outils : Pandas, Requests, BeautifulSoup
 
 ## Contexte
