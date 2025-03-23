@@ -46,4 +46,4 @@ _Aperçu d'un fichier obtenu après le web scraping* :_
 
 C'est le fichier ci-dessus que je parcours visuellement pour savoir quelles informations (titre, désignation, description produit) à améliorer sur chaque produit.
 
-_*_les aperçus de fichiers sont disponibles sur demande. Merci de votre compréhension.
+_*_ les aperçus de fichiers sont disponibles sur demande. Merci de votre compréhension.
