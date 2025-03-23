@@ -1,5 +1,5 @@
 # Extraction d'informations de plusieurs pages web avec Python
-Pandas, Requests, BeautifulSoup
+Outils : Pandas, Requests, BeautifulSoup
 
 ## Contexte
 
