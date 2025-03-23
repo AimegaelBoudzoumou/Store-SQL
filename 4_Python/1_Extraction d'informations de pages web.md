@@ -15,11 +15,11 @@ Sur la base du retour de chaque chef de produits, je souhaite avoir un fichier E
 Ensuite : je parcours ce fichier visuellement et je décide des éléments à améliorer.
 
 ## Les étapes appliquées sur chaque fichier Excel/CSV
-1- Collecter le fichier
+__1-__ Collecter le fichier
 
-2- Nettoyer le fichier
+__2-__ Nettoyer le fichier
 
-3- Faire du web scraping et construire un nouveau fichier contenant les éléments pertinents : titre, désignation, description produit, URL
+__3-__ Faire du web scraping et construire un nouveau fichier contenant les éléments pertinents : titre, désignation, description produit, URL
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 1. Collecter le fichier
