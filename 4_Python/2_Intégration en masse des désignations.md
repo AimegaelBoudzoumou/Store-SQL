@@ -19,7 +19,7 @@ _Aperçu du fichier*_
 
 _Aperçu du fichier*_
 
-3- Grâce à Python, croiser les deux fichier fichier_A et fichier_B, pour se retrouver avec un DataFrame contenant uniquement :
+3- Grâce à Python, croiser les deux fichiers ci-dessus, pour se retrouver avec un DataFrame contenant uniquement :
 Réfs interne, réfs fabricant, Description
 
 4- Utiliser l’API de Google nommée Googletrans, pour traduire les désignations de l’anglais vers le français.
