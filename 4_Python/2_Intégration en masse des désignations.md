@@ -19,23 +19,25 @@ _Aperçu du fichier*_
 
 _Aperçu du fichier*_
 
-3- Grâce à Python, croiser les deux fichiers ci-dessus, pour se retrouver avec un DataFrame contenant uniquement :
-Réfs interne, réfs fabricant, Description
+3- Grâce à Python, "croiser" les deux fichiers ci-dessus, pour se retrouver avec un DataFrame contenant uniquement 3 informations/colonnes : les __références internes__, les __références fabricants__, et les __descriptions__.
 
-4- Utiliser l’API de Google nommée Googletrans, pour traduire les désignations de l’anglais vers le français.
+4- Les désignations étant en anglais : utiliser l’API de Google nommée Googletrans, pour traduire ces désignations de l’anglais vers le français.
 Récupérer le résultat dans un nouveau DataFrame. Exporter ce dernier sous forme de CSV ou Excel, qui sera nommé : 
 iStorage_integration_designations_en_masse_date_du_jour.
 
-5- Faire une intégration en masse de plusieurs désignations, via SQL
+5- Faire une intégration en masse de plusieurs désignations, via SQL.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 1. Faire du web sraping sur le lien web reçu du che de produits
 <!--[iStorage diskAshur 2](https://www.inmac-wstore.com/recherche/istorage-diskashur-2.htm?txtrecherche=istorage-diskashur-2)-->
+
+_Aperçu du lien web*_
+
 ```python
 ```
 
-_Aperçu du fichier* onbtenu après le web scraping_
+_Aperçu du fichier obtenu après le web scraping*_
 
 ## 2- Récupérer toutes les désignations de la marque/fabricant iStorage, sur le site web de notre provider de contenu.
 
@@ -57,13 +59,19 @@ iStorage_integration_designations_en_masse_date_du_jour.
 
 _Aperçu du DataFrame avec les désignations traduites*_
 
-## Intégere les nouvelles désignations en masse, via SQL
+```python
+# Exporter le DataFrame au format CSV.
+
+```
+
+_Aperçu du fichier iStorage_integration_designations_en_masse_date_du_jour*_
+
+## Intégrer les nouvelles désignations en masse, via SQL
 
 ```sql
 ```
 
 * : les aperçus de fichiers sont disponibles sur demande. Merci de votre compréhension.
-
 
 <!--
 
