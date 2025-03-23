@@ -1,4 +1,5 @@
 # Charger en masse des désignations venant de notre provider de contenu
+Outils : Pandas, Requests, BeautifulSoup
 
 ## Contexte
 Cette avtivité consiste à intégrer des désignations (à récupérer auprès de notre fournisseur de contenu) sur plusieurs produits.
