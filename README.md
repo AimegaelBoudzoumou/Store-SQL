@@ -1,6 +1,6 @@
 # Store-SQL
 
-Ce projet concerne la gestion des produits vendus sur un site e-commerce. A travers ce document, je présente les réponses informatiques susceptibles de répondre aux bésoins métiers émanant des acheteurs, chefs de produits, commerciaux.
+Ce projet concerne la gestion des produits vendus sur un site e-commerce. A travers ce document, je présente les réponses informatiques susceptibles de répondre aux bésoins métiers émanant des acheteurs, chefs de produits et commerciaux.
 
 Contenu :
 
@@ -16,7 +16,7 @@ PL/SQL : Trigger, Fonctions, Procédures.
 
 __Tableaux de bord Power BI__
 
-Le tableaux des KPIs. Les requêtes SQL permettant de réaliser les KPIs sur les produits du site e-commerce. 
+Le tableaux des KPIs. Différentes approches de collecte de données.
 
 Les rapports et tableaux de bord réalisés sous Power BI.
 
@@ -24,7 +24,7 @@ __Python__
 
 Extraction d'informations de plusieurs pages web.
 
-
+Extraction d'informations et jointure de fichiers.
 
 
 <!--
