@@ -1,3 +1,9 @@
+Différentes approches de collecte de données.
+
+1- Export du fichier Excel (depuis l'interface de notre logiciel) contenant tous les produits de la base de données. Ensuite traiter ce fichier sous Power BI.
+
+2- Ecrire les requêtes SQL permettant de réaliser les KPIs sur les produits du site e-commerce. 
+
 Reporting
 
 Metre ici le tableaux des KPIs pour :
