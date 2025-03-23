@@ -30,11 +30,17 @@ _Aperçu d'un fichier collecté* :_
 ## 2. Nettoyer le fichier 
 Le but du nettoyage est de supprimer les lignes et colonnes non pertinentes, afin de n'avoir qu'une seule colonne (contenant l'URL) dans le fichier Excel/CSV.
 
+```python
+```
+
 _Aperçu d'un fichier après nettoyage* :_
 
 ## 3. Faire du web scraping
 Pour chaque URL dans le fichier Excel/CSV, extraire les informations (titre, désignation, description produit) de la page web concernée.
 Construire un nouveau fichier Excel/CSV et l'exporter.
+
+```python
+```
 
 _Aperçu d'un fichier obtenu après le web scraping* :_
 
