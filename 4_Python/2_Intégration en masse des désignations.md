@@ -51,30 +51,32 @@ _Aperçu du fichier*_
 _Aperçu du DataFrame*_
 
 ## 4. Utiliser l’API de traduction de Google (Googletrans), pour traduire les désignations de l’anglais vers le français.
-Récupérer le résultat dans un nouveau DataFrame. Exporter ce dernier sous forme de CSV ou Excel, qui sera nommé : 
-iStorage_integration_designations_en_masse_date_du_jour.
+Créer un nouveau DataFrame contenant en plus, une colonne des désignations en français.
 
 ```python
 ```
 
 _Aperçu du DataFrame avec les désignations traduites*_
 
+Exporter ce DataFrame (fichier iStorage_integration_designations_en_masse_date_du_jour).
+
 ```python
 # Exporter le DataFrame au format CSV.
 
 ```
 
-_Aperçu du fichier iStorage_integration_designations_en_masse_date_du_jour*_
+_Aperçu du fichier CSV iStorage_integration_designations_en_masse_date_du_jour*_
 
 ## 5. Intégrer les nouvelles désignations en masse, via SQL
 
 ```sql
+
 ```
 
 * : les aperçus de fichiers sont disponibles sur demande. Merci de votre compréhension.
 
 <!--
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Etape 1 :
 Un chef de produit me communique un lien web contenant les produits concernés :
 [iStorage diskAshur 2](https://www.inmac-wstore.com/recherche/istorage-diskashur-2.htm?txtrecherche=istorage-diskashur-2)
