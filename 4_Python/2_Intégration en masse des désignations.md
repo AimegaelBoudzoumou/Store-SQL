@@ -1,12 +1,69 @@
 # Charger en masse des désignations venant de notre provider de contenu
 
 ## Contexte
+Cette avtivité consiste à intégrer des désignations (à récupérer auprès de notre fournisseur de contenu) sur plusieurs produits.
 
 ## Mon objectif
+Sur la base d'un lien web que me fournit le chef de produits, je dois, pour chaque produit visibles sur le lien web, récupérer puis charger la désignation correspondante provenant de notre fournisseur de contenu. 
 
 ## Les étapes appliquées
 
+1- Le chef de produits me communique un lien web contenant les produits concernés.
+<!--[iStorage diskAshur 2](https://www.inmac-wstore.com/recherche/istorage-diskashur-2.htm?txtrecherche=istorage-diskashur-2)-->
+
+Faire du web scraping sur le lien web reçu, pour extraire les __références internes__ et les __références fabricants__ des produits visibles sur le lien web en question. Stocker les données dans un fichier Excel ou CSV.
+
+_Aperçu du fichier*_
+
+2- Aller sur le site web de notre provider de contenu, et récupérer toutes les désignations de la marque/fabricant iStorage; sous forme de fichier Excel.
+
+_Aperçu du fichier*_
+
+3- Grâce à Python, croiser les deux fichier fichier_A et fichier_B, pour se retrouver avec un DataFrame contenant uniquement :
+Réfs interne, réfs fabricant, Description
+
+4- Utiliser l’API de Google nommée Googletrans, pour traduire les désignations de l’anglais vers le français.
+Récupérer le résultat dans un nouveau DataFrame. Exporter ce dernier sous forme de CSV ou Excel, qui sera nommé : 
+iStorage_integration_designations_en_masse_date_du_jour.
+
+5- Faire une intégration en masse de plusieurs désignations, via SQL
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 1. Faire du web sraping sur le lien web reçu du che de produits
+<!--[iStorage diskAshur 2](https://www.inmac-wstore.com/recherche/istorage-diskashur-2.htm?txtrecherche=istorage-diskashur-2)-->
+```python
+```
+
+_Aperçu du fichier* onbtenu après le web scraping_
+
+## 2- Récupérer toutes les désignations de la marque/fabricant iStorage, sur le site web de notre provider de contenu.
+
+_Aperçu du fichier*_
+
+## 3. A partir des deux fichiers ci-dessus, créer un DataFrame contenant uniquement : Réfs internes, réfs fabricants, Descriptions
+
+```python
+```
+
+_Aperçu du DataFrame*_
+
+## Utiliser l’API de traduction de Google (Googletrans), pour traduire les désignations de l’anglais vers le français.
+Récupérer le résultat dans un nouveau DataFrame. Exporter ce dernier sous forme de CSV ou Excel, qui sera nommé : 
+iStorage_integration_designations_en_masse_date_du_jour.
+
+```python
+```
+
+_Aperçu du DataFrame avec les désignations traduites*_
+
+## Intégere les nouvelles désignations en masse, via SQL
+
+```sql
+```
+
+* : les aperçus de fichiers sont disponibles sur demande. Merci de votre compréhension.
+
 
 <!--
 
@@ -32,8 +89,6 @@ Ce fichier est au format .txt
 Pour le transformer au format Excel : Copier/coller son contenu dans un fichier Excel, qui sera nommé fichier_B
 
 Aperçu du fichier Excel fichier_B :
- 
-
 
 Note : 
 Description = Désignation (chez Inmac)
