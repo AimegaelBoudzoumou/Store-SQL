@@ -8,24 +8,24 @@ Sur la base d'un lien web que me fournit le chef de produits, je dois, pour chaq
 
 ## Les étapes appliquées
 
-1- Le chef de produits me communique un lien web contenant les produits concernés.
+__1-__ Le chef de produits me communique un lien web contenant les produits concernés.
 <!--[iStorage diskAshur 2](https://www.inmac-wstore.com/recherche/istorage-diskashur-2.htm?txtrecherche=istorage-diskashur-2)-->
 
 Faire du web scraping sur le lien web reçu, pour extraire les __références internes__ et les __références fabricants__ des produits visibles sur le lien web en question. Stocker les données dans un fichier Excel ou CSV.
 
 _Aperçu du fichier*_
 
-2- Aller sur le site web de notre provider de contenu, et récupérer toutes les désignations de la marque/fabricant iStorage; sous forme de fichier Excel.
+__2-__ Aller sur le site web de notre provider de contenu, et récupérer toutes les désignations de la marque/fabricant iStorage; sous forme de fichier Excel.
 
 _Aperçu du fichier*_
 
-3- Grâce à Python, "croiser" les deux fichiers ci-dessus, pour se retrouver avec un DataFrame contenant uniquement 3 informations/colonnes : les __références internes__, les __références fabricants__, et les __descriptions__.
+__3-__ Grâce à Python, "croiser" les deux fichiers ci-dessus, pour se retrouver avec un DataFrame contenant uniquement 3 informations/colonnes : les __références internes__, les __références fabricants__, et les __descriptions__.
 
-4- Les désignations étant en anglais : utiliser l’API de Google nommée Googletrans, pour traduire ces désignations de l’anglais vers le français.
+__4-__ Les désignations étant en anglais : utiliser l’API de Google nommée Googletrans, pour traduire ces désignations de l’anglais vers le français.
 Récupérer le résultat dans un nouveau DataFrame. Exporter ce dernier sous forme de CSV ou Excel, qui sera nommé : 
 iStorage_integration_designations_en_masse_date_du_jour.
 
-5- Faire une intégration en masse de plusieurs désignations, via SQL.
+__5-__ Faire une intégration en masse de plusieurs désignations, via SQL.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
