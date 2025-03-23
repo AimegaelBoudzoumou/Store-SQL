@@ -16,7 +16,9 @@ Ensuite : je parcours ce fichier visuellement et je décide des éléments à am
 
 ## Les étapes appliquées sur chaque fichier Excel/CSV
 1- Collecter le fichier
+
 2- Nettoyer le fichier
+
 3- Faire du web scraping et construire un nouveau fichier contenant les éléments pertinents : titre, désignation, description produit, URL
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
