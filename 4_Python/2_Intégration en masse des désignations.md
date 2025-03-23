@@ -37,7 +37,7 @@ _Aperçu du lien web*_
 ```python
 ```
 
-_Aperçu du fichier obtenu après le web scraping*_
+_Aperçu du fichier obtenu après avoir appliqué le web scraping*_
 
 ## 2- Récupérer toutes les désignations de la marque/fabricant iStorage, sur le site web de notre provider de contenu.
 
