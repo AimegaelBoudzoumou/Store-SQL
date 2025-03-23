@@ -43,7 +43,7 @@ _Aperçu du fichier obtenu après avoir appliqué le web scraping*_
 
 _Aperçu du fichier*_
 
-## 3. A partir des deux fichiers ci-dessus, créer un DataFrame contenant uniquement : Réfs internes, réfs fabricants, Descriptions
+## 3. A partir des deux fichiers ci-dessus, créer un DataFrame contenant uniquement 3 colonnes : références internes, références fabricants, descriptions.
 
 ```python
 ```
