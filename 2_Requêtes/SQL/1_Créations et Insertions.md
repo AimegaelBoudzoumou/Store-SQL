@@ -2,7 +2,7 @@
 
 ```sql
 /*#############################################################################################################################################################
-                           marques (nom_marque, date_creation_marque, #matricule_employe_etre_acheteur, #matricule_employe_etre_chef_de_produit) 
+marques (nom_marque, date_creation_marque, #matricule_employe_etre_acheteur, #matricule_employe_etre_chef_de_produit) 
 #############################################################################################################################################################*/
 
 DROP TABLE marques CASCADE CONSTRAINTS;
