@@ -2,37 +2,48 @@
 
 <!-- Pour chaque situation, je présente le __besoin fonctionnel__, suivi de la __requête SQL__ y relatif. -->
 
-## 1. Vérifier qu'une référence existe en base de données
-
+## 1. Affichier tous les produits
 ```sql
-SELECT 7506950
+SELECT *
 FROM produits;
 ```
 
-## 2. Référence fabricant vers référence interne
+```sql
+--SELECT *
+--FROM produits;
+--WHERE reference_interne=7874539;
+```
+
+## 2. Compter le nombre de produits
+```sql
+SELECT COUNT(*)
+FROM produits;
+```
+
+## 3. Référence fabricant vers référence interne
 
 Pour un besoins divers, je souhaite récupérer la liste de __référence interne__ à partir de __références fabricants__.
 
 ### Requêtes SQL
 ```sql
+SELECT reference_fabricant, reference_interne
+FROM produits
+WHERE reference_fabricant IN ('OVA160HQ', 'B11B261401', '273V7QDSB/00', 'SM-X210NZAAEUB');
 ```
 
-## 3. Rechercher des produits en fonction d'un nom de marque
+## 4. Rechercher des produits en fonction du nom d'une marque
 
-Rechercher les produits de marques « Génériques » et voir si on peut leur affecter la bonne marque (le bon fabricant)
-
-## Requêtes SQL
-
-
-## 3. Rechercher les produits de marque "Générique"
-Rechercher les produits de marque "Générique"; afin de voir si on peut leur affecter la bonne marque.
-
-Texte bref (moins de 4 phrases)
-
-## Requêtes SQL
-
-## 4. Rechercher les produits d'une marque quelconque
 Soit la marque "Articona". Rechercher les produits de cette marque
+
+Approche 1 : faire une jointure entre 3 tables : produits, gammes, marques
+```sql
+
+```
+
+Approche 2 : utiliser un CTE
+```sql
+
+```
 
 ## 4-Bis. Pour une liste de "références internes" données, je souhaite récupérer la marque
 
