@@ -24,7 +24,10 @@ INSERT INTO marques(code_marque, nom_marque, date_creation_marque, matricule_emp
 
 SELECT * FROM marques WHERE MATRICULE_EMPLOYE_ETRE_ACHETEUR IS NULL;
 
--------------------------------------------------------------- gammes (nom_gamme, date_creation_gamme, #nom_marque)
+-------------------------------------------------------------- 
+/*##############################################################################################################
+gammes (nom_gamme, date_creation_gamme, #nom_marque) 
+###############################################################################################################*/
 
 DROP TABLE gammes CASCADE CONSTRAINTS;
 
