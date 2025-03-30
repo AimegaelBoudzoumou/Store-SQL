@@ -2,8 +2,7 @@
 
 ```sql
 /*##############################################################################################################
-marques (nom_marque, date_creation_marque,
-         #matricule_employe_etre_acheteur, #matricule_employe_etre_chef_de_produit) 
+marques (nom_marque, date_creation_marque, #matricule_employe_etre_acheteur, #matricule_employe_etre_chef_de_produit) 
 ###############################################################################################################*/
 
 DROP TABLE marques CASCADE CONSTRAINTS;
@@ -24,7 +23,6 @@ INSERT INTO marques(code_marque, nom_marque, date_creation_marque, matricule_emp
 
 SELECT * FROM marques WHERE MATRICULE_EMPLOYE_ETRE_ACHETEUR IS NULL;
 
--------------------------------------------------------------- 
 /*##############################################################################################################
 gammes (nom_gamme, date_creation_gamme, #nom_marque) 
 ###############################################################################################################*/
