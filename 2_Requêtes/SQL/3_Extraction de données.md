@@ -2,7 +2,7 @@
 
 <!-- Pour chaque situation, je présente le __besoin fonctionnel__, suivi de la __requête SQL__ y relatif. -->
 
-## 1. Affichier tous les produits
+### 1. Afficher tous les produits
 ```sql
 SELECT *
 FROM produits;
