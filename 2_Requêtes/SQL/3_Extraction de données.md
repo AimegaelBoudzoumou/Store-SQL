@@ -237,7 +237,7 @@ AND categorie = 'PC Portable';
 ## 35.
 On a une liste de produits n'ayant pas de visuel (sur le site e-commerce). Nous souhaitons demandez au Chef de produit et Acheteur de nous fournir des visuels. 
 
-Ecrire un scipt SQL qui, pour chaque réf : recherche le chef de produit et l'acheteur. Et regroupe les résultats par chef de produit.
+Ecrire un script SQL qui, pour chaque réf : recherche le chef de produit et l'acheteur. Et regroupe les résultats par chef de produit.
 
 ## 36. Qui (Chef de produit, achéteur) gère telle marque ?
 
