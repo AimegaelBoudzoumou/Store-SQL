@@ -150,3 +150,28 @@ En utilisant SQL : Remplacer le texte "Description produit non disponible pour l
 
 Il sera question de renseigner manuellement chaque URL, ce qui peut être chronophage. Refléchir à comment automatiser
 -->
+
+<!--
+
+```python
+import pandas as pd
+
+# df = pd.read_excel(r"C:/Users/aimegael.boudzoumou/Documents/export.xlsx", sheet_name="Feuil", header=0, usecols='A:C', nrows=5, skiprows=None, na_values=['NA','-','N/A'])
+
+df = pd.read_excel("mes_fichiers/Export.xlsx", sheet_name="Feuil1", header=0, index_col=[1])
+
+df_acer = pd.read_excel("mes_fichiers/Export.xlsx", sheet_name="export_de_cnet_Acer", index_col=[1])
+
+df_acer
+
+liste_index_et_fabricant=df["NomFabricant"].drop_duplicates()
+
+liste_fabricant = []
+
+for element in liste_index_et_fabricant:
+    liste_fabricant.append(element)
+
+liste_fabricant
+```
+
+-->
