@@ -34,11 +34,11 @@ SELECT * FROM marques;
 gammes (nom_gamme, date_creation_gamme, #nom_marque) 
 ###############################################################################################################*/
 
-INSERT INTO gammes (code_gamme, nom_gamme, date_creation_gamme, code_marque) VALUES (20, 'DiskAshur', TO_CHAR(SYSDATE), 23);
-INSERT INTO gammes (code_gamme, nom_gamme, date_creation_gamme, code_marque) VALUES (30, 'Accessoires GSM & SmartPhone', TO_CHAR(SYSDATE), 24);
-INSERT INTO gammes (code_gamme, nom_gamme, date_creation_gamme, code_marque) VALUES (40, 'Scanners Professionnels', TO_CHAR(SYSDATE), 25);
-INSERT INTO gammes (code_gamme, nom_gamme, date_creation_gamme, code_marque) VALUES (50, 'Lcd / TV', TO_CHAR(SYSDATE), 26);
-INSERT INTO gammes (code_gamme, nom_gamme, date_creation_gamme, code_marque) VALUES (60, 'Galaxy Tab A', TO_CHAR(SYSDATE), 27);
+INSERT INTO gammes (code_gamme, nom_gamme, date_creation_gamme, code_marque) VALUES (20, 'DiskAshur', TO_CHAR(SYSDATE), 2);
+INSERT INTO gammes (code_gamme, nom_gamme, date_creation_gamme, code_marque) VALUES (30, 'Accessoires GSM & SmartPhone', TO_CHAR(SYSDATE), 3);
+INSERT INTO gammes (code_gamme, nom_gamme, date_creation_gamme, code_marque) VALUES (40, 'Scanners Professionnels', TO_CHAR(SYSDATE), 4);
+INSERT INTO gammes (code_gamme, nom_gamme, date_creation_gamme, code_marque) VALUES (50, 'Lcd / TV', TO_CHAR(SYSDATE), 5);
+INSERT INTO gammes (code_gamme, nom_gamme, date_creation_gamme, code_marque) VALUES (60, 'Galaxy Tab A', TO_CHAR(SYSDATE), 6);
 
 SELECT * FROM gammes;
 
