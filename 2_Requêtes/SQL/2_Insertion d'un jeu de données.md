@@ -46,11 +46,11 @@ SELECT * FROM gammes;
 categories (nom_categorie, date_creation_categorie)
 ###############################################################################################################*/
 
-INSERT INTO categories (code_categorie, nom_categorie, date_creation_categorie) VALUES (2000, 'Disque interne SSD', TO_CHAR(SYSDATE));
-INSERT INTO categories (code_categorie, nom_categorie, date_creation_categorie) VALUES (3000, 'Protection écran téléphone portable', TO_CHAR(SYSDATE));
-INSERT INTO categories (code_categorie, nom_categorie, date_creation_categorie) VALUES (4000, 'Scanner de production', TO_CHAR(SYSDATE));
-INSERT INTO categories (code_categorie, nom_categorie, date_creation_categorie) VALUES (5000, 'Moniteur 27'' - 30''', TO_CHAR(SYSDATE));
-INSERT INTO categories (code_categorie, nom_categorie, date_creation_categorie) VALUES (6000, 'Tablette tactile', TO_CHAR(SYSDATE));
+INSERT INTO categories (code_categorie, nom_categorie, date_creation_categorie) VALUES (200, 'Disque interne SSD', TO_CHAR(SYSDATE));
+INSERT INTO categories (code_categorie, nom_categorie, date_creation_categorie) VALUES (300, 'Protection écran téléphone portable', TO_CHAR(SYSDATE));
+INSERT INTO categories (code_categorie, nom_categorie, date_creation_categorie) VALUES (400, 'Scanner de production', TO_CHAR(SYSDATE));
+INSERT INTO categories (code_categorie, nom_categorie, date_creation_categorie) VALUES (500, 'Moniteur 27'' - 30''', TO_CHAR(SYSDATE));
+INSERT INTO categories (code_categorie, nom_categorie, date_creation_categorie) VALUES (600, 'Tablette tactile', TO_CHAR(SYSDATE));
 
 SELECT * FROM categories;
 
@@ -95,19 +95,19 @@ produits (reference_fabricant, reference_interne, date_creation_produit, date_de
 -- titre sera de la forme « Fabricant_Marque - Gamme Référence_fabricant »
 
 INSERT INTO produits (reference_interne, reference_fabricant, date_creation_produit, visibilite_web, quantite_globale, filtre_gamme, filtre_categorie, code_phase, code_types_de_produit, code_categorie, code_gamme) 
-    VALUES (floor(dbms_random.value(7000000, 7999999)), 'IS-DAP3-256-SSD-1000-F', TO_CHAR(SYSDATE), 'non', floor(dbms_random.value(0, 500)), '0', '0', 43, 80, 900, 90);
+    VALUES (floor(dbms_random.value(7000000, 7999999)), 'IS-DAP3-256-SSD-1000-F', TO_CHAR(SYSDATE), 'non', floor(dbms_random.value(0, 500)), '0', '0', 43, 80, 200, 20);
 
 INSERT INTO produits (reference_interne, reference_fabricant, date_creation_produit, visibilite_web, quantite_globale, filtre_gamme, filtre_categorie, code_phase, code_types_de_produit, code_categorie, code_gamme) 
-    VALUES (floor(dbms_random.value(7000000, 7999999)), 'OVA160HQ', TO_CHAR(SYSDATE), 'non', floor(dbms_random.value(0, 500)), '0', '0', 43, 80, 1300, 130);
+    VALUES (floor(dbms_random.value(7000000, 7999999)), 'OVA160HQ', TO_CHAR(SYSDATE), 'non', floor(dbms_random.value(0, 500)), '0', '0', 43, 80, 300, 30);
 
 INSERT INTO produits (reference_interne, reference_fabricant, date_creation_produit, visibilite_web, quantite_globale, filtre_gamme, filtre_categorie, code_phase, code_types_de_produit, code_categorie, code_gamme) 
-    VALUES (floor(dbms_random.value(7000000, 7999999)), 'B11B261401', TO_CHAR(SYSDATE), 'non', floor(dbms_random.value(0, 500)), '0', '0', 43, 80, 2000, 200);
+    VALUES (floor(dbms_random.value(7000000, 7999999)), 'B11B261401', TO_CHAR(SYSDATE), 'non', floor(dbms_random.value(0, 500)), '0', '0', 43, 80, 400, 40);
 
 INSERT INTO produits (reference_interne, reference_fabricant, date_creation_produit, visibilite_web, quantite_globale, filtre_gamme, filtre_categorie, code_phase, code_types_de_produit, code_categorie, code_gamme) 
-    VALUES (floor(dbms_random.value(7000000, 7999999)), '273V7QDSB/00', TO_CHAR(SYSDATE), 'non', floor(dbms_random.value(0, 500)), '0', '0', 43, 80, 3000, 300);
+    VALUES (floor(dbms_random.value(7000000, 7999999)), '273V7QDSB/00', TO_CHAR(SYSDATE), 'non', floor(dbms_random.value(0, 500)), '0', '0', 43, 80, 500, 50);
 
 INSERT INTO produits (reference_interne, reference_fabricant, date_creation_produit, visibilite_web, quantite_globale, filtre_gamme, filtre_categorie, code_phase, code_types_de_produit, code_categorie, code_gamme) 
-    VALUES (floor(dbms_random.value(7000000, 7999999)), 'SM-X210NZAAEUB', TO_CHAR(SYSDATE), 'non', floor(dbms_random.value(0, 500)), '0', '0', 43, 80, 4000, 400);
+    VALUES (floor(dbms_random.value(7000000, 7999999)), 'SM-X210NZAAEUB', TO_CHAR(SYSDATE), 'non', floor(dbms_random.value(0, 500)), '0', '0', 43, 80, 600, 60);
 
 SELECT * FROM produits;
 
