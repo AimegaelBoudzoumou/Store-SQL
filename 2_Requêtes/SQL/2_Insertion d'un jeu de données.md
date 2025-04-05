@@ -22,11 +22,11 @@ DELETE FROM marques;
 marques (nom_marque, date_creation_marque, #matricule_employe_etre_acheteur, #matricule_employe_etre_chef_de_produit) 
 ###############################################################################################################*/
 
-INSERT INTO marques(code_marque, nom_marque, date_creation_marque) VALUES (23, 'iStorage', TO_CHAR(SYSDATE));
-INSERT INTO marques(code_marque, nom_marque, date_creation_marque) VALUES (24, 'Belkin', TO_CHAR(SYSDATE));
-INSERT INTO marques(code_marque, nom_marque, date_creation_marque) VALUES (25, 'Epson', TO_CHAR(SYSDATE));
-INSERT INTO marques(code_marque, nom_marque, date_creation_marque) VALUES (26, 'Philips', TO_CHAR(SYSDATE));
-INSERT INTO marques(code_marque, nom_marque, date_creation_marque) VALUES (27, 'Samsung', TO_CHAR(SYSDATE));
+INSERT INTO marques(code_marque, nom_marque, date_creation_marque) VALUES (2, 'iStorage', TO_CHAR(SYSDATE));
+INSERT INTO marques(code_marque, nom_marque, date_creation_marque) VALUES (3, 'Belkin', TO_CHAR(SYSDATE));
+INSERT INTO marques(code_marque, nom_marque, date_creation_marque) VALUES (4, 'Epson', TO_CHAR(SYSDATE));
+INSERT INTO marques(code_marque, nom_marque, date_creation_marque) VALUES (5, 'Philips', TO_CHAR(SYSDATE));
+INSERT INTO marques(code_marque, nom_marque, date_creation_marque) VALUES (6, 'Samsung', TO_CHAR(SYSDATE));
 
 SELECT * FROM marques;
 
@@ -34,11 +34,11 @@ SELECT * FROM marques;
 gammes (nom_gamme, date_creation_gamme, #nom_marque) 
 ###############################################################################################################*/
 
-INSERT INTO gammes (code_gamme, nom_gamme, date_creation_gamme, code_marque) VALUES (90, 'DiskAshur', TO_CHAR(SYSDATE), 23);
-INSERT INTO gammes (code_gamme, nom_gamme, date_creation_gamme, code_marque) VALUES (130, 'Accessoires GSM & SmartPhone', TO_CHAR(SYSDATE), 24);
-INSERT INTO gammes (code_gamme, nom_gamme, date_creation_gamme, code_marque) VALUES (200, 'Scanners Professionnels', TO_CHAR(SYSDATE), 25);
-INSERT INTO gammes (code_gamme, nom_gamme, date_creation_gamme, code_marque) VALUES (300, 'Lcd / TV', TO_CHAR(SYSDATE), 26);
-INSERT INTO gammes (code_gamme, nom_gamme, date_creation_gamme, code_marque) VALUES (400, 'Galaxy Tab A', TO_CHAR(SYSDATE), 27);
+INSERT INTO gammes (code_gamme, nom_gamme, date_creation_gamme, code_marque) VALUES (20, 'DiskAshur', TO_CHAR(SYSDATE), 23);
+INSERT INTO gammes (code_gamme, nom_gamme, date_creation_gamme, code_marque) VALUES (30, 'Accessoires GSM & SmartPhone', TO_CHAR(SYSDATE), 24);
+INSERT INTO gammes (code_gamme, nom_gamme, date_creation_gamme, code_marque) VALUES (40, 'Scanners Professionnels', TO_CHAR(SYSDATE), 25);
+INSERT INTO gammes (code_gamme, nom_gamme, date_creation_gamme, code_marque) VALUES (50, 'Lcd / TV', TO_CHAR(SYSDATE), 26);
+INSERT INTO gammes (code_gamme, nom_gamme, date_creation_gamme, code_marque) VALUES (60, 'Galaxy Tab A', TO_CHAR(SYSDATE), 27);
 
 SELECT * FROM gammes;
 
@@ -46,11 +46,11 @@ SELECT * FROM gammes;
 categories (nom_categorie, date_creation_categorie)
 ###############################################################################################################*/
 
-INSERT INTO categories (code_categorie, nom_categorie, date_creation_categorie) VALUES (900, 'Disque interne SSD', TO_CHAR(SYSDATE));
-INSERT INTO categories (code_categorie, nom_categorie, date_creation_categorie) VALUES (1300, 'Protection écran téléphone portable', TO_CHAR(SYSDATE));
-INSERT INTO categories (code_categorie, nom_categorie, date_creation_categorie) VALUES (2000, 'Scanner de production', TO_CHAR(SYSDATE));
-INSERT INTO categories (code_categorie, nom_categorie, date_creation_categorie) VALUES (3000, 'Moniteur 27'' - 30''', TO_CHAR(SYSDATE));
-INSERT INTO categories (code_categorie, nom_categorie, date_creation_categorie) VALUES (4000, 'Tablette tactile', TO_CHAR(SYSDATE));
+INSERT INTO categories (code_categorie, nom_categorie, date_creation_categorie) VALUES (2000, 'Disque interne SSD', TO_CHAR(SYSDATE));
+INSERT INTO categories (code_categorie, nom_categorie, date_creation_categorie) VALUES (3000, 'Protection écran téléphone portable', TO_CHAR(SYSDATE));
+INSERT INTO categories (code_categorie, nom_categorie, date_creation_categorie) VALUES (4000, 'Scanner de production', TO_CHAR(SYSDATE));
+INSERT INTO categories (code_categorie, nom_categorie, date_creation_categorie) VALUES (5000, 'Moniteur 27'' - 30''', TO_CHAR(SYSDATE));
+INSERT INTO categories (code_categorie, nom_categorie, date_creation_categorie) VALUES (6000, 'Tablette tactile', TO_CHAR(SYSDATE));
 
 SELECT * FROM categories;
 
