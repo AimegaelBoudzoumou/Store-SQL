@@ -7,7 +7,7 @@
 SELECT *
 FROM produits;
 ```
-
+### 1.bis. Affichage du produit dont la référence interne est 7874539
 ```sql
 --SELECT *
 --FROM produits;
@@ -21,10 +21,7 @@ FROM produits;
 ```
 
 ## 3. Référence fabricant vers référence interne
-
-Pour un besoins divers, je souhaite récupérer la liste de __référence interne__ à partir de __références fabricants__.
-
-### Requêtes SQL
+Récupérer la liste de __références internes__ à partir de __références fabricants__.
 ```sql
 SELECT reference_fabricant, reference_interne
 FROM produits
