@@ -28,44 +28,73 @@ FROM produits
 WHERE reference_fabricant IN ('OVA160HQ', 'B11B261401', '273V7QDSB/00', 'SM-X210NZAAEUB');
 ```
 
-## 4. Rechercher des produits en fonction du nom d'une marque
+## 4. Rechercher les produits de marque 'Belkin'
 
-Soit la marque "Articona". Rechercher les produits de cette marque
-
-Approche 1 : faire une jointure entre 3 tables : produits, gammes, marques
+Approche 1 : sous-requêtes impliquant 3 tables : produits, gammes et marques
 ```sql
+/*
+INSERT INTO produits (reference_interne, reference_fabricant, date_creation_produit, visibilite_web, quantite_globale, filtre_gamme, filtre_categorie, code_phase, code_types_de_produit, code_categorie, code_gamme) 
+    VALUES (floor(dbms_random.value(7000000, 7999999)), 'IS-DAP3-256-SSD-1000-I', TO_CHAR(SYSDATE), 'non', floor(dbms_random.value(0, 500)), '0', '0', 43, 80, 200, 20);
 
+INSERT INTO produits (reference_interne, reference_fabricant, date_creation_produit, visibilite_web, quantite_globale, filtre_gamme, filtre_categorie, code_phase, code_types_de_produit, code_categorie, code_gamme) 
+    VALUES (floor(dbms_random.value(7000000, 7999999)), 'IS-DAP3-256-SSD-1000-H', TO_CHAR(SYSDATE), 'non', floor(dbms_random.value(0, 500)), '0', '0', 43, 80, 200, 20);
+*/
+
+SELECT *
+FROM produits
+WHERE code_gamme = (
+    SELECT g.code_gamme 
+    FROM gammes g
+    JOIN marques m on m.code_marque = g.code_marque
+    WHERE m.nom_marque = 'iStorage'
+);
 ```
 
 Approche 2 : utiliser un CTE
 ```sql
-
+with search_belkin as (
+    SELECT g.code_gamme 
+    FROM gammes g
+    JOIN marques m on m.code_marque = g.code_marque
+    WHERE m.nom_marque = 'Belkin'
+)
+SELECT *
+FROM produits
+WHERE code_gamme = (SELECT * FROM search_belkin);
 ```
 
-## 4-Bis. Pour une liste de "références internes" données, je souhaite récupérer la marque
+<!-- 4-Bis. Pour une liste de "références internes" données, je souhaite récupérer la marque
 
 Soit jointure, soit requêtes imbriquée : à définir
 
-Soit jointure : Cf. question 6 ci-dessous
+Soit jointure : Cf. question 6 ci-dessous -->
 
-## 5. Afficher le nom d'une marque d'une référence interne
+## 5. Afficher le nom d'une marque à partir d'une référence interne
+```sql
+WITH nom_marque_by_ref_interne as (
+    SELECT m.code_marque
+    FROM marques m JOIN gammes g ON m.code_marque = g.code_marque
+    JOIN produits p ON p.code_gamme = g.code_gamme
+    WHERE reference_interne = 7465831
+)
+   
+SELECT nom_marque
+FROM marques
+WHERE code_marque = (SELECT code_marque FROM nom_marque_by_ref_interne);
+```
 
-Soit la marque "Articona". Rechercher les produits de cette marque
-
-## 6. Pour un employé donné, afficher la ou les marques dont il est "acheteur".
+## 6. Pour un employé donné, afficher la ou les marques dont il est 'acheteur'.
 Astuce : pensez à utiliser la table "Gamme" dans notre requête SQL; et à une éventuelle double jointure entre :
 
 Employe et Gamme (sur Employe.matricule = Gamme.matricule)
 
 Gamme et Marque (sur Gamme.nom_marque = Marque.nom_marque)
 
-## 7. Afficher les produits dont une employé donnée est responsable (chef de produit)
+## 7. Afficher les produits dont une employé donné est 'chef de produit'
 
-## 8. Sélectionner la catégorie pour une refs de produits donnée
+## 8. Sélectionner la catégorie pour une reference interne donnée
 
-## 9. Retrouver les réfs internes à partir d’une liste de réf fabricant
-
-## 10. Recherches des produits non visibles sur le web et dont la désignation est à NULL
+## 9. Rechercher les produits non visibles sur le web et dont la désignation est à NULL
 ```sql
 DROP TABLE gproduits;
 
