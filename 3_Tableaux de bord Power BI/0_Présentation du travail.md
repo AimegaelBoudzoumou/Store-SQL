@@ -22,5 +22,3 @@ Dans la pratique, voici les étapes à mettre en pratique :
 ### 5. La création des visuels
 
 ### 6. Le partage des résultats
-
-Cycle de travail dans Power BI.md
