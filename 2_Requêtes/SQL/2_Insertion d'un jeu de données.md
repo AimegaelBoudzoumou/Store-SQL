@@ -121,9 +121,12 @@ INSERT INTO bundles (numero, date_creation_bundle) VALUES (floor(dbms_random.val
 
 SELECT * FROM bundles;
 
+```
+
+<!--
 /*##############################################################################################################
 bundle_produits (reference_fabricant, numero)
 ###############################################################################################################*/
 
 -- Ecrire une procédure PL/SQL pour créer un 'bundle_produits'
-```
+-->
