@@ -35,7 +35,7 @@ soit SQL : utiliser un CTE ou une "Temporary Table"
 
 ## 8. Rendre "visible sur le web" toutes les réfs internes créées la veille
 
-# 9. Synchroniser plusieurs réfs internes (attribut « Phase » de chaque réf)
+## 9. Synchroniser plusieurs réfs internes (attribut « Phase » de chaque réf)
 <!-- Update ou PL/SQL
 Synchroniser plusieurs réfs internes (attribut « Phase » de chaque réf) : 
 La méthode manuelle : 
