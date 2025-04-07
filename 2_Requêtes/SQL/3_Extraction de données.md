@@ -282,3 +282,13 @@ Select * from produits where gamme = 'Workstation Z' and categorie = 'Station de
 )
 ```
 
+## 38. Sauvegarder des désignations actuelles - à faire une fois en fin de journée
+```sql
+SELECT reference_fabricant, description_produit
+FROM produits
+WHERE reference_interne IN (XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX);
+```
+Note : 
+- copier/coller le résultat dans un fichier Excel ou CSV.
+- sous Python : faire une concaténation des fichiers sauvegardées
+- exporter le fichier unique
