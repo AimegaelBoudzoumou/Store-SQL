@@ -6,7 +6,7 @@ Différentes approches de collecte de données.
 
 Reporting
 
-Metre ici le tableaux des KPIs pour :
+Mettre ici le tableaux des KPIs pour :
 
 - analyste descriptive
 - analyse de tendance
