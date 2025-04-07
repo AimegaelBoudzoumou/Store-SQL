@@ -44,7 +44,7 @@ TMS : Aller sur chaque réf et cliquer sur
 Attends le message vert de confirmation
 -->
 
-# 10. Aaffecter des produits à un acheteur
+## 10. Aaffecter des produits à un acheteur
 <!--
 Situation : un acheteur J.G. décide de quitter l’entreprise. Le directeur des achats S.S.  souhaite transférer les produits jusqu’alors sous la responsabilité de J.G. vers d’autres acheteurs.
 L’affectation des réfs à un acheteur se fait par « marque et gamme » ou simplement par Gamme (car cette dernière contient l’information sur la marque)
@@ -55,7 +55,7 @@ Rappel de la structure d’un enregistrement dans la table être_acheteur :
 employé – marque – gamme – date
 -->
 
-# 11. Supprimer le contenu_marketing pour plusieurs réfs
+## 11. Supprimer le contenu_marketing pour plusieurs réfs
 <!
 Ecrire une procédure PL/SQL qui supprime le contenu_marketing pour plusieurs réfs
 Ou simplement du code SQL :
