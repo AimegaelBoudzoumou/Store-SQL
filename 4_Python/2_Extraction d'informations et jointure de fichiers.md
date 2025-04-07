@@ -1,5 +1,5 @@
 # Extraction d'informations et jointure de fichiers
-Outils : Pandas, Requests, BeautifulSoup
+Outils : Python, Pandas, Requests, BeautifulSoup, Jupyter
 
 ## Contexte
 Cette avtivité consiste à intégrer des désignations (à récupérer auprès de notre fournisseur de contenu) sur plusieurs produits.
