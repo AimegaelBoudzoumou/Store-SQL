@@ -16,9 +16,10 @@ PL/SQL : Trigger, Fonctions, Procédures.
 
 ### __3. Tableaux de bord Power BI__
 
-Le tableaux des KPIs. Différentes approches de collecte de données.
+Connexion à la donnée, nettoyage, modélisation, mesures DAX, conception et partage de visuels.
 
-Les rapports et tableaux de bord réalisés sous Power BI.
+<! --Le tableaux des KPIs. Différentes approches de collecte de données.
+Les rapports et tableaux de bord réalisés sous Power BI. -->
 
 ### __4. Python__
 
