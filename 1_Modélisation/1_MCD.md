@@ -2,7 +2,7 @@
 
 Le MCD (Modèle Conceptuel de Données) est une représentation graphique des éléments (entités) qui seront amenés à interagir au sein d'un applicatif.
 
-Ce [tutoriel](https://www.ibm.com/fr-fr/topics/data-modeling) de IBM contient des informations détaillées sur la modélisation des données.
+Ce [tutoriel](https://www.ibm.com/fr-fr/topics/data-modeling) de IBM contient des informations détaillées sur la modélisation des données relationnelles.
 
 Outil utilisé : logiciel AnalyseSI en environnement Windows.
 
