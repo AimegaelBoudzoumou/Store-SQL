@@ -288,7 +288,11 @@ SELECT reference_fabricant, description_produit
 FROM produits
 WHERE reference_interne IN (XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX);
 ```
+<!--
 Note : 
 - copier/coller le résultat dans un fichier Excel ou CSV.
-- sous Python : faire une concaténation des fichiers sauvegardées
+- sous Python : faire une concaténation des fichiers sauvegardées sur le mois
 - exporter le fichier unique
+- écrire une fonction Python qui parcourir plusieurs fichiers et qui, sur la base d'une réf interne, recherche l'ancienne désignation correcpondante.
+-->
+
