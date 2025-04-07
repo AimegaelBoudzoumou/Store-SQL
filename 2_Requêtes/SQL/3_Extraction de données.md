@@ -244,7 +244,7 @@ Ce besoin métier n'aurait du sens que si la réference_fabricant était clé pr
 ## 36. Qui (Chef de produit, achéteur) gère telle marque ?
 
 ## 37. Un produit contient l’erreur de clavier : R.-U. au lieu de Français. Rechercher dans la base s’il existe des produits ayant la même erreur.
-
+<!--
 ```sql
 Select référence_interne, designation
 From produits
@@ -256,13 +256,18 @@ Where exists (
 Select * from produits where gamme = 'Workstation Z' and categorie = 'Station de travail fixe' and designation LIKE '%R.-U. %'
 )
 ```
+-->
 
 ## 38. Sauvegarder des désignations actuelles pour certaines réfs - à faire une fois en fin de journée
+
+<!--
 ```sql
 SELECT reference_fabricant, description_produit
 FROM produits
 WHERE reference_interne IN (XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX);
 ```
+-->
+
 <!--
 Note : 
 - copier/coller le résultat dans un fichier Excel ou CSV.
