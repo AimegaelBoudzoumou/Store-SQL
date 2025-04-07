@@ -25,7 +25,7 @@ Les rapports et tableaux de bord réalisés sous Power BI. -->
 
 Extraction d'informations de plusieurs pages web.
 
-Extraction d'informations et jointure de fichiers.
+Pandas pour le traitement de données (fichiers Excel, CSV) et analyste sous Pandas,,Extraction d'informations et jointure de fichiers.
 
 
 <!--
