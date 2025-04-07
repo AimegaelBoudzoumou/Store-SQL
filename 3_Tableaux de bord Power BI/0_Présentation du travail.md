@@ -9,7 +9,7 @@ S'effectuant en début de chaque mois, ce travail a pour but de tirer des inform
 
 Les données à exploiter se trouvent dans un fichier Excel. Ce dernier contient tous les produits contenu dans la base de données.
 
-Dans la pratique, voici les étapes à mettre en pratique :
+Dans la pratique, voici les étapes à implémenter :
 
 ### 1. La connexion aux données
 
