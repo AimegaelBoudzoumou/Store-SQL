@@ -123,6 +123,7 @@ WHERE visibilite_web = 0
 AND designation IS NULL;
 ```
 -->
+## 10. 
 
 ## 11. Récupérer plusieurs titres
 <!--
@@ -160,7 +161,7 @@ Piste : script Linux/Unix qui crée un « fichier fic1 », lance un script PL/SQ
 # Gamme
 -->
 
-# 14. J’ai une liste de réfs et une gamme. Je veux savoir quelles réfs a pour gamme, la gamme en question
+## 14. J’ai une liste de réfs et une gamme. Je veux savoir quelles réfs a pour gamme, la gamme en question
 <!--
 Select ref_interne, gamme 
 from g_produits
@@ -168,7 +169,7 @@ where ref_interne IN (7513027, 7513028, 7513029, 7513030, …, 7513039)
 having gamme = ‘…’ ;
 -->
 
-# 15. Récupérer la gamme pour plusieurs réfs
+## 15. Récupérer la gamme pour plusieurs réfs
 <!--
 J’ai une liste de réf dont la gamme. Je veux savoir quelle est la gamme chaque produit de la liste
 
@@ -176,16 +177,16 @@ Select ref_interne, gamme
 from g_produits
 where ref_interne IN (7513027, 7513028, 7513029, 7513030, …, 7513039)
 
-# Filtre
+Filtre
 -->
 
-# 16. Lister les filtres actifs sur une réf donnée (ou des réfs données) (penser à GROUP BY)
+## 16. Lister les filtres actifs sur une réf donnée (ou des réfs données) (penser à GROUP BY)
 
-# 17. Supprimer les filtres sur une ou une plusieurs réfs / Supprimer les filtres pour une liste de réfs données
+## 17. Supprimer les filtres sur une ou une plusieurs réfs / Supprimer les filtres pour une liste de réfs données
 
-# 18. Mettre en place un fiche (catégorie, gamme) sur un produit
+## 18. Mettre en place un fiche (catégorie, gamme) sur un produit
 
-# 19. Afficher les filtres présents sur un produit
+## 19. Afficher les filtres présents sur un produit
 <!--
 Afficher les gammes filtrées
 Afficher les produits filtrés
