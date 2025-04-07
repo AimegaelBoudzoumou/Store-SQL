@@ -23,9 +23,7 @@ Les rapports et tableaux de bord réalisés sous Power BI. -->
 
 ### __4. Python__
 
-Extraction d'informations de plusieurs pages web.
-
-Pandas pour le traitement de données (fichiers Excel, CSV) et analyste sous Pandas,,Extraction d'informations et jointure de fichiers.
+Traitement de fichiers Excel sous Python et Pandas.
 
 
 <!--
