@@ -8,7 +8,7 @@ __Modélisation :__
 
 MCD : Modèle Conceptuel de Données. MLD : Modèle Logique de Données. Dictionnaire de données. 
 
-__Requêtes__
+__Requêtes SQL et PL/SQL__
 
 SQL : création de tables, insertion de données dans les tables, extraction de données, mise à jour de données, suppression de données.
 
