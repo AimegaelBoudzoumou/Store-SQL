@@ -165,10 +165,14 @@ CREATE TABLE bundles (
 INSERT INTO bundles (numero, date_creation_bundle) VALUES (floor(dbms_random.value(500000, 599999)), TO_CHAR(SYSDATE));
 SELECT * FROM bundles;
 
+```
+
+<!--
 /*##############################################################################################################
 bundle_produits (reference_fabricant, numero)
 ###############################################################################################################*/
 
+Cf. fichier : 
 -- Ecrire une procédure PL/SQL pour créer un 'bundle_produits'
 /*
 DROP TABLE bundles_produits CASCADE CONSTRAINTS;
@@ -186,7 +190,9 @@ ALTER TABLE bundle_produits ADD CONSTRAINTS FK_bundles_produits_numero FOREIGN K
 -- TO_DATE('2023-12-03', 'YY-MM-DD')
 -- TO_CHAR(date_creation_produit, 'DD/MM/YYYY') as date_crea
 -- SELECT TO_CHAR (SYSDATE, 'DD/MM/YYYY HH24:MI:SS') "NOW" FROM DUAL;
-```
+
+-->
+
 <!--
 Les différentes phases :
 A statuer : Produit à statuer par le responsable produit pour synchronisation dans MACS.
