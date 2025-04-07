@@ -119,6 +119,12 @@ Pour toutes les réf qui ont les données "Description Existante" identiques à 
 Je penche pour la première option.
 -->
 
+## 17. Mettre à jour les désignations de plusieurs produits, à partir de la désignation d'un produit donné :
+```sql
+UPDATE produits
+SET designation = (SELECT designation FROM produit WHERE reference_interne = 7512536)
+WHERE refererence_interne IN (XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX);
+```
 
 
 
