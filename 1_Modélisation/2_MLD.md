@@ -4,7 +4,7 @@
 
 Le MLD (Modèle Logique de Données) est une couche intermédiaire entre le modèle conceptuel de données et la base de données.
 
-Les entités et attributs du MCD [(MCD)](https://github.com/AimegaelBoudzoumou/Store-SQL/blob/main/1_Mod%C3%A9lisation/1_MCD.md) deviennent respectivement des tables et des champs dans le MLD.
+Les entités et attributs du MCD ([MCD](https://github.com/AimegaelBoudzoumou/Store-SQL/blob/main/1_Mod%C3%A9lisation/1_MCD.md)) deviennent respectivement des tables et des champs dans le MLD.
 
 Les associations ayant la cardinalité max N,N se transforment en tables.
 
