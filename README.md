@@ -1,4 +1,4 @@
-# Store-SQL
+# Store
 
 Ce projet concerne la gestion des produits vendus sur un site e-commerce. A travers ce document, je présente les réponses informatiques susceptibles de répondre aux bésoins métiers émanant des acheteurs, chefs de produits et commerciaux.
 
