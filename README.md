@@ -8,19 +8,19 @@ Contenu :
 
 MCD : Modèle Conceptuel de Données. MLD : Modèle Logique de Données. Dictionnaire de données. 
 
-## __2. Requêtes SQL et PL/SQL__
+### __2. Requêtes SQL et PL/SQL__
 
 SQL : création de tables, insertion de données dans les tables, extraction de données, mise à jour de données, suppression de données, Windows functions (fonctions de fenêtrage).
 
 PL/SQL : Trigger, Fonctions, Procédures. 
 
-__3. Tableaux de bord Power BI__
+### __3. Tableaux de bord Power BI__
 
 Le tableaux des KPIs. Différentes approches de collecte de données.
 
 Les rapports et tableaux de bord réalisés sous Power BI.
 
-__4. Python__
+### __4. Python__
 
 Extraction d'informations de plusieurs pages web.
 
