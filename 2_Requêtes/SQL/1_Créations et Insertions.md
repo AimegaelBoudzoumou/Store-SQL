@@ -76,6 +76,16 @@ CREATE TABLE phases (
 
 INSERT INTO phases (code_phase, nom_phase, signification) VALUES (43, 'A statuer', NULL);
 
+<!--
+Les différentes phases :
+A statuer : Produit à statuer par le responsable produit pour synchronisation dans MACS.
+En ligne :  Des produits dans cette phase peuvent être vendus et sont affichés dans le site Web e-commerce.
+Suspendu : Aucun des articles n'est disponible chez les fournisseurs.
+Rejeté : Produit rejeté par I-Com Software (nettoyage, produit suspendu par un fabricant, erreur d'un fournisseur, manque d'information…), mais au moins un article est considéré comme encore disponible à un fournisseur.
+Refusé : Par cette phase, un utilisateur peut refuser individuellement un produit qui est « en ligne » vu d’I-Com Software. Le produit ne se synchronisera plus avec la phase envoyée par I-Com Software.
+Alerte fournisseur : Suspension provisoire d'un produit dû à un incident avec le fournisseur.
+-->
+
 /*##############################################################################################################
 types_de_produit (nom_type)
 ###############################################################################################################*/
