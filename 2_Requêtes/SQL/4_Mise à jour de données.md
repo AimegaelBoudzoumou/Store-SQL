@@ -56,7 +56,7 @@ employé – marque – gamme – date
 -->
 
 ## 11. Supprimer le contenu_marketing pour plusieurs réfs
-<!
+<!--
 Ecrire une procédure PL/SQL qui supprime le contenu_marketing pour plusieurs réfs
 Ou simplement du code SQL :
 Update g_produits
@@ -79,7 +79,7 @@ Where ref_inerne IN (…) ;
 
 ## 13. Ecrire une requête (ou même une procédure PL/SQL) qui permet de modifier la gamme pour une liste de référence
 
-## 14. Peux-tu reclasser les réfs suivantes en fabricant : Blackview / gamme : Produits Blackview
+## 14. Reclasser les réfs suivantes en fabricant : Blackview / gamme : Produits Blackview
 <!-- 
 30017842
 30040186
