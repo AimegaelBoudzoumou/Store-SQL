@@ -18,7 +18,7 @@ PL/SQL : Trigger, Fonctions, Procédures.
 
 Connexion à la donnée, nettoyage, modélisation, mesures DAX, conception et partage de visuels.
 
-<! --Le tableaux des KPIs. Différentes approches de collecte de données.
+<!--Le tableaux des KPIs. Différentes approches de collecte de données.
 Les rapports et tableaux de bord réalisés sous Power BI. -->
 
 ### __4. Python__
