@@ -97,10 +97,12 @@ Where ref_inerne IN (…) ;
 
 Recopier / Dupliquer le contenu marketing (descriptif produit) d’une réf, sur plusieurs autres réfs.
 Ou avec SQL (à tester)
+``sql
 Update g_produits
 Set descriptif_produit = (
 select descriptif produit from g_produits where ref_interne = XXXXXX)
 where ref_interne = XXXXXXX
+```
 
 Utiliser PL/SQL sinon
 
