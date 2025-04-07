@@ -2,12 +2,12 @@
 
 <!-- Pour chaque situation, je présente le __besoin fonctionnel__, suivi de la __requête SQL__ y relatif. -->
 
-### 1. Afficher tous les produits
+## 1. Afficher tous les produits
 ```sql
 SELECT *
 FROM produits;
 ```
-### 1.bis. Affichage du produit dont la référence interne est 7874539
+## 1.bis. Affichage du produit dont la référence interne est 7874539
 ```sql
 --SELECT *
 --FROM produits;
@@ -83,18 +83,22 @@ FROM marques
 WHERE code_marque = (SELECT code_marque FROM nom_marque_by_ref_interne);
 ```
 
-## 6. Pour un employé donné, afficher la ou les marques dont il est 'acheteur'.
+
+## 6. Pour un employé donné, afficher la ou les marques dont il est 'acheteur'
+<!--
 Astuce : pensez à utiliser la table "Gamme" dans notre requête SQL; et à une éventuelle double jointure entre :
 
 Employe et Gamme (sur Employe.matricule = Gamme.matricule)
 
 Gamme et Marque (sur Gamme.nom_marque = Marque.nom_marque)
+-->
 
 ## 7. Afficher les produits dont une employé donné est 'chef de produit'
 
 ## 8. Sélectionner la catégorie pour une reference interne donnée
 
 ## 9. Rechercher les produits non visibles sur le web et dont la désignation est à NULL
+<!--
 ```sql
 DROP TABLE gproduits;
 
@@ -118,8 +122,10 @@ FROM gproduits
 WHERE visibilite_web = 0
 AND designation IS NULL;
 ```
+-->
 
 ## 11. Récupérer plusieurs titres
+<!--
 ```sql
 DROP TABLE gproduits;
 
@@ -145,22 +151,25 @@ WHERE reference_interne IN (74551254, 74124545, 75989459, 74501285);
 Ou bien avec PL/SQL : 
 Sauvegarder les titres pour plusieurs produits (réfs)
 Piste : script Linux/Unix qui crée un « fichier fic1 », lance un script PL/SQL (recevant en argument le « fichier fic1 » ou tout simplement utilisant en son sein le « fichier fic1 »)
+-->
 
 ## 12. Rechercher l’acheteur d’une marque et d’une gamme donnée
 
 ## 13. Sélectionner des produits (uniquement les réfs internes) de marque « Apple » et de catégories « iPhone 16 »
-
+<!--
 # Gamme
+-->
 
 # 14. J’ai une liste de réfs et une gamme. Je veux savoir quelles réfs a pour gamme, la gamme en question
-
+<!--
 Select ref_interne, gamme 
 from g_produits
 where ref_interne IN (7513027, 7513028, 7513029, 7513030, …, 7513039)
 having gamme = ‘…’ ;
+-->
 
 # 15. Récupérer la gamme pour plusieurs réfs
-
+<!--
 J’ai une liste de réf dont la gamme. Je veux savoir quelle est la gamme chaque produit de la liste
 
 Select ref_interne, gamme 
@@ -168,6 +177,7 @@ from g_produits
 where ref_interne IN (7513027, 7513028, 7513029, 7513030, …, 7513039)
 
 # Filtre
+-->
 
 # 16. Lister les filtres actifs sur une réf donnée (ou des réfs données) (penser à GROUP BY)
 
@@ -176,10 +186,12 @@ where ref_interne IN (7513027, 7513028, 7513029, 7513030, …, 7513039)
 # 18. Mettre en place un fiche (catégorie, gamme) sur un produit
 
 # 19. Afficher les filtres présents sur un produit
+<!--
 Afficher les gammes filtrées
 Afficher les produits filtrés
 Afficher les fabricants filtrés
 Afficher les catégories filtrées
+-->
 
 ## 19 Bis. Supprimer certains filtres pour une liste de réfs données - pensez à PL/SQL
 
@@ -188,14 +200,78 @@ Afficher les catégories filtrées
 ## 21. Récupérer la marque d’un produit. Penser à la jointure multique (entre produit, gamme, marque)
 
 ## 22. Besoin métier / situation : parmi plusieurs réf traitées, j’ai oublié d’intégrer du contenu pour un réf. sauf que je ne sais plus laquelle.
-
+<!--
 Solution fonctionnelle : 
 Sur une liste de refs, sélectionner celle dont le contenu_marketing (description_produit) est à NULL
 Select ref_interne from g_produits where ref_interne IN (XXXXX, …) and description_produit IS NULL ;
+-->
 
 ## 23. J’ai une liste de réf fabricant dont je veux récupérer les réfs internes correspondantes
 
-## 24. Un peu complexe ...
+## 24. Dans une liste de réf, déterminer celles(s) qui n’est pas en ligne
+
+# Bundle
+
+## 25. Pour une liste de Bundle donnée : récupérer les produits constituant chaque Bundle (faire un regroupe by numéro de Bundle)
+
+## 26. Pour une liste de réfs donnée : déterminer cettes faisant partie d'un quelconque
+
+## 27. Quelles sont les réfs Canon qui sont existantes chez nous
+
+## 28. Rechercher les produits de telle gamme ayant l'expression "jusqu'à" dans leur désignation et corriger le cas échéant
+
+## 29. Afficher le full_name de l’acheteur d’une marque donnée
+
+## 30. Vérifier qu’il n’existe pas de référence_interne en doublon.
+<!--
+Pensez à ROW_NUM pour supprimer les doublons (Cf. tutorial de Data Cleaning de Data Analyst BootCamp ».
+
+Select reference_interne from … where row_num > 2 ;
+
+Ensuite
+
+Changer les référence_interne en question.
+
+Ce besoin métier n'aurait du sens que si la réference_fabricant était clé primaire de la table "produits". La référence interne étant générée automatiquement, il aurait été important de vérifier régulièrement que la référence n'est pas présente plus d'une fois dans la base de données.
+-->
+
+## 31. Afficher les produits dont certains critères sont incorrects. Ex : absence d’images, désignation ayant plus de n mots non français.
+
+## 35. Ecrire un script SQL qui, pour chaque réf : recherche le chef de produit et l'acheteur. Et regroupe les résultats par chef de produit.
+<!-- On a une liste de produits n'ayant pas de visuel (sur le site e-commerce). Nous souhaitons demandez au Chef de produit et Acheteur de nous fournir des visuels.-->
+
+## 36. Qui (Chef de produit, achéteur) gère telle marque ?
+
+## 37. Un produit contient l’erreur de clavier : R.-U. au lieu de Français. Rechercher dans la base s’il existe des produits ayant la même erreur.
+
+```sql
+Select référence_interne, designation
+From produits
+Where gamme = 'Workstation Z' and categorie = 'Station de travail fixe' and designation LIKE '%R.-U. %'
+-- OU
+Select reference_interne, designation
+From produits
+Where exists (
+Select * from produits where gamme = 'Workstation Z' and categorie = 'Station de travail fixe' and designation LIKE '%R.-U. %'
+)
+```
+
+## 38. Sauvegarder des désignations actuelles pour certaines réfs - à faire une fois en fin de journée
+```sql
+SELECT reference_fabricant, description_produit
+FROM produits
+WHERE reference_interne IN (XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX);
+```
+<!--
+Note : 
+- copier/coller le résultat dans un fichier Excel ou CSV.
+- sous Python : faire une concaténation des fichiers sauvegardées sur le mois
+- exporter le fichier unique
+- écrire une fonction Python qui parcourir plusieurs fichiers et qui, sur la base d'une réf interne, recherche l'ancienne désignation correcpondante.
+-->
+
+<!--
+## Un peu complexe ...
 
 PL/SQL
 Historique : 
@@ -213,86 +289,28 @@ Pour chaque réf, on récupère la désignation. Si le premier mot de la désign
 7023455	Canon PFI-1000 R - 80 ml - red - original - réservoir d'encre - pour imagePROGRAF PRO-1000
 7023463	Canon PFI-1000 CO - 80 ml - optimisateur de couleurs - original - réservoir d'encre - pour imagePROGRAF PRO-1000
 7023469	Canon PFI-1000 PBK - 80 ml - photo noir - original - réservoir d'encre - pour imagePROGRAF PRO-1000
+-->
 
-## 25. Dans une liste de réf, déterminer celles(s) qui n’est pas en ligne
-
-# Bundle
-
-## 26. Pour une liste de Bundle donnée : récupérer les produits constituant chaque Bundle (faire un regroupe by numéro de Bundle)
-
-## 27. Pour une liste de réfs donnée : déterminer cettes faisant partie d'un quelconque
-
-## 28. Quelles sont les réfs Canon qui sont existantes chez nous
-
-## 29. Rechercher les produits de telle gamme ayant l'expression "jusqu'à" dans leur désignation et corriger le cas échéant
-
-## 30. Afficher le full_name de l’acheteur d’une marque donnée
-
-## 31. Vérifier qu’il n’existe pas de référence_interne en doublon.
-Pensez à ROW_NUM pour supprimer les doublons (Cf. tutorial de Data Cleaning de Data Analyst BootCamp ».
-
-Select reference_interne from … where row_num > 2 ;
-
-Ensuite
-
-Changer les référence_interne en question.
-
-Ce besoin métier n'aurait du sens que si la réference_fabricant était clé primaire de la table "produits". La référence interne étant générée automatiquement, il aurait été important de vérifier régulièrement que la référence n'est pas présente plus d'une fois dans la base de données.
-
-## 32. Afficher les produits dont certains critères sont incorrects. Ex : absence d’images, désignation ayant plus de n mots non français.
-
-## 33.
+<!--
 ```sql
 SELECT reference_interne, designation
 FROM g_produits
 WHERE description_produit IS NULL
 AND system_id IS NOT NULL; -- system_id n'a pas été implémentée dans ma conception
 ```
+-->
 
-## 34.
+<!--
 ```sql
 SELECT reference_interne, designation
 FROM g_produits
 WHERE system_id IS NOT NULL -- system_id n'a pas été implémentée dans ma conception
 AND categorie = 'PC Portable';
 ```
+-->
+
 <!--
 ## 35. répérer les réfs (produtis) n'ayant pas de Spécs une semaine après leur visibilité dans TMS (différente de la date de création d'un produit)
 -->
 
-## 35.
-On a une liste de produits n'ayant pas de visuel (sur le site e-commerce). Nous souhaitons demandez au Chef de produit et Acheteur de nous fournir des visuels. 
-
-Ecrire un script SQL qui, pour chaque réf : recherche le chef de produit et l'acheteur. Et regroupe les résultats par chef de produit.
-
-## 36. Qui (Chef de produit, achéteur) gère telle marque ?
-
-## 37.
-Un produit contient l’erreur de clavier : R.-U. au lieu de Français. Rechercher dans la base s’il existe des produits ayant la même erreur.
-
-```sql
-Select référence_interne, designation
-From produits
-Where gamme = 'Workstation Z' and categorie = 'Station de travail fixe' and designation LIKE '%R.-U. %'
--- OU
-Select reference_interne, designation
-From produits
-Where exists (
-Select * from produits where gamme = 'Workstation Z' and categorie = 'Station de travail fixe' and designation LIKE '%R.-U. %'
-)
-```
-
-## 38. Sauvegarder des désignations actuelles - à faire une fois en fin de journée
-```sql
-SELECT reference_fabricant, description_produit
-FROM produits
-WHERE reference_interne IN (XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX);
-```
-<!--
-Note : 
-- copier/coller le résultat dans un fichier Excel ou CSV.
-- sous Python : faire une concaténation des fichiers sauvegardées sur le mois
-- exporter le fichier unique
-- écrire une fonction Python qui parcourir plusieurs fichiers et qui, sur la base d'une réf interne, recherche l'ancienne désignation correcpondante.
--->
 
