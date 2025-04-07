@@ -33,9 +33,9 @@ soit SQL : utiliser un CTE ou une "Temporary Table"
 
 ## 7. Rendre visible sur le web, plusieurs réfs en même temps
 
-## 9. Rendre "visible sur le web" toutes les réfs internes créées la veille
+## 8. Rendre "visible sur le web" toutes les réfs internes créées la veille
 
-# 10. Synchroniser plusieurs réfs internes (attribut « Phase » de chaque réf)
+# 9. Synchroniser plusieurs réfs internes (attribut « Phase » de chaque réf)
 <!-- Update ou PL/SQL
 Synchroniser plusieurs réfs internes (attribut « Phase » de chaque réf) : 
 La méthode manuelle : 
@@ -44,7 +44,7 @@ TMS : Aller sur chaque réf et cliquer sur
 Attends le message vert de confirmation
 -->
 
-# 11. Aaffecter des produits à un acheteur
+# 10. Aaffecter des produits à un acheteur
 <!--
 Situation : un acheteur J.G. décide de quitter l’entreprise. Le directeur des achats S.S.  souhaite transférer les produits jusqu’alors sous la responsabilité de J.G. vers d’autres acheteurs.
 L’affectation des réfs à un acheteur se fait par « marque et gamme » ou simplement par Gamme (car cette dernière contient l’information sur la marque)
@@ -55,7 +55,7 @@ Rappel de la structure d’un enregistrement dans la table être_acheteur :
 employé – marque – gamme – date
 -->
 
-# 12. Supprimer le contenu_marketing pour plusieurs réfs
+# 11. Supprimer le contenu_marketing pour plusieurs réfs
 <!
 Ecrire une procédure PL/SQL qui supprime le contenu_marketing pour plusieurs réfs
 Ou simplement du code SQL :
@@ -63,7 +63,7 @@ Update g_produits
 Set description_produits = NULL
 Where ref_inerne IN (…) ;
 -->
-## 13. Modifier la gamme en « iMac (M4) », pour plusieurs produits
+## 12. Modifier la gamme en « iMac (M4) », pour plusieurs produits
 
 <!--
 7512751
@@ -77,9 +77,9 @@ Where ref_inerne IN (…) ;
 7512755
 -->
 
-## 14. Ecrire une requête (ou même une procédure PL/SQL) qui permet de modifier la gamme pour une liste de référence
+## 13. Ecrire une requête (ou même une procédure PL/SQL) qui permet de modifier la gamme pour une liste de référence
 
-## 15. Peux-tu reclasser les réfs suivantes en fabricant : Blackview / gamme : Produits Blackview
+## 14. Peux-tu reclasser les réfs suivantes en fabricant : Blackview / gamme : Produits Blackview
 <!-- 
 30017842
 30040186
@@ -88,7 +88,7 @@ Where ref_inerne IN (…) ;
 30064400
 -->
 
-## 16. Mise à jour de contenu marketing
+## 15. Mise à jour de contenu marketing
 <!--
 Recopier / Dupliquer le contenu marketing (descriptif produit) d’une réf, sur plusieurs autres réfs.
 Ou avec SQL (à tester)
@@ -121,7 +121,7 @@ Pour toutes les réf qui ont les données "Description Existante" identiques à 
 Je penche pour la première option.
 -->
 
-## 17. Mettre à jour les désignations de plusieurs produits, à partir de la désignation d'un produit donné :
+## 16. Mettre à jour les désignations de plusieurs produits, à partir de la désignation d'un produit donné :
 ```sql
 UPDATE produits
 SET designation = (SELECT designation FROM produits WHERE reference_interne = 7512536)
