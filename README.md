@@ -4,11 +4,11 @@ Ce projet concerne la gestion des produits vendus sur un site e-commerce. A trav
 
 Contenu :
 
-###__1. Modélisation :__
+### __1. Modélisation :__
 
 MCD : Modèle Conceptuel de Données. MLD : Modèle Logique de Données. Dictionnaire de données. 
 
-##__2. Requêtes SQL et PL/SQL__
+## __2. Requêtes SQL et PL/SQL__
 
 SQL : création de tables, insertion de données dans les tables, extraction de données, mise à jour de données, suppression de données, Windows functions (fonctions de fenêtrage).
 
