@@ -200,8 +200,9 @@ Afficher les catégories filtrées
 
 ## 21. Récupérer la marque d’un produit. Penser à la jointure multique (entre produit, gamme, marque)
 
-## 22. Besoin métier / situation : parmi plusieurs réf traitées, j’ai oublié d’intégrer du contenu pour un réf. sauf que je ne sais plus laquelle.
+## 22. Pour plusieurs réfs : rechercher celle dont le contenu marketing vaut NULL
 <!--
+Parmi plusieurs réf traitées, j’ai oublié d’intégrer du contenu pour une réf. sauf que je ne sais plus laquelle.
 Solution fonctionnelle : 
 Sur une liste de refs, sélectionner celle dont le contenu_marketing (description_produit) est à NULL
 Select ref_interne from g_produits where ref_interne IN (XXXXX, …) and description_produit IS NULL ;
