@@ -1,11 +1,11 @@
-Présentation du travail
+# Présentation du travail
 
 Ce travail consiste au traitement sous Power BI, des produits d'un site e-commerce.
 
-S'effectuant en début de chaque mois, ce travail a pour but de tirer des informations sur l'état des produits sur le mois prédédent :
+S'effectuant en début de chaque mois, ce travail a pour but de tirer des informations sur l'activité du mois prédédent :
 - nombre global de produits créés
-- nombre de produits créés : par fabricant, gamme, catégorie, etc.
-
+- nombre de produits créés : par fabricant, gamme, catégorie
+- Etc.
 
 Les données à exploiter se trouvent dans un fichier Excel. Ce dernier contient tous les produits contenu dans la base de données.
 
@@ -22,3 +22,5 @@ Dans la pratique, voici les étapes à mettre en pratique :
 ### 5. La création des visuels
 
 ### 6. Le partage des résultats
+
+Cycle de travail dans Power BI.md
