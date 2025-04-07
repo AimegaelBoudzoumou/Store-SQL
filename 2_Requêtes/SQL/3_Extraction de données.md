@@ -123,7 +123,10 @@ WHERE visibilite_web = 0
 AND designation IS NULL;
 ```
 -->
-## 10. 
+## 10. Supprimer certains filtres pour une liste de réfs données 
+<!--
+- pensez à PL/SQL
+-->
 
 ## 11. Récupérer plusieurs titres
 <!--
@@ -193,8 +196,6 @@ Afficher les produits filtrés
 Afficher les fabricants filtrés
 Afficher les catégories filtrées
 -->
-
-## 19 Bis. Supprimer certains filtres pour une liste de réfs données - pensez à PL/SQL
 
 ## 20. Récupérer les titres actuellement en place, pour une liste de réf donnée
 
