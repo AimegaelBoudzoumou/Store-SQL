@@ -1,4 +1,4 @@
-# Pour une liste de réfs internes (contenues dans un fichier externe Excel ou CSV) : recherchez les réfs qui sont « visibles sur le web »
+### Pour une liste de réfs internes (contenues dans un fichier externe Excel ou CSV) : recherchez les réfs qui sont « visibles sur le web »
 
 On a une liste de réfs interne.
 On souhaite vérifier que chaque réf de la liste est « visible sur le web »
