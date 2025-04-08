@@ -6,11 +6,6 @@ La fonction retoure une sorte de liste à deux colonnes :
 
 Par exemple : 
 
-réf1 = existe
-
-réf2 = n'existe pas
-
-
 | Réf  | Résultat   |
 | ------- | -------- |
 | réf1   | existe    |
