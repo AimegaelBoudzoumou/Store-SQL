@@ -1,6 +1,6 @@
 # Traitement de désignations en masse
 
-Outils : Python, Pandas, Jupyter, Googletrans
+_Outils : Python, Pandas, Jupyter, Googletrans_
 
 Un client souhaite améliorer des désignations pour plusieurs produits. Le client fournit un fichier Excel contenant les références concernées.
 
