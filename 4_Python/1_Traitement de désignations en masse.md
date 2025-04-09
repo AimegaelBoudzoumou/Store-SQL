@@ -1,5 +1,7 @@
 # Traitement de désignations en masse
 
+Outils : Python, Pandas, Jupyter, Googletrans
+
 Un client souhaite améliorer des désignations pour plusieurs produits. Le client fournit un fichier Excel contenant les références concernées.
 
 Les désignations à intégrer se trouvent sur le site de notre fournisseur de contenu.
