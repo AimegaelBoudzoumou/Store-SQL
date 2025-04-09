@@ -5,7 +5,7 @@ Un client souhaite améliorer des désignations pour plusieurs produits. Le clie
 __But :__
 
 - Récuperer des désignations sur le site du fournisseur de contenu. 
-- Intégrer en masse les désignations
+- Intégrer en masse les désignations en question.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
