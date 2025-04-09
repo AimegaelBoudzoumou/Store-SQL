@@ -1,6 +1,6 @@
 # Traitement de désignations en masse
 
-Un client souhaite améliorer des désignations pour plusieurs produits. Le client fournit un les références concernées dans un fichier Excel.
+Un client souhaite améliorer des désignations pour plusieurs produits. Le client fournit un fichier Excel contenant les références concernées.
 
 __But :__
 
