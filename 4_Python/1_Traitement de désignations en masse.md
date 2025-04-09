@@ -22,7 +22,6 @@ Etape 4 : importer les fichiers ci-dessus dans Pandas et les fusionner (concaten
 
 Etape 5 : Rechercher les désignations, puis exporter un nouveau fichier Excel contenan les produits (références) et les bonnes désignations associées.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Code Pyton - Pratique
 
 Etape 1 : importer dans Pandas le fichier du client - contenant les produits dont il souhaite améliorer les désignations.
