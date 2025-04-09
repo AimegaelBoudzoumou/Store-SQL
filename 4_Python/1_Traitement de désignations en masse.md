@@ -19,3 +19,5 @@ Etape 3 : pour chaque marque/fabricant : se rendre sur le site du fournisseur de
 Etape 4 : importer les fichiers ci-dessus dans Pandas et les fusionner (concatener).
 
 Etape 5 : Rechercher les désignations, puis exporter un nouveau fichier Excel contenan les produits (références) et les bonnes désignations associées.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
