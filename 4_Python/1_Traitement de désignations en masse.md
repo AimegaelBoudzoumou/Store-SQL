@@ -9,7 +9,7 @@ __But :__
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Etape 1 : importer dans Pandas le fichier du client - contenant les produits à traiter (dont il faut traiter les désignations).
+Etape 1 : importer dans Pandas le fichier du client - contenant les produits dont il souhaite améliorer les désignations.
 
 Etape 2 : répérer les marques/fabricants concernées
 
