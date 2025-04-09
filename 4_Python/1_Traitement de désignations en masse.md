@@ -15,6 +15,8 @@ Etape 2 : répérer les marques/fabricants concernées
 
 Etape 3 : pour chaque marque/fabricant : se rendre sur le site du fournisseur de contenu, puis exporter le fichier contenant les produits de la marque en question.
 
+Note : le fichier export étant lourd, le choix a été fait de traiter les marques par groupe de 2.
+
 Etape 4 : importer les fichiers ci-dessus dans Pandas et les fusionner (concatener).
 
 Etape 5 : Rechercher les désignations, puis exporter un nouveau fichier Excel contenan les produits (références) et les bonnes désignations associées.
