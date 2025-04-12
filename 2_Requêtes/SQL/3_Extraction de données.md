@@ -9,9 +9,9 @@ FROM produits;
 ```
 ## 1.bis. Affichage du produit dont la référence interne est 7874539
 ```sql
---SELECT *
---FROM produits;
---WHERE reference_interne=7874539;
+SELECT *
+FROM produits;
+WHERE reference_interne=7874539;
 ```
 
 ## 2. Compter le nombre de produits
