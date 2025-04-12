@@ -82,7 +82,7 @@ employes (matricule_employe, nom_employe, prenom_employe, full_name_employe)
 
 INSERT INTO employes(matricule_employe, nom_employe, prenom_employe) VALUES (139898, 'Camara', 'Moussa');
 INSERT INTO employes(matricule_employe, nom_employe, prenom_employe) VALUES (134867, 'Charles', 'Elise');
-INSERT INTO employes(matricule_employe, nom_employe, prenom_employe) VALUES (165898, 'Makaya', 'Ngoné');
+INSERT INTO employes(matricule_employe, nom_employe, prenom_employe) VALUES (165898, 'Makaya', 'Ngékou');
 INSERT INTO employes(matricule_employe, nom_employe, prenom_employe) VALUES (134098, 'Biloundi', 'Rigobert');
 INSERT INTO employes(matricule_employe, nom_employe, prenom_employe) VALUES (178698, 'Igenta', 'Carlos');
 
