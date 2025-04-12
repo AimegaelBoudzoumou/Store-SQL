@@ -191,33 +191,30 @@ WHERE code_gamme IN (
 ```
 
 ## 8. Sélectionner la catégorie pour une reference interne donnée
+```sql
+-- Avec une jointure
+SELECT nom_categorie
+FROM categories c JOIN produits p
+    ON p.code_categorie = c.code_categorie
+WHERE reference_interne = 7699835;
+
+-- Avec une sous-requête
+SELECT nom_categorie 
+FROM categories
+WHERE code_categorie = (
+    SELECT code_categorie FROM produits
+    WHERE reference_interne = 7699835
+    );
+```
 
 ## 9. Rechercher les produits non visibles sur le web et dont la désignation est à NULL
-<!--
 ```sql
-DROP TABLE gproduits;
-
-CREATE TABLE gproduits (
-    reference_interne int,
-    visibilite_web int,
-    designation varchar2(50)
-);
-
-INSERT INTO produits VALUES (74554245, 0, NULL);
-INSERT INTO produits VALUES (72151245, 0, NULL);
-INSERT INTO produits VALUES (74551254, 0, 'Clé USB');
-INSERT INTO produits VALUES (70124558, 0, 'Clavier filaire');
-INSERT INTO produits VALUES (74124545, 0, NULL);
-INSERT INTO produits VALUES (74002159, 0, NULL);
-INSERT INTO produits VALUES (75989459, 1, 'Etui téléphone');
-INSERT INTO produits VALUES (74501285, 0, 'Sac PC 17"');
-
-SELECT reference_interne
-FROM gproduits
-WHERE visibilite_web = 0
+SELECT reference_interne, visibilite_web, designation 
+FROM produits
+WHERE visibilite_web = 'non'
 AND designation IS NULL;
 ```
--->
+
 ## 10. Supprimer certains filtres pour une liste de réfs données 
 <!--
 - pensez à PL/SQL
@@ -310,7 +307,7 @@ Select ref_interne from g_produits where ref_interne IN (XXXXX, …) and descrip
 
 # Bundle
 
-## 25. Pour une liste de Bundle donnée : récupérer les produits constituant chaque Bundle (faire un regroupe by numéro de Bundle)
+## 25. Pour une liste de Bundle donnée : récupérer les produits constituant chaque Bundle (faire un group by numéro de Bundle)
 
 ## 26. Pour une liste de réfs donnée : déterminer cettes faisant partie d'un quelconque
 
