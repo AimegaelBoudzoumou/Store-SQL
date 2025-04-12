@@ -84,7 +84,7 @@ WHERE code_marque = (SELECT code_marque FROM nom_marque_by_ref_interne);
 ```
 
 
-## 6. Pour un employé donné, afficher la ou les marques dont il est 'acheteur'
+## 6. Pour un employé donné (à partir de son full_name : 'prenom_employe nom_employe'), afficher la ou les marques dont il est 'acheteur'. Soit l'employée 'Elise Charles'
 <!--
 Astuce : pensez à utiliser la table "Gamme" dans notre requête SQL; et à une éventuelle double jointure entre :
 
@@ -92,6 +92,30 @@ Employe et Gamme (sur Employe.matricule = Gamme.matricule)
 
 Gamme et Marque (sur Gamme.nom_marque = Marque.nom_marque)
 -->
+
+
+```sql
+-- Définir l'employée 'Elise Charles' (matricule '134867') comme acheteur des marques iStorage (code_marque : 2) et Belkin (code_marque : 3).
+
+UPDATE marques
+SET MATRICULE_EMPLOYE_ETRE_ACHETEUR = '134867'
+WHERE CODE_MARQUE IN (2, 3);
+
+-- Définir l'employée 'Ngékou Makaya' (matricule '165898') comme acheteur de la marque Philips (code_marque : 5).
+UPDATE marques
+SET MATRICULE_EMPLOYE_ETRE_ACHETEUR = '165898'
+WHERE CODE_MARQUE = 5;
+
+-- Afficher la ou les marques ayant pour acheteur : 'Elise Charles'
+SELECT nom_marque
+FROM marques
+WHERE matricule_employe_etre_acheteur = (
+    SELECT matricule_employe
+    FROM employes
+    WHERE full_name_employe = 'Elise Charles'
+);
+```
+
 
 ## 7. Afficher les produits dont une employé donné est 'chef de produit'
 
