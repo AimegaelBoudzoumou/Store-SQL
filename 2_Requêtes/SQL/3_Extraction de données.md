@@ -100,7 +100,7 @@ WHERE CODE_MARQUE = 5;
 -- Afficher la ou les marques ayant pour acheteur : 'Elise Charles'
 SELECT nom_marque
 FROM marques
-.WHERE matricule_employe_etre_acheteur = (
+WHERE matricule_employe_etre_acheteur = (
     SELECT matricule_employe
     FROM employes
     WHERE full_name_employe = 'Elise Charles'
