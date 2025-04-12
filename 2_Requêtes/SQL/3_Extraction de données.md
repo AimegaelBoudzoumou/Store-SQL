@@ -84,7 +84,7 @@ WHERE code_marque = (SELECT code_marque FROM nom_marque_by_ref_interne);
 ```
 
 
-## 6. Pour un employé donné (à partir de son full_name : 'prenom_employe nom_employe'), afficher la ou les marques dont il est 'acheteur'. Soit l'employée 'Elise Charles'
+## 6. A partir de full_name d'un employe donné, afficher la ou les marques dont il est 'acheteur'
 <!--
 Astuce : pensez à utiliser la table "Gamme" dans notre requête SQL; et à une éventuelle double jointure entre :
 
