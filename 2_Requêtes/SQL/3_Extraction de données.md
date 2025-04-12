@@ -108,7 +108,87 @@ WHERE matricule_employe_etre_acheteur = (
 ```
 
 
-## 7. Afficher les produits dont une employé donné est 'chef de produit'
+## 7. Affecter chef de produits
+
+```sql
+
+-- Affecter 'Rigobert Biloundi' comme chef_de_produit pour les marques 'iStorage' et 'Epson'
+
+UPDATE marques
+SET MATRICULE_EMPLOYE_ETRE_CHEF_DE_PRODUIT = 
+    (
+    	SELECT matricule_employe
+		FROM employes
+		WHERE full_name_employe = 'Rigobert Biloundi'
+	)
+WHERE code_marque IN (
+    SELECT code_marque
+    FROM marques
+    WHERE nom_marque IN ('iStorage', 'Epson')
+);
+
+-- Affecter 'Carlos Igenta' comme chef_de_produit pour les marques 'Belkin' et 'Philips'
+
+UPDATE marques
+SET MATRICULE_EMPLOYE_ETRE_CHEF_DE_PRODUIT = 
+    (
+    	SELECT matricule_employe
+		FROM employes
+		WHERE full_name_employe = 'Rigobert Biloundi'
+	)
+WHERE code_marque IN (
+    SELECT code_marque
+    FROM marques
+    WHERE nom_marque IN ('Belkin', 'Philips')
+);
+
+```
+
+## 7.bis Afficher les produits dont un employé donné est 'chef de produit'
+
+```sql
+
+-- Cas de 'Rigobert Biloundi' -- utilisation de requêtes imbriquées dans le CTE
+
+WITH cte_search_code_marque_by_full_name_employe AS (
+    SELECT code_marque
+    FROM marques
+    WHERE MATRICULE_EMPLOYE_ETRE_CHEF_DE_PRODUIT = (
+        SELECT matricule_employe
+        FROM employes
+        WHERE full_name_employe = 'Rigobert Biloundi'
+    )  
+)
+
+SELECT * 
+FROM produits 
+WHERE code_gamme IN (
+    SELECT code_gamme 
+    FROM gammes 
+    WHERE code_marque IN (SELECT * FROM cte_search_code_marque_by_full_name_employe)
+);
+
+-- Cas de 'Carlos Igenta' -- utilisation de jointure dans le CTE
+
+WITH cte_search_code_marque_by_full_name_employe AS (
+    SELECT code_marque
+    FROM marques m JOIN employes e
+    ON m.MATRICULE_EMPLOYE_ETRE_CHEF_DE_PRODUIT = e.matricule_employe
+    WHERE m.MATRICULE_EMPLOYE_ETRE_CHEF_DE_PRODUIT = (
+        SELECT matricule_employe
+        FROM employes
+        WHERE full_name_employe = 'Carlos Igenta'
+    )  
+)
+
+SELECT * 
+FROM produits 
+WHERE code_gamme IN (
+    SELECT code_gamme 
+    FROM gammes 
+    WHERE code_marque IN (SELECT * FROM cte_search_code_marque_by_full_name_employe)
+);
+```
 
 ## 8. Sélectionner la catégorie pour une reference interne donnée
 
