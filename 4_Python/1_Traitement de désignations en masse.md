@@ -44,7 +44,9 @@ Répérer les marques/fabricants concernées
 
 ### Etape 3
 Pour chaque marque/fabricant : se rendre sur le site du fournisseur de contenu, puis exporter le fichier contenant les produits de la marque en question.
-<!-- __Note :__ le fichier export étant lourd, le choix a été fait de traiter les marques par groupe de 2. -->
+<!-- __Note :__ le fichier export étant lourd, le choix a été fait de traiter les marques par groupe de 2. Et surtout : de n'importer que les colonnes utiles. 
+Pensez à convertir les données exportées car en anglais.
+-->
 
 ```python
 
@@ -63,3 +65,10 @@ Rechercher les désignations, puis exporter un nouveau fichier Excel contenan le
 ```python
 
 ```
+
+<!--
+1/ Vérifier que des titres précédemment chargés, sont bien conformes à la demande du client (ici la marque/fabricant) :
+pour une liste de réfs : faire une extraction des titres visibles actuellement et les comparer à ce que le client avait demandé l'intégration.
+charger les deux fichiers dans Jupyter et les comparer.
+2/ 
+-->
