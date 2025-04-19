@@ -215,10 +215,13 @@ WHERE visibilite_web = 'non'
 AND designation IS NULL;
 ```
 
-## 10. Supprimer certains filtres pour une liste de réfs données 
-<!--
-- pensez à PL/SQL
--->
+## 11. Afficher les produits ayant un filtre sur la gamme
+
+```sql
+SELECT reference_interne
+FROM produits
+WHERE filtre_gamme = 1;
+```
 
 ## 11. Récupérer plusieurs titres
 <!--
