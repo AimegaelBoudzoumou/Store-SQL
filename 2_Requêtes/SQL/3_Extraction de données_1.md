@@ -113,6 +113,10 @@ WHERE matricule_employe_etre_acheteur = (
 
 ## 7. Affecter chef de produits
 
+Note : cette requête est de type "mise à jour" et devrait être placée dans le fichier __4_Mise à jour des données__.
+
+Etant fortement corrélée au besoin métier __7.bis__, j'ai jugé pertinent de la placer ici. 
+
 ```sql
 
 -- Affecter 'Rigobert Biloundi' comme chef_de_produit pour les marques 'iStorage' et 'Epson'
