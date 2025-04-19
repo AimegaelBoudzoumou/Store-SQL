@@ -256,10 +256,26 @@ WHERE MATRICULE_EMPLOYE = (
     );
 ```
 
-## 13. Sélectionner des produits (uniquement les réfs internes) de marque « Apple » et de catégories « iPhone 16 »
-<!--
-# Gamme
+## 13. Sélectionner des produits (uniquement les réfs internes) de marque « Apple » et de gamme « iPhone 16 »
+
 -->
+```sql
+/*
+Ajouter des produits de marques Apple (Gammes => Catégorie)
+
+Gamme : Mac Studio => Catégorie : PC de bureau
+
+Gamme :	MacBook Air => Catégorie : PC Portable
+
+Gamme :	iPhone 16 => Catégorie : Smartphone
+
+*/
+--
+ 
+```
+
+## 13.bis Sélectionner des produits (uniquement les réfs internes) de marque « Apple » et de categorie « PC Portable »
+
 
 ## 14. J’ai une liste de réfs et une gamme. Je veux savoir quelles réfs a pour gamme, la gamme en question
 <!--
