@@ -258,8 +258,9 @@ WHERE MATRICULE_EMPLOYE = (
 
 ## 13. Sélectionner des produits (uniquement les réfs internes) de marque « Apple » et de gamme « iPhone 16 »
 
--->
+<!--
 ```sql
+
 /*
 Ajouter des produits de marques Apple (Gammes => Catégorie)
 
@@ -270,9 +271,11 @@ Gamme :	MacBook Air => Catégorie : PC Portable
 Gamme :	iPhone 16 => Catégorie : Smartphone
 
 */
---
- 
+
 ```
+-->
+ 
+
 
 ## 13.bis Sélectionner des produits (uniquement les réfs internes) de marque « Apple » et de categorie « PC Portable »
 
