@@ -86,13 +86,16 @@ WHERE code_marque = (SELECT code_marque FROM nom_marque_by_ref_interne);
 
 ## 6. A partir du full_name d'un employe donné, afficher la ou les marques dont il est 'acheteur'
 ```sql
--- Définir l'employée 'Elise Charles' (matricule '134867') comme acheteur des marques iStorage (code_marque : 2) et Belkin (code_marque : 3).
+-- Définir l'employée 'Elise Charles' (matricule '134867')
+-- comme acheteur des marques iStorage (code_marque : 2) et Belkin (code_marque : 3).
 
 UPDATE marques
 SET MATRICULE_EMPLOYE_ETRE_ACHETEUR = '134867'
 WHERE CODE_MARQUE IN (2, 3);
 
--- Définir l'employée 'Ngékou Makaya' (matricule '165898') comme acheteur de la marque Philips (code_marque : 5).
+-- Définir l'employée 'Ngékou Makaya' (matricule '165898')
+-- comme acheteur de la marque Philips (code_marque : 5).
+
 UPDATE marques
 SET MATRICULE_EMPLOYE_ETRE_ACHETEUR = '165898'
 WHERE CODE_MARQUE = 5;
