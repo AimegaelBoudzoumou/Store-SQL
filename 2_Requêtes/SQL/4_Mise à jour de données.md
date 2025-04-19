@@ -128,7 +128,13 @@ SET designation = (SELECT designation FROM produits WHERE reference_interne = 75
 WHERE refererence_interne IN (XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX);
 ```
 
-## 17. Mettre un filtre_gamme sur une liste de réfs données 
+## 17. Mettre un filtre_gamme sur une liste de réfs données
+
+```sql
+UPDATE produits
+SET FILTRE_GAMME = 1
+WHERE REFERENCE_INTERNE IN (7951201, 7457826);
+```
 
 ## 18. Supprimer filtre_gamme sur une liste de réfs données
 
