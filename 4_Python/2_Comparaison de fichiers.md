@@ -87,14 +87,17 @@ df_fichier_de_base
 ### Comparison of new_DataFrame and fichier_de_base
 
 ```python
-
+new_DataFrame = new_DataFrame.set_index("Inmac REF")
+new_DataFrame
 ```
 
 ```python
-
+# df.compare(df2)
+df_fichier_de_base.compare(new_DataFrame)
 ```
 
 ```python
+# Exporter le résultat de la comparaison dans un fichier Excel
 
 ```
 
