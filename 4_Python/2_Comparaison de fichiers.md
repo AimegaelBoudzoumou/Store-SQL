@@ -61,9 +61,7 @@ new_DataFrame
 #df_fichier_de_base
 ```
 
-```python
-
-```
+### Comparison of new_DataFrame and fichier_de_base
 
 ```python
 
@@ -76,3 +74,15 @@ new_DataFrame
 ```python
 
 ```
+
+```python
+
+```
+
+<!--
+df_fichier_de_base.loc[7317066,:] # 7317066 n'est pas dans l'export d'Olivier
+
+#df_exports_au_22_04_2025.loc[7317066,:]
+
+df_fichier_de_base.loc[7531255,:]
+-->
