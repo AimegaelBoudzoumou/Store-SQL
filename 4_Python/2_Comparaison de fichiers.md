@@ -33,7 +33,7 @@ df_exports_au_22_04_2025 = df_exports_au_22_04_2025.set_index("idproduct")
 df_exports_au_22_04_2025
 ```
 
-### Create new_DataFrame, Iterate df_fichier_de_base and Search data corresponding inside df_exports_au22_04_2025, and copy them in new_DataFrame
+### Build a new DataFrame for comparison and fichier_de_base
 
 ```python
 new_DataFrame = pd.DataFrame(columns=["Inmac REF", "Titre"])
