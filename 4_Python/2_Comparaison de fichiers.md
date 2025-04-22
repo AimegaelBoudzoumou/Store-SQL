@@ -80,9 +80,22 @@ new_DataFrame
 ```
 
 <!--
+Divers 1 :
 df_fichier_de_base.loc[7317066,:] # 7317066 n'est pas dans l'export d'Olivier
 
 #df_exports_au_22_04_2025.loc[7317066,:]
 
 df_fichier_de_base.loc[7531255,:]
+
+Divers 2 :
+
+import pandas as pd
+
+# df = pd.read_excel(r"C:/Users/aimegael.boudzoumou/Documents/export.xlsx", sheet_name="Feuil", header=0, usecols='A:C', nrows=5, skiprows=None, na_values=['NA','-','N/A'])
+
+df = pd.read_excel("mes_fichiers/Export.xlsx", sheet_name="Feuil1", header=0, index_col="RefFabricant")
+
+df
 -->
+
+
