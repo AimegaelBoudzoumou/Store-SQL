@@ -55,10 +55,22 @@ for x in df_fichier_de_base.index:
 
 # plus tard : comparer df_fichier_de_base et new_DataFrame
 
+```
+
+```python
 new_DataFrame
-#len(refs_problematiques)
-#refs_problematiques
-#df_fichier_de_base
+```
+
+```python
+len(refs_problematiques)
+```
+
+```python
+refs_problematiques
+```
+
+```python
+df_fichier_de_base
 ```
 
 ### Comparison of new_DataFrame and fichier_de_base
