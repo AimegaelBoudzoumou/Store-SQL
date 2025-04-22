@@ -2,11 +2,17 @@
 
 Après une intégration en masse de titres, il est intéressant de vérifier que l'intégration a réussi.
 
-L'objectif de ce script est de comparer le contenu de deux fichiers Excel : celui contenant les données que l'on vient d'intégrer (reçu du chef de produit ou du client : fabricant) et celui contenant la situation réelle en Base de données, à un moment donné.
+L'objectif de ce script est de comparer le contenu de deux fichiers Excel : 
 
-But : vérifier que des titres précédemment chargés, sont bien conformes à la demande du client (ici la marque/fabricant).
+celui (reçu du chef de produit ou du client : fabricant) contenant les données que l'on vient d'intégrer,
 
-A faire : pour une liste de réfs : faire une extraction des titres visibles actuellement et les comparer à ce que le client avait demandé l'intégration.
+et 
+
+celui contenant la situation réelle en Base de données, à un moment donné.
+
+__But :__ vérifier que des titres précédemment chargés, sont bien conformes à la demande du client (ici la marque/fabricant).
+
+__A faire :__ pour une liste de réfs : faire une extraction des titres visibles actuellement et les comparer à ce que le client avait demandé l'intégration.
 charger les deux fichiers dans Jupyter et les comparer.
 
 ```python
