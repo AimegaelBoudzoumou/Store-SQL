@@ -1,6 +1,6 @@
 # Comparaison de fichiers
 
-Après une intégraton en masse de titre, il est intéressant de vérifier que l'intégration a réussi.
+Après une intégraton en masse de titres, il est intéressant de vérifier que l'intégration a réussi.
 
 L'objectif de ce script est de comparer le contenu de deux fichiers Excel : celui contenant les données que l'on vient d'intégrer (reçu du chef de produit ou du client : fabricant) et celui contenant la situation réelle en Base de données, à un moment donné.
 
