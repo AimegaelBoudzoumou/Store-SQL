@@ -57,16 +57,17 @@ for x in df_fichier_de_base.index:
         new_line = [x, title]
         lenght = len(new_DataFrame)
         new_DataFrame.loc[lenght] = new_line
-    #else:
+    else:
         # sauvegardes les réfs problématiques : présentes dans df_fichier_de_base, mais pas dans df_exports_au_22_04_2025
-        #refs_problematiques.append(x)
+        refs_problematiques.append(x)
         
         # supprimer une à une les réfs en question, ie le supprimer de df_fichier_de_base (ou les supprimer en une seule fois)
-        #df_fichier_de_base.drop(x,  axis=0, inplace=True) 
+        df_fichier_de_base.drop(x, axis=0, inplace=True) 
 
 # plus tard : comparer df_fichier_de_base et new_DataFrame
-
 ```
+
+### Some Displaying
 
 ```python
 new_DataFrame
@@ -92,17 +93,13 @@ new_DataFrame
 ```
 
 ```python
-# df.compare(df2)
-df_fichier_de_base.compare(new_DataFrame)
+# Syntaxe : df.compare(df2)
+diff = df_fichier_de_base.compare(new_DataFrame)
 ```
 
 ```python
 # Exporter le résultat de la comparaison dans un fichier Excel
-
-```
-
-```python
-
+diff.to_excel("mes_fichiers/Comparaison_de_fichiers/diff.xlsx")
 ```
 
 <!--
