@@ -1,5 +1,9 @@
 # Comparaison de fichiers
 
+Après une intégraton en masse de titre, il est intéressant de vérifier que l'intégration a réussi.
+
+L'objectif de ce script est de comparer le contenu de deux fichiers Excel : celui contenant les données que l'on vient d'intégrer (reçu du chef de produit ou du client : fabricant) et celui contenant la situation réelle en Base de données, à un moment donné.
+
 But : vérifier que des titres précédemment chargés, sont bien conformes à la demande du client (ici la marque/fabricant).
 
 A faire : pour une liste de réfs : faire une extraction des titres visibles actuellement et les comparer à ce que le client avait demandé l'intégration.
