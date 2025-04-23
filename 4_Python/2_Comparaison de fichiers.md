@@ -129,11 +129,12 @@ diff.to_excel("mes_fichiers/Comparaison_de_fichiers/diff.xlsx")
 ref_reussie = []
 
 # itérer df_fichier_de_base
-for x in df_fichier_de_base.item :
+for x in df_fichier_de_base.index :
    # si une réf n'est pas dans diff alors la stocker dans ref_reussie
     if x not in diff:
         ref_reussie.append(x)
 
+# Afficher le contenu de ref_reussie
 ref_reussie
 ```
 
