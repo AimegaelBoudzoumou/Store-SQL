@@ -46,7 +46,7 @@ Pour chaque fabricants : créer un DataFrame contenant les réfs associées (et 
 
 ```
 
-#### Pour chaque fabricants : créer un DataFrame
+#### Pour chaque fabricant : créer un DataFrame
 
 __Note :__ Nommer le DataFrame sous la nomenclature suivante : df2_nom_fabricant. Gérer le "set_index"
 ```python
