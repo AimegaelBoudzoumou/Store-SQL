@@ -76,7 +76,8 @@ for x in df_fichier_de_base.index:
         # sauvegardes les réfs problématiques : présentes dans df_fichier_de_base, mais pas dans df_exports_au_22_04_2025
         refs_problematiques.append(x)
         
-        # supprimer une à une les réfs en question, ie le supprimer de df_fichier_de_base (ou les supprimer en une seule fois)
+        # supprimer une à une les réfs en question, de df_fichier_de_base
+        # il est aussi possible des les supprimer en une seule fois, en dehors de la boucle for
         df_fichier_de_base.drop(x, axis=0, inplace=True) 
 
 # plus tard : comparer df_fichier_de_base et new_DataFrame
