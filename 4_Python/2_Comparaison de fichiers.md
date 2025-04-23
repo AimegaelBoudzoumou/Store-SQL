@@ -1,8 +1,12 @@
 # Comparaison de fichiers
 
-Outils : Python, Pandas, Jupyter
+_Outils : Python, Pandas, Jupyter_
+
+## Contexte
 
 Après une intégration en masse de titres, il est intéressant de vérifier que l'intégration a réussi.
+
+## Objectif
 
 L'objectif de ce script est de comparer le contenu de deux fichiers Excel : 
 
@@ -22,7 +26,14 @@ charger les deux fichiers dans Jupyter et les comparer.
 import pandas as pd
 ```
 
-### Connexion aux données
+## Les étapes à appliquer
+
+1. Connexion aux données et Définir un index
+2. Construire un nouveau DataFrame
+3. Comparaison des deux DataFrame
+4. Répertorier les réfs dont l'intégration du titre a potentiellement réussi
+
+### 1. Connexion aux données
 
 ```python
 df_fichier_de_base = pd.read_excel("mes_fichiers/fichier_de_base.xlsx")
@@ -46,7 +57,7 @@ df_exports_au_22_04_2025 = df_exports_au_22_04_2025.set_index("idproduct")
 df_exports_au_22_04_2025
 ```
 
-### Construire un nouveau DataFrame, afin de comparaison avec le DataFrame fichier_de_base
+### 2. Construire un nouveau DataFrame, afin de comparaison avec le DataFrame fichier_de_base
 
 ```python
 new_DataFrame = pd.DataFrame(columns=["Inmac REF", "Titre"])
@@ -69,7 +80,7 @@ for x in df_fichier_de_base.index:
 # plus tard : comparer df_fichier_de_base et new_DataFrame
 ```
 
-### Qualques onservations/affichages
+### Quelques onservations/affichages
 
 ```python
 new_DataFrame
@@ -94,7 +105,7 @@ new_DataFrame = new_DataFrame.set_index("Inmac REF")
 new_DataFrame
 ```
 
-### Comparaison des deux DataFrame
+### 3. Comparaison des deux DataFrame
 
 ```python
 # Syntaxe : df.compare(df2)
@@ -106,7 +117,7 @@ diff = df_fichier_de_base.compare(new_DataFrame) # diff contient les réfs dont 
 diff.to_excel("mes_fichiers/Comparaison_de_fichiers/diff.xlsx")
 ```
 
-### Répertorier les réfs dont l'intégration du titre a potentiellement réussi
+### 4. Répertorier les réfs dont l'intégration du titre a potentiellement réussi
 
 ```python
 # créer une liste nommée "ref_reussie"
