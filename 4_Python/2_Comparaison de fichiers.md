@@ -37,6 +37,7 @@ import pandas as pd
 7. Répertorier les réfs dont l'intégration du titre a potentiellement réussi
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Implémentation
 
 ### 1. Connexion aux données
 
