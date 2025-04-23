@@ -29,9 +29,12 @@ import pandas as pd
 ## Les étapes à appliquer
 
 1. Connexion aux données et Définir un index
-2. Construire un nouveau DataFrame
-3. Comparaison des deux DataFrame
-4. Répertorier les réfs dont l'intégration du titre a potentiellement réussi
+   
+3. Construire un nouveau DataFrame
+   
+5. Comparaison des deux DataFrame
+   
+7. Répertorier les réfs dont l'intégration du titre a potentiellement réussi
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
