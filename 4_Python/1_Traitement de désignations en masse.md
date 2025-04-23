@@ -15,52 +15,85 @@ Les désignations à intégrer se trouvent sur le site de notre fournisseur de c
 
 ## Les étapes à appliquer
 
-Etape 1 : importer dans Pandas le fichier du client - contenant les produits dont il souhaite améliorer les désignations.
+__Etape 1 :__ connexion aux données. Importer dans Pandas le fichier du client - contenant les produits dont il souhaite améliorer les désignations.
 
-Etape 2 : répérer les marques/fabricants concernées
+__Etape 2 :__ répérer les différentes fabricants concernées. pour chaque fabricants : créer une DataFrame contenant les réfs associées (et ayant ces deux colonnes : référence fabricant, designation). 
 
-Etape 3 : pour chaque marque/fabricant : se rendre sur le site du fournisseur de contenu, puis exporter le fichier contenant les produits de la marque en question.
-<!-- __Note :__ le fichier export étant lourd, le choix a été fait de traiter les marques par groupe de 2. -->
+Note : Nommer le DataFrame sous la nomenclature suivante : df2_nom_fabricant. Bien gérer le set_index
 
-Etape 4 : importer les fichiers ci-dessus dans Pandas et les fusionner (concatener).
+__Etape 3 :__ pour chaque fabricant : se rendre sur le site du fournisseur de contenu, puis exporter le fichier contenant les produits de la marque en question. 
 
-Etape 5 : Rechercher les désignations, puis exporter un nouveau fichier Excel contenan les produits (références) et les bonnes désignations associées.
+Ensuite importer ce fichier dans Pandas.
+
+__Note__: 
+Pour des raisons d'optimisation de la mémoire, n'importer dans Pandas que les colonnes du fichier qui sont utiles, à savoir : la "référence fabricant" et la "désignation". 
+
+Note : Nommer le DataFrame sous la nomenclature suivante : export_nom_fabricant. Bien gérer le set_index
+
+__Etape 4 :__ extraire les désignations : pour chaque DataFrame créé à l'étape 2 (df2_nom_fabricant), extraire la désignation associées (provenant du fournisseur de contenu).
+
+Exploiter ceci :
+
+```python
+
+df2_nom_fabricant = df2_nom_fabricant.set_index(ref_fab)
+
+liste_ref_desirees_nom_fabricant = df2_nom_fabricant.index
+
+df_final_ref_desirees_nom_fabricant = export_nom_fabricant.loc[liste_ref_desirees_nom_fabricant]
+
+```
+
+__Etape 5 :__ Fusionner/Concatener tous les df_final_ref_desirees_nom_fabricant.
+
+__Etape 6 :__ Traduire toutes désignations de df_final_ref_desirees_nom_fabricant en anglais. Ajouter une colonne à df_final_ref_desirees_nom_fabricant et utiliser l'API _Googletrans_ pour faire la traduction.
+
+__Etape 7 :__  Exporter le DataFrame sous forme de fichier Excel.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+## Implémentation : 
+
 ### Etape 1
-Importer dans Pandas le fichier du client - contenant les produits dont il souhaite améliorer les désignations.
+
 
 ```python
 
 ```
 
 ### Etape 2
-Répérer les marques/fabricants concernées
+
 
 ```python
 
 ```
 
+
 ### Etape 3
-Pour chaque marque/fabricant : se rendre sur le site du fournisseur de contenu, puis exporter le fichier contenant les produits de la marque en question.
-<!-- __Note :__ le fichier export étant lourd, le choix a été fait de traiter les marques par groupe de 2. Et surtout : de n'importer que les colonnes utiles. 
-Pensez à convertir les données exportées car en anglais.
--->
 
 ```python
 
 ```
 
 ### Etape 4
-Importer les fichiers ci-dessus dans Pandas et les fusionner (concatener).
 
 ```python
 
 ```
 
 ### Etape 5
-Rechercher les désignations, puis exporter un nouveau fichier Excel contenan les produits (références) et les bonnes désignations associées.
+
+```python
+
+```
+
+### Etape 6
+
+```python
+
+```
+
+### Etape 7
 
 ```python
 
