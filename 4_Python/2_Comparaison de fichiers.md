@@ -1,5 +1,7 @@
 # Comparaison de fichiers
 
+Outils : Python, Pandas, Jupyter
+
 Après une intégration en masse de titres, il est intéressant de vérifier que l'intégration a réussi.
 
 L'objectif de ce script est de comparer le contenu de deux fichiers Excel : 
