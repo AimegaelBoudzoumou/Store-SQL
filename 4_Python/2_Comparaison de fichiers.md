@@ -94,12 +94,25 @@ new_DataFrame
 
 ```python
 # Syntaxe : df.compare(df2)
-diff = df_fichier_de_base.compare(new_DataFrame)
+diff = df_fichier_de_base.compare(new_DataFrame) # diff contient les réfs dont l'intégration n'a pas réussi
 ```
 
 ```python
 # Exporter le résultat de la comparaison dans un fichier Excel
 diff.to_excel("mes_fichiers/Comparaison_de_fichiers/diff.xlsx")
+```
+
+### Répertorier les réfs dont l'intégration du titre a potentiellement réussi
+
+```python
+# créer une liste nommée "ref_reussie"
+# itérer df_fichier_de_base
+# si une réf n'est pas dans diff alors la stocker dans ref_reussie
+for x in df_fichier_de_base.item :
+    if x not in diff:
+        ref_reussie.append(x)
+
+ref_reussie
 ```
 
 <!--
