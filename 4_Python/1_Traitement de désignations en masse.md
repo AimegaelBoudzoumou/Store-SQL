@@ -110,8 +110,18 @@ Fusionner/Concatener tous les df_final_ref_desirees_nom_fabricant.
 ```
 
 
-### 7. Exporter le DataFrame - df_final_ref_desirees_nom_fabricant - sous forme de fichier Excel, afin d'intégration en masse
+### 7. Exporter le DataFrame - df_final_ref_desirees_nom_fabricant - sous forme de fichiers Excel, afin d'intégration en masse
 
+#### Fichier Excel contenant : réf_fabricant, désignation en anglais, désignation en français
 ```python
+
+```
+
+#### Fichier Excel contenant : réf_fabricant, désignation en français
+```python
+
+# Supprimer la colonne contenant la désignation en anglais
+
+# Exporter le DataFrame
 
 ```
