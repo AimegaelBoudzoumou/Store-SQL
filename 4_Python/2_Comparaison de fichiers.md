@@ -33,6 +33,8 @@ import pandas as pd
 3. Comparaison des deux DataFrame
 4. Répertorier les réfs dont l'intégration du titre a potentiellement réussi
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### 1. Connexion aux données
 
 ```python
