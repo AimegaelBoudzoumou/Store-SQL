@@ -29,9 +29,7 @@ Les désignations à intégrer se trouvent sur le site de notre fournisseur de c
 
 ### 1. Connexion aux données
 
-Connexion aux données. Importer dans Pandas le fichier du client - contenant les produits dont il souhaite améliorer les désignations.
-
-
+Importer dans Pandas le fichier du client - contenant les produits dont il souhaite améliorer les désignations.
 ```python
 
 ```
@@ -39,11 +37,18 @@ Connexion aux données. Importer dans Pandas le fichier du client - contenant le
 
 ### 2. Créer un DataFrame pour chaque fabricant
 
-Répérer les différentes fabricants concernées. pour chaque fabricants : créer un DataFrame contenant les réfs associées (et ayant ces deux colonnes : référence fabricant, designation). 
+Dans le fichier importer à l'étape 1, répérer les différentes fabricants concernées. 
 
-__Note :__ Nommer le DataFrame sous la nomenclature suivante : df2_nom_fabricant. Bien gérer le set_index
+Pour chaque fabricants : créer un DataFrame contenant les réfs associées (et ayant ces deux colonnes : référence fabricant, designation). 
 
+#### Répérer les différentes fabricants concernées
+```python
 
+```
+
+#### Pour chaque fabricants : créer un DataFrame
+
+__Note :__ Nommer le DataFrame sous la nomenclature suivante : df2_nom_fabricant. Gérer le "set_index"
 ```python
 
 ```
@@ -53,12 +58,12 @@ __Note :__ Nommer le DataFrame sous la nomenclature suivante : df2_nom_fabricant
 
 Pour chaque fabricant : se rendre sur le site du fournisseur de contenu, puis exporter le fichier contenant les produits de la marque en question. 
 
-Ensuite importer ce fichier dans Pandas.
+Ensuite importer chaque fichier dans Pandas.
 
-__Note__: 
+__Important__: 
 Pour des raisons d'optimisation de la mémoire, n'importer dans Pandas que les colonnes du fichier qui sont utiles, à savoir : la "référence fabricant" et la "désignation". 
 
-__Note :__ Nommer le DataFrame sous la nomenclature suivante : export_nom_fabricant. Bien gérer le set_index
+__Note :__ Nommer le DataFrame sous la nomenclature suivante : export_nom_fabricant. Gérer le "set_index"
 
 ```python
 
@@ -67,7 +72,7 @@ __Note :__ Nommer le DataFrame sous la nomenclature suivante : export_nom_fabric
 
 ### 4. Extraire les désignations
 
-Extraire les désignations : pour chaque DataFrame créé à l'étape 2 (df2_nom_fabricant), extraire la désignation associées (provenant du fournisseur de contenu).
+Pour chaque DataFrame créé à l'étape 2 (df2_nom_fabricant), extraire la désignation associées (provenant du fournisseur de contenu).
 
 Exploiter ceci :
 
@@ -81,10 +86,6 @@ df_final_ref_desirees_nom_fabricant = export_nom_fabricant.loc[liste_ref_desiree
 
 ```
 
-```python
-
-```
-
 
 ### 5. Fusionner les DataFrame
 
@@ -95,16 +96,21 @@ Fusionner/Concatener tous les df_final_ref_desirees_nom_fabricant.
 ```
 
 
-### 6. Traduire toutes désignations
+### 6. Traduire toutes désignations de l'anglais vers le français
 
-Traduire toutes désignations de df_final_ref_desirees_nom_fabricant de l'anglais vers le français. Ajouter une colonne à df_final_ref_desirees_nom_fabricant et utiliser l'API _Googletrans_ pour faire la traduction.
+#### Ajouter une colonne à designation_en_français dans df_final_ref_desirees_nom_fabricant
+```python
+
+```
+
+#### Utiliser l'API _Googletrans_ pour traduire toutes désignations de df_final_ref_desirees_nom_fabricant 
 
 ```python
 
 ```
 
 
-### 7. Exporter le DataFrame sous forme de fichier Excel.
+### 7. Exporter le DataFrame - df_final_ref_desirees_nom_fabricant - sous forme de fichier Excel, afin d'intégration en masse
 
 ```python
 
