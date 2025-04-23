@@ -60,7 +60,7 @@ Pour chaque fabricant : se rendre sur le site du fournisseur de contenu, puis ex
 
 Ensuite importer chaque fichier dans Pandas.
 
-__Important__: 
+__Important :__
 Pour des raisons d'optimisation de la mémoire, n'importer dans Pandas que les colonnes du fichier qui sont utiles, à savoir : la "référence fabricant" et la "désignation". 
 
 __Note :__ Nommer le DataFrame sous la nomenclature suivante : export_nom_fabricant. Gérer le "set_index"
