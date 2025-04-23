@@ -126,9 +126,11 @@ diff.to_excel("mes_fichiers/Comparaison_de_fichiers/diff.xlsx")
 
 ```python
 # créer une liste nommée "ref_reussie"
+ref_reussie = []
+
 # itérer df_fichier_de_base
-# si une réf n'est pas dans diff alors la stocker dans ref_reussie
 for x in df_fichier_de_base.item :
+   # si une réf n'est pas dans diff alors la stocker dans ref_reussie
     if x not in diff:
         ref_reussie.append(x)
 
