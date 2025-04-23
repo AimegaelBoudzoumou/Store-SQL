@@ -20,19 +20,19 @@ charger les deux fichiers dans Jupyter et les comparer.
 import pandas as pd
 ```
 
-### Connecting to Datas
+### Connexion aux données
 
 ```python
 df_fichier_de_base = pd.read_excel("mes_fichiers/fichier_de_base.xlsx")
-df_fichier_de_base
+df_fichier_de_base # contient les titres dont on a demandé l'intégration
 ```
 
 ```python
 df_exports_au_22_04_2025 = pd.read_excel("mes_fichiers/Export_22_04_2025.xlsx", usecols = 'A,I')
-df_exports_au_22_04_2025
+df_exports_au_22_04_2025 # contient les titres après l'action d'intégration
 ```
 
-### Set the new indexes
+### Définir un index
 
 ```python
 df_fichier_de_base = df_fichier_de_base.set_index("Inmac REF")
@@ -44,7 +44,7 @@ df_exports_au_22_04_2025 = df_exports_au_22_04_2025.set_index("idproduct")
 df_exports_au_22_04_2025
 ```
 
-### Build a new DataFrame for comparison and fichier_de_base
+### Construire un nouveau DataFrame, afin de comparaison avec le DataFrame fichier_de_base
 
 ```python
 new_DataFrame = pd.DataFrame(columns=["Inmac REF", "Titre"])
@@ -67,7 +67,7 @@ for x in df_fichier_de_base.index:
 # plus tard : comparer df_fichier_de_base et new_DataFrame
 ```
 
-### Some Displaying
+### Qualques onservations/affichages
 
 ```python
 new_DataFrame
@@ -85,12 +85,14 @@ refs_problematiques
 df_fichier_de_base
 ```
 
-### Comparison of new_DataFrame and fichier_de_base
+### Modification de l'index pour new_DataFrame
 
 ```python
 new_DataFrame = new_DataFrame.set_index("Inmac REF")
 new_DataFrame
 ```
+
+### Comparaison des deux DataFrame
 
 ```python
 # Syntaxe : df.compare(df2)
