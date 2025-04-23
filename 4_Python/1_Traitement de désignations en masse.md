@@ -15,22 +15,59 @@ Les désignations à intégrer se trouvent sur le site de notre fournisseur de c
 
 ## Les étapes à appliquer
 
-__Etape 1 :__ connexion aux données. Importer dans Pandas le fichier du client - contenant les produits dont il souhaite améliorer les désignations.
+1. Connexion aux données
+2. Création d'un DataFrame par fabricant
+3. Importation des désignation du site du fournisseur de contenu. Création d'un DataFrame par fabricant
+4. Extraction des désignations
+5. Fusionner les DataFrame des différents fabricants
+6. Traduire toutes désignations
+7. Exporter le DataFrame sous forme de fichier Excel
 
-__Etape 2 :__ répérer les différentes fabricants concernées. pour chaque fabricants : créer une DataFrame contenant les réfs associées (et ayant ces deux colonnes : référence fabricant, designation). 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Note : Nommer le DataFrame sous la nomenclature suivante : df2_nom_fabricant. Bien gérer le set_index
+# Implémentation
 
-__Etape 3 :__ pour chaque fabricant : se rendre sur le site du fournisseur de contenu, puis exporter le fichier contenant les produits de la marque en question. 
+### 1. Connexion aux données
+
+Connexion aux données. Importer dans Pandas le fichier du client - contenant les produits dont il souhaite améliorer les désignations.
+
+
+```python
+
+```
+
+
+### 2. Créer un DataFrame pour chaque fabricant
+
+Répérer les différentes fabricants concernées. pour chaque fabricants : créer un DataFrame contenant les réfs associées (et ayant ces deux colonnes : référence fabricant, designation). 
+
+__Note :__ Nommer le DataFrame sous la nomenclature suivante : df2_nom_fabricant. Bien gérer le set_index
+
+
+```python
+
+```
+
+
+### 3. Importer les désignations du fournisseur de contenu
+
+Pour chaque fabricant : se rendre sur le site du fournisseur de contenu, puis exporter le fichier contenant les produits de la marque en question. 
 
 Ensuite importer ce fichier dans Pandas.
 
 __Note__: 
 Pour des raisons d'optimisation de la mémoire, n'importer dans Pandas que les colonnes du fichier qui sont utiles, à savoir : la "référence fabricant" et la "désignation". 
 
-Note : Nommer le DataFrame sous la nomenclature suivante : export_nom_fabricant. Bien gérer le set_index
+__Note :__ Nommer le DataFrame sous la nomenclature suivante : export_nom_fabricant. Bien gérer le set_index
 
-__Etape 4 :__ extraire les désignations : pour chaque DataFrame créé à l'étape 2 (df2_nom_fabricant), extraire la désignation associées (provenant du fournisseur de contenu).
+```python
+
+```
+
+
+### 4. Extraire les désignations
+
+Extraire les désignations : pour chaque DataFrame créé à l'étape 2 (df2_nom_fabricant), extraire la désignation associées (provenant du fournisseur de contenu).
 
 Exploiter ceci :
 
@@ -44,56 +81,30 @@ df_final_ref_desirees_nom_fabricant = export_nom_fabricant.loc[liste_ref_desiree
 
 ```
 
-__Etape 5 :__ Fusionner/Concatener tous les df_final_ref_desirees_nom_fabricant.
-
-__Etape 6 :__ Traduire toutes désignations de df_final_ref_desirees_nom_fabricant en anglais. Ajouter une colonne à df_final_ref_desirees_nom_fabricant et utiliser l'API _Googletrans_ pour faire la traduction.
-
-__Etape 7 :__  Exporter le DataFrame sous forme de fichier Excel.
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## Implémentation : 
-
-### Etape 1
-
-
 ```python
 
 ```
 
-### Etape 2
 
+### 5. Fusionner les DataFrame
+
+Fusionner/Concatener tous les df_final_ref_desirees_nom_fabricant.
 
 ```python
 
 ```
 
 
-### Etape 3
+### 6. Traduire toutes désignations
+
+Traduire toutes désignations de df_final_ref_desirees_nom_fabricant de l'anglais vers le français. Ajouter une colonne à df_final_ref_desirees_nom_fabricant et utiliser l'API _Googletrans_ pour faire la traduction.
 
 ```python
 
 ```
 
-### Etape 4
 
-```python
-
-```
-
-### Etape 5
-
-```python
-
-```
-
-### Etape 6
-
-```python
-
-```
-
-### Etape 7
+### 7. Exporter le DataFrame sous forme de fichier Excel.
 
 ```python
 
