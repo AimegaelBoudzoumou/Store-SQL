@@ -124,12 +124,16 @@ ref_reussie = []
 
 # itérer df_fichier_de_base
 for x in df_fichier_de_base.index :
-   # si une réf n'est pas dans diff alors la stocker dans ref_reussie
+   # si une réf présente dans df_fichier_de_base, n'est pas dans diff alors la stocker dans ref_reussie
     if x not in diff.index:
         ref_reussie.append(x)
 
 # Afficher le contenu de ref_reussie
 ref_reussie
+
+# Convertir la liste ref_reussie en DataFrame
+df_ref_reussie = pd.DataFrame(ref_reussie, columns=["Refs internes"])
+df_ref_reussie
 ```
 
 <!--
