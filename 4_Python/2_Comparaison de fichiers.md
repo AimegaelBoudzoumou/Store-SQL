@@ -28,7 +28,7 @@ import pandas as pd
 
 ## Les étapes à appliquer
 
-1. Connexion aux données et Définir un index
+1. Connexion aux données et Définition d'index
    
 3. Construire un nouveau DataFrame
    
@@ -41,11 +41,18 @@ import pandas as pd
 
 ### 1. Connexion aux données
 
+Importation de la librairie Pandas
 ```python
-df_fichier_de_base = pd.read_excel("mes_fichiers/fichier_de_base.xlsx")
-df_fichier_de_base # contient les titres dont on a demandé l'intégration
+import pandas as pd
 ```
 
+Importation du fichier "fichier_de_base.xlsx" contenant les titres dont on a demandé l'intégration
+```python
+df_fichier_de_base = pd.read_excel("mes_fichiers/fichier_de_base.xlsx")
+df_fichier_de_base
+```
+
+Importation du fichier "Export_22_04_2025.xlsx", uniquement les colonnes A et I, contenant respectivement les références internes de produits et les titres.
 ```python
 df_exports_au_22_04_2025 = pd.read_excel("mes_fichiers/Export_22_04_2025.xlsx", usecols = 'A,I')
 df_exports_au_22_04_2025 # contient les titres après l'action d'intégration
@@ -53,17 +60,20 @@ df_exports_au_22_04_2025 # contient les titres après l'action d'intégration
 
 ### Définir un index
 
+Fixer la colonne "Inmac REF" comme index du dataframe
 ```python
 df_fichier_de_base = df_fichier_de_base.set_index("Inmac REF")
 df_fichier_de_base
 ```
 
+Fixer la colonne "idproduct" comme index du dataframe
 ```python
 df_exports_au_22_04_2025 = df_exports_au_22_04_2025.set_index("idproduct")
 df_exports_au_22_04_2025
 ```
 
 ### 2. Construire un nouveau DataFrame, afin de comparaison avec le DataFrame fichier_de_base
+
 
 ```python
 new_DataFrame = pd.DataFrame(columns=["Inmac REF", "Titre"])
@@ -80,28 +90,12 @@ for x in df_fichier_de_base.index:
         # sauvegarder les réfs problématiques : présentes dans df_fichier_de_base, mais pas dans df_exports_au_22_04_2025
         refs_problematiques.append(x)
         
-        # supprimer une à une les réfs en question, de df_fichier_de_base
-        # il est aussi possible des les supprimer en une seule fois, en dehors de la boucle for
-        df_fichier_de_base.drop(x, axis=0, inplace=True) 
-```
+        # supprimer une à une les réfs en question, ie le supprimer de df_fichier_de_base (ou les supprimer en une seule fois)
+        df_fichier_de_base.drop(x,  axis=0, inplace=True) # afin que df_fichier_de_base soit de même dimension que new_DataFrame
 
-### Quelques onservations/affichages
-
-```python
 new_DataFrame
 ```
 
-```python
-len(refs_problematiques)
-```
-
-```python
-refs_problematiques
-```
-
-```python
-df_fichier_de_base
-```
 
 ### Modification de l'index pour new_DataFrame
 
@@ -113,8 +107,8 @@ new_DataFrame
 ### 3. Comparaison des deux DataFrame
 
 ```python
-# Syntaxe : df.compare(df2)
-diff = df_fichier_de_base.compare(new_DataFrame) # diff contient les réfs dont l'intégration n'a pas réussi
+diff = df_fichier_de_base.compare(new_DataFrame)
+diff
 ```
 
 ```python
@@ -131,7 +125,7 @@ ref_reussie = []
 # itérer df_fichier_de_base
 for x in df_fichier_de_base.index :
    # si une réf n'est pas dans diff alors la stocker dans ref_reussie
-    if x not in diff:
+    if x not in diff.index:
         ref_reussie.append(x)
 
 # Afficher le contenu de ref_reussie
