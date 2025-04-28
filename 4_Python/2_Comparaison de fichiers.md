@@ -22,10 +22,6 @@ __A faire :__ pour une liste de réfs : faire une extraction des titres visibles
 charger les deux fichiers dans Jupyter et les comparer.
 -->
 
-```python
-import pandas as pd
-```
-
 ## Les étapes à appliquer
 
 1. Connexion aux données et Définition d'index
