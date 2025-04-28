@@ -58,15 +58,6 @@ df_StarTech_designation_à_charger.rename(columns={"Désignation": "Designation"
 df_StarTech_designation_à_charger
 ```
 
-```python
-"""
-### Supprimer les éventuelles espaces autour des textes
-# df["Last_Name"] = df["Last_Name"].str.strip("123._/")
-#df_StarTech_designation_à_charger["Designation"] = df_StarTech_designation_à_charger["Designation"].str.strip()
-#df_pour_comparaison["Designation"] = df_pour_comparaison["Designation"].str.strip()
-"""
-```
-
 ## Comparaison des deux dataframe
 ```python
 diff = df_StarTech_designation_à_charger.compare(df_pour_comparaison)
