@@ -10,7 +10,8 @@ import pandas as pd
 columns1 = ["Inmac REF", "Désignation"]
 
 # création du dataframe df_StarTech_fichier_de_base
-df_StarTech_designation_à_charger = pd.read_excel("Demande Intégration en masse - Inmac - StarTech - 25 Mar 2025 - Copie.xlsx", usecols = columns1)
+df_StarTech_designation_à_charger = pd.read_excel("Demande Intégration en masse - Inmac - StarTech - 25 Mar 2025 - Copie.xlsx",
+usecols = columns1)
 
 # fixer comme index : Inmac REF
 df_StarTech_designation_à_charger = df_StarTech_designation_à_charger.set_index("Inmac REF")
