@@ -15,12 +15,12 @@ df_StarTech_designation_à_charger = pd.read_excel("Demande Intégration en mass
 usecols = columns1)
 ```
 
-## fixer comme index : REF interne
+### Fixer comme index : REF interne
 ```python
 df_StarTech_designation_à_charger = df_StarTech_designation_à_charger.set_index("REF interne")
 ```
 
-## appel du dataframe df_StarTech_fichier_de_base
+### Appel du dataframe df_StarTech_fichier_de_base
 ```python
 df_StarTech_designation_à_charger
 ```
@@ -51,7 +51,7 @@ df_pour_comparaison
 df_StarTech_designation_à_charger
 ```
 
-## Faire en sorte que les colonnes des deux dataframe à comparer, aient les mêmes appelations
+### Faire en sorte que les colonnes des deux dataframe à comparer, aient les mêmes appelations
 ```python
 df_StarTech_designation_à_charger.rename(columns={"Désignation": "Designation"}, inplace = True)
 
