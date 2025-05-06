@@ -138,5 +138,19 @@ WHERE REFERENCE_INTERNE IN (7951201, 7457826);
 
 ## 18. Supprimer filtre_gamme sur une liste de réfs données
 
+## 19. Pour un ensemble de désignations remplacer une mention par une autre
+<!--
+Bonjour,
+
+Il faut changer la designation sur toutes les references.
+
+Tout ce qui contient "Azure Active Directory Premium" doit être remplacé par "Entra ID".
+
+Le P1/P2 reste.
+
+Merci
+-->
+
+
 
 
