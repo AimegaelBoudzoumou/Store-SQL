@@ -168,6 +168,14 @@ update t1
 set designation = replace(designation, 'Azure Active Directory Premium', 'Entra ID')
 where id_product in (10);
 
+-- Autre
+
+update t1
+set designation = replace(designation, 'Azure Active Directory Premium', 'Entra ID')
+where id_product in (
+    select id_product from g_produits where ref_fab = 'CFQ7TTC0LFLS'
+);
+
 -- UPDATE table SET nom_colonne = REPLACE(nom_colonne, 'ancien texte', 'texte de remplacement')
 
 select * from t1;
