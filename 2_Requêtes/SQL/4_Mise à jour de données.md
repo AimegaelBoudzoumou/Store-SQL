@@ -149,6 +149,24 @@ Tout ce qui contient "Azure Active Directory Premium" doit être remplacé par "
 Le P1/P2 reste.
 
 Merci
+
+drop table t1;
+
+create table t1 (
+    id int,
+    designation varchar2(100)
+);
+
+insert into t1 values (10, 'Azure Active Directory Premium P1|CFQ7TTC0LFLS:0002-P1M-Monthly-COM');
+
+select * from t1;
+
+update t1
+set designation = replace(designation, 'Azure Active Directory Premium', 'Entra ID');
+
+-- UPDATE table SET nom_colonne = REPLACE(nom_colonne, 'ancien texte', 'texte de remplacement')
+
+select * from t1;
 -->
 
 
