@@ -150,23 +150,28 @@ Le P1/P2 reste.
 
 Merci
 
+Code SQl :
+
 drop table t1;
 
 create table t1 (
-    id int,
+    id_product int,
     designation varchar2(100)
 );
 
 insert into t1 values (10, 'Azure Active Directory Premium P1|CFQ7TTC0LFLS:0002-P1M-Monthly-COM');
+insert into t1 values (20, 'Azure Active Directory Premium P1|CFQ7TTC0LFLS:0002-P1M-Monthly-COM');
 
 select * from t1;
 
 update t1
-set designation = replace(designation, 'Azure Active Directory Premium', 'Entra ID');
+set designation = replace(designation, 'Azure Active Directory Premium', 'Entra ID')
+where id_product in (10);
 
 -- UPDATE table SET nom_colonne = REPLACE(nom_colonne, 'ancien texte', 'texte de remplacement')
 
 select * from t1;
+
 -->
 
 
