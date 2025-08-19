@@ -22,6 +22,16 @@ En fonction de son poids et de ses dimensions : chaque produit se voit affecter 
 
 Des études statistiques sont ensuite menées, en se basant sur les classes créées.
 
+Détails :
+
+https://fr.buildingclub.info/calculator/cm-to-m3/#google_vignette
+
+Comment convertir des centimètres en mètres cubes?
+
+Le volume en mètres cubes est égal à la largeur multipliée par la longueur et multipliée par la hauteur en centimètres et divisé par 1 000 000.
+
+1 m3 = 1 cm * 1 cm * 1 cm / 1 000 000
+
 ## Dans la pratique, voici les étapes à implémenter :
 
 ### 1. La connexion aux données
