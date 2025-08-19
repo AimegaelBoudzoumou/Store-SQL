@@ -22,7 +22,7 @@ En fonction de son poids et de ses dimensions : chaque produit se voit affecter 
 
 Des études statistiques sont ensuite menées, en se basant sur les classes créées.
 
-Dans la pratique, voici les étapes à implémenter :
+## Dans la pratique, voici les étapes à implémenter :
 
 ### 1. La connexion aux données
 
