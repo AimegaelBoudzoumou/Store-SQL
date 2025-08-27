@@ -190,7 +190,7 @@ Gamme :	Windows Server ROK - Standard
 
 Catégorie :	OS Serveur
 
-Autre cas : pou ces deux réfs fab : TVM 3445- et TVM 3645 : modifier :
+__Autre cas__ : pour ces deux réfs fab : TVM 3445- et TVM 3645 : modifier :
 
 Fabricant :	Vogel's
 
