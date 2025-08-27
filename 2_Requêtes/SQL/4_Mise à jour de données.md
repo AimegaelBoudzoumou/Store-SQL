@@ -190,16 +190,13 @@ Gamme :	Windows Server ROK - Standard
 
 Catégorie :	OS Serveur
 
-Autre cas : 
+Autre cas : pou ces deux réfs fab : TVM 3445- et TVM 3645 : modifier :
 
 Fabricant :	Vogel's
 
 Gamme :	Fixations écran
 
 Catégorie :	Support et accessoire moniteur
-
-TVM 3445
-TVM 3645
 
 
 
