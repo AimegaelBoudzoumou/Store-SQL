@@ -182,6 +182,13 @@ select * from t1;
 
 -->
 
+### 20. Double Update
+
+Soit la réf 7523922 : merci de modifier 
+
+Gamme :	Windows Server ROK - Standard
+Catégorie :	OS Serveur
+
 
 
 
