@@ -2,7 +2,10 @@
 
 <!-- Pour chaque situation, je présente le __besoin fonctionnel__, suivi de la __requête SQL__ y relatif. -->
 
+Note : Ecrire un scénario pour chaque situation
+
 ## 1. Afficher tous les produits
+
 ```sql
 SELECT *
 FROM produits;
@@ -313,6 +316,15 @@ Afficher les fabricants filtrés
 Afficher les catégories filtrées
 -->
 
+## 20. Vérifier le stock pour plusieurs
+Le SAV me communique une liste de produits à rendre visible sur le web. je dois au préalable m'assurer de ne rendre visible que les produits ayant du stock. Ecrire une requête qui permet de savoir le stock de chaque produit dans la liste que le SAV m'a fournie :
 
+select réf, stock from produits where ref IN (...);
 
+Mieux :
 
+Il se trouve (pour diverses raisons), que certains produits sont déjà visible sur le web.
+
+Alors, je ne dois m'intéresser qu'au réf qui ne sont pas visible sur le web (visibilite_web vaut 0), j'aurai donc :
+
+select réf, stock from produits where ref IN (...) and visibilite_web = 0;
