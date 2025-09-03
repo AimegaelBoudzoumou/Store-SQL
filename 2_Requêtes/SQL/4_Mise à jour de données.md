@@ -198,5 +198,20 @@ Gamme :	Fixations écran
 
 Catégorie :	Support et accessoire moniteur
 
+### Ajout d'une mention en début de titres de plusieurs réfs
+<!--
+7538668 : ESD420 SSD Externe - 1 To - Champagne
 
+7538669 : ESD420 SSD Externe - 2 To - Champagne
+
+7538670 : ESD420 SSD Externe - 4 To - Champagne
+
+7538671 : ESD420 SSD Externe - 1 To - Gris
+
+7538672 : ESD420 SSD Externe – 2 To - Gris
+
+7538673 : ESD420 SSD Externe – 4 To - Gris
+
+7538674 : PCIe SSD Interne 260S
+-->
 
