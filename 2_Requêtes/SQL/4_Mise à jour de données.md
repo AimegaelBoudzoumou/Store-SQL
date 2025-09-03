@@ -198,7 +198,14 @@ Gamme :	Fixations écran
 
 Catégorie :	Support et accessoire moniteur
 
-### Ajout d'une mention en début de titres de plusieurs réfs
+### 21. Ajout d'une mention en début de titres de plusieurs réfs
+Ajouter la mention _Transcend - _ au début des titres, pour avoir par exemple : 
+
+Transcend - ESD420 SSD Externe - 1 To - Champagne
+
+au lieu de
+
+ESD420 SSD Externe - 1 To - Champagne
 <!--
 7538668 : ESD420 SSD Externe - 1 To - Champagne
 
