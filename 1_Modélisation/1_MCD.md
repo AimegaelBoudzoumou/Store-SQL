@@ -11,3 +11,5 @@ __Note importante :__
 - dans la suite de ce document, j'ai également modifié la table 'produits' pour faire de l'attribut 'reference_interne' la clé primaire.
 
 ![image](https://github.com/user-attachments/assets/68b36bde-e7e0-48f1-8239-3a451e505845)
+
+__Note__ : ajouter la possibilité de filtrer une marque. Techniquement : ajouter un champ "presence_filtre" dans l'enitié "marque/fabricant". Cet attribut vaut 0 pour _absence de filtre_ et 1 pour _présence de filtre_.
