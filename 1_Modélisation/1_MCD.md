@@ -18,7 +18,7 @@ __Note__ :
 Techniquement : ajouter un champ "presence_filtre" dans l'entité "marque/fabricant".
 Cet attribut vaut 0 pour _absence de filtre_ et 1 pour _présence de filtre_.
 
-Dans la même, faire ce qui suit : 
+Dans la même logique, faire ce qui suit : 
 - dans l'entité "produits" : retirer les attributs "filtre_gamme" et "filtre_categorie"
 - dans les entités "gamme" et "categorie" : ajouter un attribut "presence_filtre" .
 Cet attribut vaut 0 pour _absence de filtre_ et 1 pour _présence de filtre_.
