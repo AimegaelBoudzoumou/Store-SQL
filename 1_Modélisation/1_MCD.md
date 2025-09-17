@@ -12,7 +12,7 @@ __Note importante :__
 
 ![image](https://github.com/user-attachments/assets/68b36bde-e7e0-48f1-8239-3a451e505845)
 
-__Note__ : 
+__Modifications à apporter au MCD ci-dessus :__ : 
 
 - Ajouter la possibilité de filtrer une marque.
 Techniquement : ajouter un champ "presence_filtre" dans l'entité "marque/fabricant".
