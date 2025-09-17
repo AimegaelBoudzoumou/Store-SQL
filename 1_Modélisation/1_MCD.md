@@ -17,8 +17,6 @@ __Modifications à apporter au MCD ci-dessus :__ :
 - Ajouter la possibilité de filtrer une marque.
 Techniquement : ajouter un champ "presence_filtre" dans l'entité "marque/fabricant".
 Cet attribut vaut 0 pour _absence de filtre_ et 1 pour _présence de filtre_.
-
-Dans la même logique, faire ce qui suit : 
-- dans l'entité "produits" : retirer les attributs "filtre_gamme" et "filtre_categorie"; et les remplacer par "nom_gamme" et "nom_categorie" respectivement.
-- dans les entités "gamme" et "categorie" : ajouter un attribut "presence_filtre" .
+- Dans l'entité "produits" : retirer les attributs "filtre_gamme" et "filtre_categorie"; et les remplacer par "nom_gamme" et "nom_categorie" respectivement.
+- Dans les entités "gamme" et "categorie" : ajouter un attribut "presence_filtre" .
 Cet attribut vaut 0 pour _absence de filtre_ et 1 pour _présence de filtre_.
