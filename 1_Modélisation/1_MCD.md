@@ -20,3 +20,4 @@ Cet attribut vaut 0 pour _absence de filtre_ et 1 pour _présence de filtre_.
 - Dans l'entité "produits" : retirer les attributs "filtre_gamme" et "filtre_categorie"; et les remplacer par "nom_gamme" et "nom_categorie" respectivement.
 - Dans les entités "gamme" et "categorie" : ajouter un attribut "presence_filtre" .
 Cet attribut vaut 0 pour _absence de filtre_ et 1 pour _présence de filtre_.
+- Ajouter une entité "Fournisseur", associée à l'entité "Produits"
