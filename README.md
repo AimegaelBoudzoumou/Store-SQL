@@ -173,4 +173,29 @@ for element in liste_index_et_fabricant:
 liste_fabricant
 ```
 
+
+
+-->
+
+
+
+
+
+<!--
+Sommaire : 
+
+...éléments du sommaire ...
+
+Bonus: Excel, Power BI
+
+Aller plus loin : PL/SQL
+
+Pour chaque chaque besoin métier à résoudre : 
+
+- présenter le contexte/besoin/situation
+- proposer une solution fonctionnelle
+- faire un aperçu de la situation de la base avant intervention (éventuellement)
+- implémenter la solution fonctionnelle : d'abord étape par étape
+- faire un aperçu de la situation de la base après intervention (éventuellement)
+- présenter/proposer la solution finale dans son intégralité
 -->
